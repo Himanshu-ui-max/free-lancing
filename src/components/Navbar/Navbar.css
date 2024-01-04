@@ -1,0 +1,29 @@
+.navbar{
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.dropdown{
+    display: none;
+    width: 100px !important;
+}
+.navMenu{
+    width: 40%;
+    margin-right: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+li{
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}

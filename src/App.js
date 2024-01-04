@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Navbar/Home/Home';
+import Home from './components/Home/Home';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import CompanyProfile from './components/CompanyProfile/CompanyProfile';
 function App() {
