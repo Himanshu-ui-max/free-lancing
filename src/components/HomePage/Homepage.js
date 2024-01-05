@@ -8,7 +8,7 @@ const Homepage = () => {
       <div className='hometext'>
       MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.
       </div>
-      <button className='BT'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3'>Browse our Catalogue</a></button>
+      <button className='BT'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer">Browse our Catalogue</a></button>
       </div>
     </div>
   )
