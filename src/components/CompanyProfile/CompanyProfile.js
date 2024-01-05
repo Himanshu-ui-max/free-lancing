@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './CompanyProfile.css'
 const CompanyProfile = () => {
   return (
-    <div>
+    <div className='companyProfile'>
       this is company profile
     </div>
   )

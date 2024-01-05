@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './partnersPage.css'
 const PartnersPage = () => {
   return (
-    <div>
+    <div className='partners' id='partners'>
       this is partners page
     </div>
   )

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './FeaturedProducts.css'
 const FeaturedProducts = () => {
   return (
-    <div>
+    <div className='products' id='featuredProducts'>
       this is featured products
     </div>
   )

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './AboutUsPage.css'
 const AboutUsPage = () => {
   return (
-    <div>
+    <section id='aboutus' className='aboutus'>
       this is about us page
-    </div>
+    </section>
   )
 }
 
