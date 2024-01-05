@@ -1,4 +1,60 @@
-.homePage{
+.homePage {
     height: 100vh;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.BT {
+    width: 454px;
+    height: 102px;
+    border-radius: 20px;
+    display: block;
+    background: #A26B39;
+    margin: auto;
+}
+
+.atag {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.hometext {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 910px;
+    height: 183px;
+    margin: 100px;
+    padding: 10px;
+}
+.homecontain{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    /* margin-top: -100px; */
+}
+.homepage ::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/food-packages-frame-transformed.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }

@@ -3,7 +3,13 @@ import './HomePage.css'
 const Homepage = () => {
   return (
     <div className='homePage' id='homePage'>
-      this is home page
+      <div className='homecontain'>
+
+      <div className='hometext'>
+      MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.
+      </div>
+      <button className='BT'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3'>Browse our Catalogue</a></button>
+      </div>
     </div>
   )
 }
