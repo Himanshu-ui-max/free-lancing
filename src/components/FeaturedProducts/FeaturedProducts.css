@@ -2,3 +2,59 @@
     height: 100vh;
     padding-top: 100px;
 }
+.productImg{
+
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+}
+.SpecificProduct{
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+}
+.productPara{
+    font-size: 1.4rem;
+    font-family: Montserrat;
+    opacity: 0.7;
+}
+.d-block{
+    height: 400px;
+    width: 400px;
+    border-radius: 16px;
+   
+}
+#carouselExample{
+    height:650px !important;
+}
+.But{
+   width:100px;
+
+}
+
+.Fproducts{
+    background-color: #D9F2EE;
+    
+}
+.ProductHeading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#arrow{
+    color: black !important;
+}
+.carousel-control-next-icon{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25638.png") !important;
+}
+.carousel-control-prev-icon{
+    background-image: url("https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png") !important;
+    
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
