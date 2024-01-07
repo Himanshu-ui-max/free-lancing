@@ -1,0 +1,88 @@
+[
+    {
+        "Paper Angle Board": {
+            "dimension": "(25*25) to(100*100) mm",
+            "matrial": "Kraft Paper Board",
+            "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
+            "package for": "Electronics,Automobile,Fragile Handicrafts",
+            "colour": "NaturalBrown, white,Dark Brown",
+            "id": "paperangleboard"
+        },
+        "Paper Angle protector": {
+            "colour": "NaturalBrown, white,Dark Brown",
+            "matrial": "Kraft Paper Board",
+            "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
+            "package for": "Electronics,Automobile,Fragile Handicrafts",
+            "id": "paperangleprotector"
+        },
+        "Paper Edge Protector": {
+            "colour": "NaturalBrown, white,Dark Brown",
+            "matrial": "Kraft Paper Board",
+            "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
+            "package for": "Electronics,Automobile,Fragile Handicrafts",
+            "id": "paperangletray"
+        },
+        "LCD speclized": {
+            "colour": "NaturalBrown, white,Dark Brown-Paper edge flatboard",
+            "matrial": "Kraft Paper Board",
+            "usage": "Edge protector for export pallestising of LCD TV , E-commerce supply of LCD TV, Pemanent solution to not using expensive wooden panels",
+            "id": "lcdspecialized"
+        },
+        "PP Bin/Box": {
+            "colour": "Blue, Grey,Green,Orange,Black,Peach",
+            "Shape": "As per requirement",
+            "Thickness": "3mm to 15mm",
+            "id": "ppbinbox"
+        },
+        "PP Collapsable Bin/Box": {
+            "colour": "Blue, Grey,Green,Orange,Black,Peach",
+            "property": "waterporof,Lightweight,Reusable",
+            "usage": "Automobile, Electronics,food, pharmaceutical,Hospital,Paint industries,Plastic inject Mouldings",
+            "id": "ppcollapsablebinbox"
+        },
+        "EPE Fitment": {
+            "colour": "white, Grey,Black,Peach,Pink",
+            "property": "Flexible,Cushion based,Fracture proof",
+            "shape": "As per design and requirements",
+            "usage": "Electronics, Telecommunication Automobile,Handicrafts,Glass Industries or any industry where they need cushion based packaging",
+            "size": "As per customer's drawing or prototype sample. We can even design the fitment as per the customer's product",
+            "id": "epefitments"
+        },
+        "ESD Polyproplene Reusable B": {
+            "colour": "Black",
+            "material": "Polyproplene",
+            "Load Capacity": "5 to 15 kg",
+            "size": "As per requirement",
+            "id": "esdppreusablebinbox"
+        },
+        "EPE Foam sheets": {
+            "colour": "white, Grey,Black,Peach,Pink",
+            "Thickness": "1mm to 10 mm",
+            "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
+            "id": "epefoamsheets"
+        },
+        "EPE Foam Roll": {
+            "colour": "Transparent",
+            "Thickness": "1mm to 20 mm",
+            "dimension": "1000mm to 2000mm",
+            "property": "Flexible,Cushion based,Fracture proof,waterproof",
+            "usage": "Fragile & Polished items for scratch proof packaging",
+            "id": "epefoamroll"
+        },
+        "Air Bubble Pouches": {
+            "colour": "Transparent,Pink",
+            "size": "LLDF(low density polyethylene film)",
+            "shape": "As per design and requirements",
+            "property": "Flexible,Cushion based,Fracture proof,waterproof",
+            "usage": "Fragile & Polished items for scratch proof packaging",
+            "id": "airbubblepouches"
+        },
+        "EPE Pouches": {
+            "colour": "White",
+            "Thickness": "1mm to 10 mm",
+            "size": "As per requirement",
+            "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
+            "id": "epepouch"
+        }
+    }
+]
