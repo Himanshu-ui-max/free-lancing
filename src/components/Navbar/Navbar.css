@@ -16,6 +16,24 @@ li{
     position: relative;
     left: -50px;
 }
+#navitems{
+    margin: 0px !important; 
+}
+@media screen and (max-width : 1150px) and (min-width :1078px) {
+    #navitems {
+        font-size: 1.1rem !important;
+    }
+}
+@media screen and (max-width : 1078px) and (min-width :1030px) {
+    #navitems {
+        font-size: 1rem !important;
+    }
+}
+@media screen and (max-width : 1030px) and (min-width :991px) {
+    #navitems {
+        font-size: 0.9rem !important;
+    }
+}
 @media screen and (max-width : 900px) {
     nav{
         font-size: 1rem !important;

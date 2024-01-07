@@ -1,5 +1,6 @@
 .homePage {
     background-image: url('../images/food-packages-frame-transformed.jpeg');
+    z-index: -1;
     background-repeat: no-repeat;
     background-size: 100vw, 100vh;
     height: 100vh;
