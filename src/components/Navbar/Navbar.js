@@ -50,14 +50,14 @@ const Navbar = () => {
             More
           </a>
           <ul className="dropdown-menu">
-            <li><HashLink className="dropdown-item" to="/#featuredProducts">featured products</HashLink></li>
-            <li><HashLink className="dropdown-item" to="/#chooseUs">why choose us</HashLink></li>
-            <li><HashLink className="dropdown-item" to="/#partners">our partners</HashLink></li>
-            <li><HashLink className="dropdown-item" to="/#homePage">back to top</HashLink></li>
+            <li><HashLink className="dropdown-item" to="/#featuredProducts">Featured Products</HashLink></li>
+            <li><HashLink className="dropdown-item" to="/#chooseUs">Why Choose Us</HashLink></li>
+            <li><HashLink className="dropdown-item" to="/#partners">Our Partners</HashLink></li>
+            <li><HashLink className="dropdown-item" to="/#homePage">Back to top</HashLink></li>
           </ul>
         </li>
         <li className="nav-item">
-          <HashLink className="nav-link" to={'/#aboutus'}>contact us</HashLink>
+          <HashLink className="nav-link" to={'/#aboutus'}>Contact us</HashLink>
         </li>
       </ul>
     </div>

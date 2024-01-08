@@ -8,6 +8,7 @@ nav{
     height: 80px;
     position: fixed !important;
     background-color: white !important;
+ 
 }
 li{
     margin: 20px;
@@ -18,6 +19,7 @@ li{
 }
 #navitems{
     margin: 0px !important; 
+    
 }
 @media screen and (max-width : 1150px) and (min-width :1078px) {
     #navitems {
@@ -38,4 +40,12 @@ li{
     nav{
         font-size: 1rem !important;
     }
+}
+.nav-item{
+    color: #242323;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 500;
+    letter-spacing: 0.22px;
+    word-wrap: break-word
 }
