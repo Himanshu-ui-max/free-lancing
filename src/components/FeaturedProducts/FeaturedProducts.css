@@ -1,83 +1,124 @@
-.products{
+.products {
     height: 100vh;
     padding-top: 100px;
 }
-h1{
-    color: black;
-font-size: 50px;
-font-family: Montserrat;
-font-weight: 700;
-letter-spacing: 0.50px;
-word-wrap: break-word;
-margin-top: 2%;
-}
-h3{
-    color: black;
-font-size: 30px;
-font-family: Montserrat;
-font-weight: 500;
-letter-spacing: 0.30px;
-word-wrap: break-word;
-margin-top: 2%;
-}
-.productImg{
 
-display: flex;
-flex-direction:row;
-justify-content: space-around;
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+    margin-top: 2%;
 }
-.SpecificProduct{
-   display: flex;
-   flex-direction: column;
-   justify-content: center; 
-   align-items: center;
+
+h3 {
+    color: black;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 0.30px;
+    word-wrap: break-word;
+    margin-top: 2%;
 }
-.productPara{
+.productImg {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.SpecificProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPara {
     font-size: 1.4rem;
     font-family: Montserrat;
     opacity: 0.7;
 }
-.d-block{
+
+.d-block {
     height: 400px;
     width: 400px;
     border-radius: 16px;
-   
+
 }
-#carouselExample{
-    height:670px !important;
+
+#carouselExample {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 670px !important;
     z-index: 0 !important;
 }
-.But{
-   width:100px;
+
+.But {
+    width: 100px;
 
 }
 
-.Fproducts{
+.Fproducts {
     background-color: #D9F2EE;
-    
+
 }
-.ProductHeading{
+
+.ProductHeading {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#arrow{
+
+#arrow {
     color: black !important;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
     background-image: url("https://cdn-icons-png.flaticon.com/512/25/25638.png") !important;
 }
-.carousel-control-prev-icon{
+
+.carousel-control-prev-icon {
     background-image: url("https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png") !important;
-    
+
 }
 
 .carousel-indicators [data-bs-target] {
     background-color: black;
     margin-top: 2%;
 }
-#featuredProducts{
+
+#featuredProducts {
     padding-top: 100px;
+}
+@media screen and (max-width : 1564px) and (min-width : 1290px) {
+    .d-block{
+        height: 300px;
+        width: 300px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .productPara{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width : 1290px) {
+    .d-block{
+        height: 200px;
+        width: 200px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .productPara{
+        font-size: 1rem;
+    }
 }
