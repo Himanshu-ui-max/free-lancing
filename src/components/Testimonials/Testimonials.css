@@ -1,0 +1,25 @@
+.testimonials{
+    height:650px;
+    padding-top: 40px; 
+   background-color: #f1f1f1;
+}
+#testimonials{
+    color: #000;
+font-family: Poppins;
+
+font-style: normal;
+
+line-height: normal;
+font-size: 40px;
+margin-bottom: 60px;
+display: flex;
+justify-content: center;
+}
+.card{
+    background-color: white;
+    height: 45vh;
+    width: 23vw;
+    border: 0ch;
+    border-radius: 20px;
+
+}
