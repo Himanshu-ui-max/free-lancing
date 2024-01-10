@@ -48,6 +48,15 @@ h3 {
     border-radius: 16px;
 
 }
+h2{
+    color: black;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+    margin-top: 2%;
+}
 
 #carouselExample {
     display: flex;
@@ -56,6 +65,10 @@ h3 {
     align-items: center;
     height: 670px !important;
     z-index: 0 !important;
+}
+#carouselExampleIndicators{
+    height: 470px !important;
+    z-index: 0 !important;  
 }
 
 .But {
