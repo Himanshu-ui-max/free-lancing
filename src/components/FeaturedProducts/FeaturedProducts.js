@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './FeaturedProducts.css'
 import Paperangleboardedited3 from '../images/Paperangleboardedited3.jpg'
 import EPsheetedited3 from '../images/EPsheetedited3.jpg'
@@ -9,9 +9,20 @@ import ppcorrugatedbox2edited from '../images/ppcorrugatedbox2edited.jpg'
 import EPfitmentedited from '../images/EPfitmentedited.jpg'
 import Paperangleboardedited2 from '../images/Paperangleboardedited2.jpg'
 const FeaturedProducts = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const detectWidth=()=>{
+      setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize',detectWidth);
+    return () => {
+      window.removeEventListener('resize', detectWidth)
+    }
+  }, [width]);
   return (
     <>
       <section id='featuredProducts'>
+        {width > 970 ?(
         <div id="carouselExample" className="carousel slide Fproducts">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -75,7 +86,9 @@ const FeaturedProducts = () => {
             <span className="carousel-control-next-icon" aria-hidden="true" ></span>
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
+        </div>):(
+        <div> this page is for mobile </div>
+        )}
       </section>
 
     </>

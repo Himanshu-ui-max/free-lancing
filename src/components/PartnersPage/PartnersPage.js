@@ -10,21 +10,21 @@ const PartnersPage = () => {
     <>
     <div className='partners' id='partners' >
     <h1 style={{textAlign:'center'}}>Our Previous Partners</h1>
-    <div style={{display:'flex',justifyContent:'center',gap:'4rem',marginTop:'4rem'}}>
+    <div style={{display:'flex',justifyContent:'center',gap:'4rem',marginTop:'4rem'}} className='partnersDiv'>
       <div >
-        <img style={{width:'200px',height:'150x'}} src={lg} alt="" />
+        <img className='partnersImg' style={{width:'200px',height:'150x'}} src={lg} alt="" />
       </div>
       <div >
-       <img style={{width:'200px',height:'150px'}} src={samsung} alt="" />
+       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={samsung} alt="" />
       </div>
       <div >
-       <img style={{width:'200px',height:'150px'}} src={hitachi} alt="" />
+       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={hitachi} alt="" />
       </div>
       <div >
-       <img style={{width:'200px',height:'150px'}} src={honda} alt="" />
+       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={honda} alt="" />
       </div>
       <div >
-       <img style={{width:'200px',height:'150px'}} src={suzuki} alt="" />
+       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={suzuki} alt="" />
       </div>
     </div>
     </div>

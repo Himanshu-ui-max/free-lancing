@@ -1,6 +1,17 @@
 .partners{
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 100pxN;
     background: #F1F1F1;
     margin-bottom: 5rem;
+}
+@media screen and (max-width : 1260px) {
+    .partnersDiv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .partnersImg{
+        height: 75px !important;
+        width: 100px !important;
+    }
 }
