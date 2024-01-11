@@ -7,7 +7,7 @@ nav{
     font-size: 1.25rem;
     /* height: 80px; */
     position: fixed !important;
-    background-color: white !important;
+    /* background-color: white !important; */
     z-index: 1;
 }
 li{
