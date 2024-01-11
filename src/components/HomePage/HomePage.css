@@ -121,7 +121,7 @@
         font-size: 1rem;
         margin: 30px;
         height: 130px;
-        width: 270px;
+        width: 289px;
         line-height: 30px;
         margin-bottom: 0px;
     }
@@ -134,11 +134,11 @@
         height: 50px;
     }
     .homePage{
-        height: 60vh;
+        
         padding-top: 80px;
     }
     .homePage ::before {
-        height: 50%;
+        
         top: 80px;
     }
 
