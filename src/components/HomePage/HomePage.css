@@ -118,20 +118,20 @@
 }
 @media screen and (max-width : 435px) {
     .hometext{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin: 30px;
         height: 130px;
-        width: 256px;
+        width: 270px;
         line-height: 30px;
         margin-bottom: 0px;
     }
     .atag{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         line-height: 0px;
     }
     .BT{
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 50px;
     }
     .homePage{
         height: 60vh;
