@@ -36,7 +36,7 @@ h1 {
 }
 
 
-#carouselExampleDark {
+#carouselExample {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,8 +44,8 @@ h1 {
     height: 670px !important;
     z-index: 0 !important;
 }
-#carouselExampleDark{
-    /* height: 470px !important; */
+#carouselExampleIndicators{
+    height: 470px !important;
     z-index: 0 !important;  
 }
 
@@ -56,7 +56,6 @@ h1 {
 
 .Fproducts {
     background-color: #D9F2EE;
-    height: 670px;
 
 }
 
