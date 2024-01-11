@@ -28,9 +28,12 @@
     background: #A26B39;
     margin: auto;
     border: none;
+    text-align: center;
 }
 
 .atag {
+    display: block;
+    margin: auto;
     color: white;
     text-decoration: none;
     font-family: Montserrat;
@@ -38,7 +41,7 @@
     font-weight: 500;
     line-height: 38px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -50,7 +53,7 @@
     line-height: 61px;
     letter-spacing: 0.01em;
     text-align: center;
-    /* width: 910px; */
+    width: 910px;
     height: 183px;
     margin: 100px;
     padding: 10px;
@@ -82,6 +85,7 @@
     .hometext{
         font-size: 2rem;
         margin: 50px;
+        width: 600px;
     }
     .atag{
         font-size: 1.5rem;
@@ -95,6 +99,7 @@
     .hometext{
         font-size: 1.5rem;
         margin: 40px;
+        width: 400px;
         
     }
     .homePage{
@@ -113,23 +118,27 @@
 }
 @media screen and (max-width : 435px) {
     .hometext{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin: 30px;
         height: 130px;
+        width: 289px;
+        line-height: 30px;
+        margin-bottom: 0px;
     }
     .atag{
-        font-size: 1rem;
+        font-size: 0.7rem;
+        line-height: 0px;
     }
     .BT{
-        width: 200px;
-        height: 75px;
+        width: 150px;
+        height: 50px;
     }
     .homePage{
-        height: 60vh;
+        
         padding-top: 80px;
     }
     .homePage ::before {
-        height: 50%;
+        
         top: 80px;
     }
 
