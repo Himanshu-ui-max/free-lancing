@@ -8,23 +8,23 @@ import suzuki from '../images/suzuki.png'
 const PartnersPage = () => {
   return(
     <>
-    <div className='partners' id='partners' >
+    <div className='partners' id='partners'>
     <h1 style={{textAlign:'center'}}>Our Previous Partners</h1>
-    <div style={{display:'flex',justifyContent:'center',gap:'4rem',marginTop:'4rem'}} className='partnersDiv'>
-      <div >
-        <img className='partnersImg' style={{width:'200px',height:'150x'}} src={lg} alt="" />
+    <div style={{display:'flex',justifyContent:'center',gap:'4rem',marginTop:'4rem',alignItems:'center'}} >
+      <div className='imgp'>
+        <img className='imgP' src={lg} alt="" />
       </div>
-      <div >
-       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={samsung} alt="" />
+      <div className='imgp'>
+       <img className='imgP'  src={samsung} alt="" />
       </div>
-      <div >
-       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={hitachi} alt="" />
+      <div className='imgp'>
+       <img className='imgP' src={hitachi} alt="" />
       </div>
-      <div >
-       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={honda} alt="" />
+      <div className='imgp'>
+       <img className='imgP' src={honda} alt="" />
       </div>
-      <div >
-       <img className='partnersImg' style={{width:'200px',height:'150px'}} src={suzuki} alt="" />
+      <div className='imgp'>
+       <img className='imgP' src={suzuki} alt="" />
       </div>
     </div>
     </div>
