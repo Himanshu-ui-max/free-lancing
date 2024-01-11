@@ -2,7 +2,7 @@ import React from "react";
 import "./ChooseUsPage.css";
 const ChooseUsPage = () => {
   return (
-    <div className="chooseus" id="chooseUs">
+    <div className="chooseus" id="chooseUs" style={{overflow : 'hidden'}}>
       <div
         className="d-flex justify-content-center"
         style={{ fontSize: "40px" ,marginBottom:"60px"}}

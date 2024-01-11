@@ -3,7 +3,7 @@ import './AboutUsPage.css'
 const AboutUsPage = () => {
   return (
 
-    <section id='aboutus' className='aboutus'>
+    <section id='aboutus' className='aboutus' style={{overflow : 'hidden'}}>
       <div className='d-flex justify-content-center'>
       <div className="abtimage d-flex justify-content-center" style={{width:'40%'}} >
       <img style={{ height:'100%',width:'70%',borderRadius: '6px'}} src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt=''/> 

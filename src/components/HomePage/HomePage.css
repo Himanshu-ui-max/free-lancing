@@ -1,17 +1,25 @@
 .homePage {
-    background-image: url('../images/food-packages-frame-transformed.jpeg');
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-size: 100vw, 100vh;
     height: 100vh;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+.homePage ::before{
+    content: '';
+    background-image: url('../images/disposable-eco-friendly-food-packaging-brown-kraft-paper-food-containers-blue-background-top-view-flat-lay_101906-861.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
     animation: change 15s infinite ease-in-out;
 }
-
 .BT {
     width: 454px;
     height: 102px;
@@ -36,18 +44,19 @@
 
 .hometext {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 3.5rem;
+    /* font-size: 50px; */
     font-weight: 700;
     line-height: 61px;
     letter-spacing: 0.01em;
     text-align: center;
-    width: 910px;
+    /* width: 910px; */
     height: 183px;
     margin: 100px;
     padding: 10px;
 }
 .homecontain{
-    width: 50vw;
+    width : 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,4 +77,60 @@
     100%{
         background-image: url('../images/food-packages-frame-transformed.jpeg');
     }
+}
+@media screen and (max-width : 1080px) and (min-width : 915px) {
+    .hometext{
+        font-size: 2rem;
+        margin: 50px;
+    }
+    .atag{
+        font-size: 1.5rem;
+    }
+    .BT{
+        width: 300px;
+        height: 100px;
+    }
+}
+@media screen and (max-width : 915px) and (min-width : 435px) {
+    .hometext{
+        font-size: 1.5rem;
+        margin: 40px;
+        
+    }
+    .homePage{
+        padding-top: 80px;
+    }
+    .homePage ::before{
+        top: 80px;
+    }
+    .atag{
+        font-size: 1rem;
+    }
+    .BT{
+        width: 250px;
+        height: 80px;
+    }
+}
+@media screen and (max-width : 435px) {
+    .hometext{
+        font-size: 0.9rem;
+        margin: 30px;
+        height: 130px;
+    }
+    .atag{
+        font-size: 1rem;
+    }
+    .BT{
+        width: 200px;
+        height: 75px;
+    }
+    .homePage{
+        height: 60vh;
+        padding-top: 80px;
+    }
+    .homePage ::before {
+        height: 50%;
+        top: 80px;
+    }
+
 }
