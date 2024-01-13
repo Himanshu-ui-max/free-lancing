@@ -2,15 +2,15 @@ import React from "react";
 import "./ChooseUsPage.css";
 const ChooseUsPage = () => {
   return (
-    <div className="chooseus" id="chooseUs" style={{overflow : 'hidden'}}>
+    <div className="chooseus" style={{overflow : 'hidden'}}>
       <div
         className="d-flex justify-content-center"
         style={{ fontSize: "40px" ,marginBottom:"60px"}}
       >
         Why Choose Us
       </div>
-      <div className="d-flex justify-content-evenly">
-        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center"}}>
+      <div className="d-flex justify-content-evenly" id="chooseUs">
+        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center", marginBottom:"50px"}}>
          
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const ChooseUsPage = () => {
           </p>
         </div>
         
-        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center" }}>
+        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center" , marginBottom:"50px"}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="100"
@@ -44,7 +44,7 @@ const ChooseUsPage = () => {
             eiusmod tempor incididu{" "}
           </p>
         </div>
-        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center" }}>
+        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center" , marginBottom:"50px"}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="100"
@@ -60,7 +60,7 @@ const ChooseUsPage = () => {
             eiusmod tempor incididu{" "}
           </p>
         </div>
-        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center" }}>
+        <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center"}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="100"
