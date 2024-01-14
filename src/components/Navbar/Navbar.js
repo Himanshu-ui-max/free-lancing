@@ -57,7 +57,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <HashLink className="nav-link" to={'/#aboutus'}>Contact us</HashLink>
+          <a className="nav-link" href={'mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body='}>Contact us</a>
         </li>
       </ul>
     </div>

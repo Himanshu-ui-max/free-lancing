@@ -1,13 +1,19 @@
 .chooseus{
-    height:500px;
+    /* height:500px; */
     padding-top: 85px; 
-}
-#chooseUs{
     color: #000;
-font-family: Poppins;
-
-font-style: normal;
-
-line-height: normal;
+    font-family: Poppins;
+    
+    font-style: normal;
+    
+    line-height: normal;
+}
+@media screen and (max-width:810px){
+    
+    #chooseUs{
+        flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    }
 
 }
