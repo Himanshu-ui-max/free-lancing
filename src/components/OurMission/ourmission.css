@@ -21,24 +21,34 @@ p{
     font-weight: 500;
     line-height: 36px;
     letter-spacing: 1.20px;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     margin-top: 5%;
 }
 @media screen and (max-width : 1260px) {
     .ourmission{
         flex-direction: column;
+        margin-top: 10%;
     }
     .ourmissiontext{
         /* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        width: 100vw;
         /* justify-content: center; */
     }
-    /* .ourmissionimg{
-        height: 75px !important;
-        width: 100px !important;
-    } */
+    .ourmissionimg{
+        display: none !important;
+        /* flex-direction: column;
+        align-items: center; */
+
+    }
     .ourmissionimg2{
         flex-direction: column;
         align-items: center;
+    }
+    .omimg2{
+        height:100% !important;
+        width:100% !important;
     }
 }
