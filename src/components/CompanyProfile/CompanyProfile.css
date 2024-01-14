@@ -1,8 +1,16 @@
+.companyProfile{
+    padding-top: 100px;
+   
+}
 .IMGcont{
 /* margin-top:144px ; */
-width: 1920px;
-height: 757px;
-background-color: aqua;
+width: 100vw;
+height: 70vh;
+background:url("https://idlpack.com/image/cache/catalog/Boxes42-1500x1500.jpg");
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 .ProfileText{
 width: 895px;
@@ -10,9 +18,176 @@ height: 167px;
 font-family: poppins;
 font-weight: 900;
 font-size:111px ;
-
-align-items: center;
-justify-content: center;
-
-
+text-align: center;
+}
+.PrFULL{
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    height: 60vh;
+}
+.PrIMG{
+    height: 400px;
+    width: 500px;
+    border-radius: 6px;
+}
+.BUTT{
+    height:67px ;
+    width: 447px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+}
+.CompanyLoc{
+    height: 50vh;
+    width: 100vw;
+   
+}
+.Loc{
+    width:100vw ;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.LocText{
+    font-weight: 600;
+    font-size: 2.6rem;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.AddDetails{
+    padding-top: 2%;
+   
+   
+}
+.Companypro{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 90vw;
+}
+.AddMap{
+    height: 400px;
+    width: 400px;
+    border-radius: 13px;
+}
+#NaMe{
+    display: flex;
+    flex-direction: row;
+    width: 11vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+#UsEr{
+    display: flex;
+    flex-direction: column; 
+}
+#PHN{
+    width:12vw ;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#ADDlogo{
+    display: flex;
+    flex-direction: row;
+    width: 34vw;
+    height: 8vh;
+    justify-content: space-between;  
+}
+#CompADD{
+    display: flex;
+    flex-direction: column; 
+}
+p1{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+p2{
+    font-weight: 500;
+    font-size: 1rem; 
+}
+p3{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+p4{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+p5{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.orderContent{
+    height: 50vh;
+    width: 100vw;
+    /* padding: auto 0; */
+}
+.OrderDR{
+    height: 40vh;
+    width: 75vw;
+    margin: auto;
+    /* padding: 0 auto ; */
+    background-color: #F9F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p11{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+p12{
+    font-weight: 600;
+    font-size: 1rem;
+}
+p13{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.MemberBTT1{
+    height:67px ;
+    width: 349px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+    /* font-size: 1.3rem; */
+    
+}
+.MemberBTT{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 3%;
+    margin-bottom: 2%;
+    height:15% ;
+    width: 50%;
+    justify-content: space-between;
+}
+.MemberBTT2{
+    height:67px ;
+    width: 349px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+}
+.MemberBTT3{
+    height:67px ;
+    width: 236px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+    margin-top: 5%;
 }
