@@ -6,8 +6,20 @@ const AboutUsPage = () => {
 
     <section id='aboutus' className='aboutus' style={{overflow : 'hidden'}}>
       <div className='d-flex justify-content-center'>
-      <div className="abtimage d-flex justify-content-center" style={{width:'40%'}} >
-      <img style={{ height:'100%',width:'70%',borderRadius: '6px'}} src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt=''/> 
+      <div className="abtimage d-flex justify-content-center" style={{width:'60%'}} >
+        <div>
+        <div className="flip-box">
+  <div className="flip-box-inner" >
+    <div className="flip-box-front">
+      <img src="https://media.istockphoto.com/id/453102697/photo/a-horizontal-view-of-an-industrial-paper-mill-on-a-river.jpg?s=612x612&w=0&k=20&c=9uXJuE2dxuCSHWZoLQSEBWdkDEksWORgahfHg7JJ-6I=" alt="Paris" style={{ height:'400px',width:'500px',borderRadius: '6px'}} />
+    </div>
+    <div className="flip-box-back">
+    <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris" style={{ height:'400px',width:'500px',borderRadius: '6px'}}/>
+    </div>
+  </div>
+</div>
+        </div>
+      {/* <img style={{ height:'100%',width:'70%',borderRadius: '6px'}} src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt=''/>  */}
       {/* <div className="row" id="A1">
       <div className="column" id="A2">
         

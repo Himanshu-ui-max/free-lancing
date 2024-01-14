@@ -10,12 +10,14 @@ import OurMission from '../OurMission/OurMission'
 const Home = () => {
   return (
     <>
+    
     <Homepage/>
     <ChooseUsPage/>
     <FeaturedProducts/>
     <AboutUsPage/>
     <OurMission/>
     <PartnersPage/>
+    {/* <Sample/> */}
     <Testimonials/>
     </>
   )
