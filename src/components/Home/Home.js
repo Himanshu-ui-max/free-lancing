@@ -5,6 +5,7 @@ import FeaturedProducts from './../FeaturedProducts/FeaturedProducts'
 import AboutUsPage from './../AboutUsPage/AboutUsPage'
 import PartnersPage from './../PartnersPage/PartnersPage'
 import Testimonials from '../Testimonials/Testimonials'
+import OurMission from '../OurMission/OurMission'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <ChooseUsPage/>
     <FeaturedProducts/>
     <AboutUsPage/>
+    <OurMission/>
     <PartnersPage/>
     <Testimonials/>
     </>
