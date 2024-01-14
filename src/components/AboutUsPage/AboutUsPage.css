@@ -74,16 +74,6 @@
     color: white;
     transform: rotateY(180deg);
   }
-
-
-
-
-
-
-
-
-
-  
   
   .column {
     flex: 50%;
@@ -131,6 +121,9 @@
     }
 }
 @media screen and (max-width : 1260px) {
+    .aboutus{
+      height:150vh;
+    }
     .abtimage{
         display: none !important;
     }
@@ -149,5 +142,12 @@
     .BTN{
         position: absolute;
         z-index: 1;
+        width: 164px;
+    height: 50px;
+    }
+    .button{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 }

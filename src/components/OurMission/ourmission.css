@@ -1,8 +1,8 @@
 .ourmission{
     height: 100vh;
     width:100vw;
-    margin: 2rem;
-    margin-bottom: 0rem;
+    margin-top: 2rem;
+    
     
 }
 .ourmissiontext{
@@ -27,15 +27,19 @@ p{
 @media screen and (max-width : 1260px) {
     .ourmission{
         flex-direction: column;
-        margin-top: 10%;
+        margin-top: 20%;
+        height:85%;
     }
     .ourmissiontext{
         /* flex-direction: column; */
+        margin-top: 25%;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100vw;
-        /* justify-content: center; */
+        height:75vh;
+        text-align: justify;
+        padding: 7%;
     }
     .ourmissionimg{
         display: none !important;
