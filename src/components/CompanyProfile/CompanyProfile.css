@@ -1,5 +1,18 @@
-.companyProfile{
-    height: 100vh;
-    padding-top: 100px;
-    width: 100vw;
+.IMGcont{
+/* margin-top:144px ; */
+width: 1920px;
+height: 757px;
+background-color: aqua;
+}
+.ProfileText{
+width: 895px;
+height: 167px;
+font-family: poppins;
+font-weight: 900;
+font-size:111px ;
+
+align-items: center;
+justify-content: center;
+
+
 }

@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{useEffect,useState}from 'react'
 import './CompanyProfile.css'
 const CompanyProfile = () => {
   return (
     <div className='companyProfile'>
-      this is company profile
+      <div className="IMGcont">
+        <div className="ProfileText">Sai Super Pack</div>
+
+      </div>
     </div>
   )
 }

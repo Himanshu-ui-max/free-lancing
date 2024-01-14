@@ -1,0 +1,60 @@
+div.scroll-container {
+    background-color: #fcf8f8;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    height: 40vh;
+    
+    /* animation:linear; */
+}
+  .slideImg1 {
+    background-color: #333;
+    overflow: auto;
+    /* white-space: nowrap; */
+    padding: 10px;
+    height: 40vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    animation-duration: 3s;
+    /* animation-name: slidein; */
+     
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+  }
+  .IMGslide{
+    position: relative;
+    float: left;
+  }
+  .slideImg1{
+    width: 2400px;
+    height: 400px;
+    margin: 0,0,0,-2000px;
+    position: relative;
+    animation-name: slidein;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  .scrollImage{
+    height: 400px;
+    width: 400px;
+  }
+  @keyframes slidein {
+ 0%{left: 0;}
+ 10%{left: 0;}
+ 20%{left: 400;}
+ 30%{left: 400;}
+ 40%{left: 800;}
+ 50%{left: 800;}
+ 60%{left: 400;}
+ 70%{left: 400;}
+ 80%{left: 0;}
+ 90%{left: 0;}
+ 100%{left: 0;}
+  }
