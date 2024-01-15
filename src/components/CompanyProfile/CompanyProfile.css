@@ -1,4 +1,4 @@
-.companyProfile{
+.companyProfile ::before{
     padding-top: 100px;
    
 }
@@ -17,7 +17,7 @@ width: 895px;
 height: 167px;
 font-family: poppins;
 font-weight: 900;
-font-size:111px ;
+font-size:5rem ;
 text-align: center;
 }
 .PrFULL{
@@ -150,6 +150,7 @@ p12{
 p13{
     font-weight: 600;
     font-size: 1.4rem;
+    text-align: center;
 }
 .MemberBTT1{
     height:67px ;
@@ -191,3 +192,82 @@ p13{
     text-align: center;
     margin-top: 5%;
 }
+@media screen and (max-width : 1080px) and (min-width : 415px){
+  .PrFULL{
+    height: 100vh;
+  }
+    .PrTEXT{
+    width: 100% !important;
+    padding: 5%;
+    text-align: center !important;
+    margin: auto;
+  }
+  .PrIMG{
+    display: none !important;
+  }
+  .BUTT{
+    height:35px ;
+    width: 350px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+}
+.AddMap{
+    height: 80vh !important;
+    width: 100% !important;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* margin: auto; */
+}
+.Companypro{
+    height: 50vh;
+    width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   /* justify-content: space-around; */
+   align-items: center!important;
+   margin: auto;
+   padding: auto;
+}
+.AddDetails{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.MemberBTT1{
+    height:37px ;
+    width: 149px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+    /* font-size: 1.3rem; */
+    
+}
+.MemberBTT2{
+    height:37px ;
+    width: 209px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+}
+.MemberBTT3{
+    height:47px ;
+    width: 136px;
+    border-radius:75px ;
+    display: block;
+    background: #A26B39;
+    border: none;
+    text-align: center;
+    margin-top: 5%;
+}
+    }
