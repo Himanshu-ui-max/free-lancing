@@ -10,7 +10,7 @@ const PartnersPage = () => {
     <>
     <div className='partners' id='partners'>
     <h1 style={{textAlign:'center'}}>Our Previous Partners</h1>
-    <div style={{display:'flex',justifyContent:'center',gap:'4rem',marginTop:'4rem',alignItems:'center'}} >
+    <div style={{display:'flex',justifyContent:'center',gap:'4rem',marginTop:'4rem',alignItems:'center',padding:'0rem 5rem'}} >
       <div className='imgp'>
         <img className='imgP' src={lg} alt="" />
       </div>

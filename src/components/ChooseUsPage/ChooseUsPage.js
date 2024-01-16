@@ -20,6 +20,7 @@ const ChooseUsPage = () => {
             fill="none"
             style={{marginBottom:"15px"}}
           >
+            
             <circle cx="98" cy="98" r="98" fill="#E4E4E4" />
           </svg>
           <p style={{ fontSize: "12px", }}>

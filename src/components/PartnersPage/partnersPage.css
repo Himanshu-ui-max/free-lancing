@@ -1,21 +1,23 @@
 .partners{
-    height: 70vh;
+    height: 68vh;
     padding-top: 70px;
     background: #F1F1F1;
     margin-bottom: 4rem;
     
 }
+
 .imgP{
     display: block;
-    margin:auto;
+    margin: auto;
     width: 100%;
     height: 100%;
-
 }
+
 .imgp{
     width: 100%;
     height: 100%;
 }
+
 /* @media screen and (max-width : 1260px) {
     .partnersDiv{
         flex-direction: column;

@@ -5,8 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    width: 97vw;
 }
+
 .homePage ::before{
     content: '';
     background-image: url('../images/disposable-eco-friendly-food-packaging-brown-kraft-paper-food-containers-blue-background-top-view-flat-lay_101906-861.avif');

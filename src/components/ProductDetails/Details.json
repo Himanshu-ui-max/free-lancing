@@ -6,8 +6,8 @@
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "package for": "Electronics,Automobile,Fragile Handicrafts",
         "colour": "NaturalBrown, white,Dark Brown",
-        "id": "paperangleboard"
-        ,"imageAddress" : ["../images/Paperangleboardedited2.jpg"]
+        "id": "paperangleboard",
+        "imageAddress" : ["../images/Paperangleboardedited2.jpg"]
     },
     {
         "name": "Paper Angle protector",
@@ -15,8 +15,8 @@
         "matrial": "Kraft Paper Board",
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "package for": "Electronics,Automobile,Fragile Handicrafts",
-        "id": "paperangleprotector"
-        ,"imageAddress" : ["../images/Paperangleboardedited3.jpg"]
+        "id": "paperangleprotector",
+        "imageAddress" : ["../images/Paperangleboardedited3.jpg"]
     },
     {
         "name": "Paper Edge Protector",
@@ -24,32 +24,32 @@
         "matrial": "Kraft Paper Board",
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "package for": "Electronics,Automobile,Fragile Handicrafts",
-        "id": "paperangletray"
-        ,"imageAddress" : ["../images/Paperangleboardedited1.jpg"]
+        "id": "paperangletray",
+        "imageAddress" : ["../images/Paperangleboardedited1.jpg"]
     },
     {
         "name": "LCD speclized",
         "colour": "NaturalBrown, white,Dark Brown-Paper edge flatboard",
         "matrial": "Kraft Paper Board",
         "usage": "Edge protector for export pallestising of LCD TV , E-commerce supply of LCD TV, Pemanent solution to not using expensive wooden panels",
-        "id": "lcdspecialized"
-        ,"imageAddress" : ["../images/p2.jpg","../images/p22.jpg","../images/p22222.jpg","../images/p2222222.jpg"]
+        "id": "lcdspecialized",
+        "imageAddress" : ["../images/p2.jpg","../images/p22.jpg","../images/p22222.jpg","../images/p2222222.jpg"]
     },
     {
         "name": "PP Bin/Box",
         "colour": "Blue, Grey,Green,Orange,Black,Peach",
         "Shape": "As per requirement",
         "Thickness": "3mm to 15mm",
-        "id": "ppbinbox"
-        ,"imageAddress" : ["../images.p2p.jpg","../images/pp.jpg","../images/ppcorrugatedbin.jpg","../images/ppcorrugatedbox2edited.jpg"]
+        "id": "ppbinbox",
+        "imageAddress" : ["../images.p2p.jpg","../images/pp.jpg","../images/ppcorrugatedbin.jpg","../images/ppcorrugatedbox2edited.jpg"]
     },
     {
         "name": "PP Collapsable Bin/Box",
         "colour": "Blue, Grey,Green,Orange,Black,Peach",
         "property": "waterporof,Lightweight,Reusable",
         "usage": "Automobile, Electronics,food, pharmaceutical,Hospital,Paint industries,Plastic inject Mouldings",
-        "id": "ppcollapsablebinbox"
-        ,"imageAddress" : ["../images.p4p.jpg","../images/ppcorrugatedcollapsablebinedited.jpg"]
+        "id": "ppcollapsablebinbox",
+        "imageAddress" : ["../images.p4p.jpg","../images/ppcorrugatedcollapsablebinedited.jpg"]
     },
     {
         "name": "EPE Fitment",
@@ -58,8 +58,8 @@
         "shape": "As per design and requirements",
         "usage": "Electronics, Telecommunication Automobile,Handicrafts,Glass Industries or any industry where they need cushion based packaging",
         "size": "As per customer's drawing or prototype sample. We can even design the fitment as per the customer's product",
-        "id": "epefitments"
-        ,"imageAddress" : ["../images/epe1.jpg","../images/epe2.jpg","../images/epe4.jpg","../images/EPfitmentedited.jpg"]
+        "id": "epefitments",
+        "imageAddress" : ["../images/epe1.jpg","../images/epe2.jpg","../images/epe4.jpg","../images/EPfitmentedited.jpg"]
     },
     {
         "name": "ESD Polyproplene Reusable B0x/Bin",
@@ -67,16 +67,16 @@
         "material": "Polyproplene",
         "Load Capacity": "5 to 15 kg",
         "size": "As per requirement",
-        "id": "esdppreusablebinbox"
-        ,"imageAddress" : ["../images/esdbinedited2.jpg","../images/ESDppbin1edited.jpg"]
+        "id": "esdppreusablebinbox",
+        "imageAddress" : ["../images/esdbinedited2.jpg","../images/ESDppbin1edited.jpg"]
     },
     {
         "name": "EPE Foam sheets",
         "colour": "white, Grey,Black,Peach,Pink",
         "Thickness": "1mm to 10 mm",
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
-        "id": "epefoamsheets"
-        ,"imageAddress" : ["../images/EPsheetedited.jpg","../images/editedEPsheet.jpg","../images/EPsheetedited3.jpg"]
+        "id": "epefoamsheets",
+        "imageAddress" : ["../images/EPsheetedited.jpg","../images/editedEPsheet.jpg","../images/EPsheetedited3.jpg"]
     },
     {
         "name": "EPE Foam Roll",
@@ -85,8 +85,8 @@
         "dimension": "1000mm to 2000mm",
         "property": "Flexible,Cushion based,Fracture proof,waterproof",
         "usage": "Fragile & Polished items for scratch proof packaging",
-        "id": "epefoamroll"
-        ,"imageAddress" : ["../images/Epefoamroll.jpg"]
+        "id": "epefoamroll",
+        "imageAddress" : ["../images/Epefoamroll.jpg"]
     },
     {
         "name": "Air Bubble Pouches",
@@ -95,8 +95,8 @@
         "shape": "As per design and requirements",
         "property": "Flexible,Cushion based,Fracture proof,waterproof",
         "usage": "Fragile & Polished items for scratch proof packaging",
-        "id": "airbubblepouches"
-        ,"imageAddress" : ["../images/Airbubblepouchedited.jpg"]
+        "id": "airbubblepouches",
+        "imageAddress" : ["../images/Airbubblepouchedited.jpg"]
     },
     {
         "name": "EPE Pouches",
@@ -104,7 +104,7 @@
         "Thickness": "1mm to 10 mm",
         "size": "As per requirement",
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
-        "id": "epepouch"
-        ,"imageAddress" : ["../images/Epefoampouchedited.jpg","../images/EPE-foam-rollunderlay.jpg"]
+        "id": "epepouch",
+        "imageAddress" : ["../images/Epefoampouchedited.jpg","../images/EPE-foam-rollunderlay.jpg"]
     }
 ]

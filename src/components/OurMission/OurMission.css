@@ -1,22 +1,29 @@
 .ourmission{
     height: 100vh;
-    width:100vw;
-    margin: 4rem;
+    width: 94vw;
+    margin: 4.25rem;
     margin-bottom: 0rem;
+    gap: 4rem;
 }
 
 .ourmissiontext{
     height: 100vh;
     width:50vw;
-    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .ourmissionimg{
     height: 100vh;
-    width:50vw
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-p{
+.ompara{
     color: #666666;
     font-size: 24px;
     font-family: Montserrat;
@@ -24,7 +31,7 @@ p{
     line-height: 36px;
     letter-spacing: 1.20px;
     /* word-wrap: break-word; */
-    margin-top: 5%;
+    text-align: justify;
 }
 @media screen and (max-width : 1260px) {
     .ourmission{
