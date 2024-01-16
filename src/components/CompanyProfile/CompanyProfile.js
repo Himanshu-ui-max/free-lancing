@@ -21,8 +21,9 @@ const CompanyProfile = () => {
       </div>
     </div>
     <div className="CompanyLoc">
-      <div className="Loc">
-      <div className="LocText">Company Location</div></div>
+      {/* <div className="Loc"> */}
+      <div className="LocText">Company Location</div>
+      
       <div className="Companypro">
       <div className="AddDetails">
            <div id="NaMe">
@@ -54,7 +55,7 @@ const CompanyProfile = () => {
            </div>
       </div>
       <div className="AddMap">
-      <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris"style={{width:"30vw",height:"35vh", borderRadius:"13px"}}/>
+      <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris"style={{width:"80%",height:"35vh", borderRadius:"13px"}}/>
       </div>
       </div>
     </div>

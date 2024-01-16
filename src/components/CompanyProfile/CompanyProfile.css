@@ -40,7 +40,7 @@ text-align: center;
     text-align: center;
 }
 .CompanyLoc{
-    height: 50vh;
+    height: 55vh;
     width: 100vw;
    
 }
@@ -77,8 +77,8 @@ text-align: center;
 #NaMe{
     display: flex;
     flex-direction: row;
-    width: 11vw;
-    height: 10vh;
+    width: 12vw;
+    height: 12vh;
     justify-content: space-between;
 }
 #UsEr{
@@ -86,7 +86,7 @@ text-align: center;
     flex-direction: column; 
 }
 #PHN{
-    width:12vw ;
+    width:13vw ;
     height: 9vh;
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@ text-align: center;
 #ADDlogo{
     display: flex;
     flex-direction: row;
-    width: 34vw;
+    width: 35vw;
     height: 8vh;
     justify-content: space-between;  
 }
@@ -154,7 +154,7 @@ p13{
 }
 .MemberBTT1{
     height:67px ;
-    width: 349px;
+    width: 55%;
     border-radius:75px ;
     display: block;
     background: #A26B39;
@@ -170,12 +170,13 @@ p13{
     margin-top: 3%;
     margin-bottom: 2%;
     height:15% ;
-    width: 50%;
+    width: 55%;
     justify-content: space-between;
+    gap: 2rem;
 }
 .MemberBTT2{
     height:67px ;
-    width: 349px;
+    width: 55%;
     border-radius:75px ;
     display: block;
     background: #A26B39;
@@ -192,7 +193,7 @@ p13{
     text-align: center;
     margin-top: 5%;
 }
-@media screen and (max-width : 1080px) and (min-width : 415px){
+@media screen and (max-width : 1260px) {
   .PrFULL{
     height: 100vh;
   }
@@ -214,46 +215,77 @@ p13{
     border: none;
     text-align: center;
 }
+.CompanyLoc{
+    height: 90vh;
+    width: 100vw;
+    /* gap: 3rem; */
+   
+}
 .AddMap{
     height: 80vh !important;
-    width: 100% !important;
+    width: 80% !important;
     border-radius: 13px;
     display: flex;
-    justify-content: center;
-    /* justify-content: space-around; */
+    /* justify-content: center; */
+    justify-content: space-around;
     /* margin: auto; */
 }
 .Companypro{
     height: 50vh;
     width: 100vw;
    display: flex;
-   flex-direction: column-reverse;
-   /* justify-content: space-around; */
+   flex-direction: column;
+   /* justify-content: space-between; */
    align-items: center!important;
    margin: auto;
    padding: auto;
+   gap: 6rem;
 }
 .AddDetails{
     width: 100vw;
+    /* height: 80vh; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 38%;
+    
 
 }
+/* #PHN{
+    width:13vw ;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
 .MemberBTT1{
     height:37px ;
-    width: 149px;
+    width: 175%;
     border-radius:75px ;
     display: block;
     background: #A26B39;
     border: none;
     text-align: center;
+    margin-bottom: 5%;
     /* font-size: 1.3rem; */
+    /* font-size: 0.5rem !important; */
     
+}
+.MemberBTT{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 3%;
+    margin-bottom: 2%;
+    height:24% ;
+    width: 55%;
+    justify-content: space-between;
+    gap: 2rem !important;
 }
 .MemberBTT2{
     height:37px ;
-    width: 209px;
+    width: 145%;
     border-radius:75px ;
     display: block;
     background: #A26B39;
