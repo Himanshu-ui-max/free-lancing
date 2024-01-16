@@ -6,11 +6,13 @@ import Paperangleboardedited2 from '../images/Paperangleboardedited2.jpg'
 
 function OurMission() {
   return (
-    <div className='d-flex ourmission'>
-        <div className="ourmissiontext">
-        <h1>Our Mission</h1>
-            <p >Our mission is to give a customized range of packaging solutions so that our customers may minimize their transit damage and gain profits in their business with help of our specialized products.
-            </p></div>
+    <section id='ourmission' className='ourmission' style={{overflow : 'hidden'}} >
+    <div className='d-flex ourmission justify-content-center'>
+        <div className="ourmissiontext d-flex" >
+        <div><h1>Our Mission</h1></div>
+            <div className='ompara'>Our mission is to give a customized range of packaging solutions so that our customers may minimize their transit damage and gain profits in their business with help of our specialized products.
+            </div>
+            </div>
       <div className="ourmissionimg">
         <div className='ourmissionimg1' style={{height:'40%',width:'100%'}}>
         <img className='omimg1' style={{height:'90%',width:'84.4%'}} src={paperangleboardedited1} alt="" />
@@ -21,6 +23,7 @@ function OurMission() {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 
