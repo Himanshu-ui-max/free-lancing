@@ -3,15 +3,15 @@
     color: white;
     justify-content: center;
 }
-h3{
-    color: white; font-size: 28px; font-family: Poppins; font-weight: 600; letter-spacing: 0.84px; word-wrap: break-word;
+.footerheading{
+    color: white; font-size: 2rem; font-family: Poppins; font-weight: 570; letter-spacing: 0.84px; word-wrap: break-word;
 }
 .para{
-    width: 70%; text-align: justify; color: white; font-size: 18px; font-family: Montserrat; font-weight: 500; letter-spacing: 0.18px; word-wrap: break-word;
+    width: 70%; text-align: justify; color: white; font-size: 18px; font-family: Montserrat; font-weight: 400; letter-spacing: 0.18px; word-wrap: break-word;
 }
 .contactfooter{
     width:100%;
-    text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; letter-spacing: 0.20px; word-wrap: break-word;
+    text-align: center; color: white; font-size: 18px; font-family: Montserrat; font-weight: 570; letter-spacing: 0.20px; word-wrap: break-word;
 }
 .infofooter{
     width: 50%;
@@ -23,4 +23,7 @@ h3{
 }
 .contactfooter li{
     margin: 0%;
+}
+.rect{
+    width: 0.4rem; height: 2.4rem; background: #D52B1E; border-radius: 5px;margin-top: 2%;
 }

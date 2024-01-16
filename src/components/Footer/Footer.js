@@ -4,15 +4,18 @@ function footer() {
   return (
     <div className='d-flex footer'>
     <div className='infofooter'>
-      <h3>Sai Super Pack</h3>
+      <div className='footerheading'>Sai Super Pack</div>
       <div className='para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
     </div>
     <div>
-        <h3>Contact Info</h3>
+        <div className="contactheading d-flex" style={{gap:'0.7rem'}}>
+        <div className='rect'></div>
+        <div className='footerheading'>Contact Info</div>
+        </div>
         <div className='contactfooter'>
         <ul>
-            <li>Phone:1234567890</li>
-            <li>Email:saipackaging@gmail.com</li>
+            <li>Phone : 1234567890</li>
+            <li>Email : saipackaging@gmail.com</li>
         </ul>
         </div>
     </div>
