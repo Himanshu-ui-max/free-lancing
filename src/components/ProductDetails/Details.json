@@ -7,7 +7,7 @@
         "package for": "Electronics,Automobile,Fragile Handicrafts",
         "colour": "NaturalBrown, white,Dark Brown",
         "id": "paperangleboard",
-        "imageAddress" : ["../images/Paperangleboardedited2.jpg"]
+        "imageAddress" : ["/static/media/esdbinedited2.472e2703867f77fabffe.jpg"] 
     },
     {
         "name": "Paper Angle protector",
@@ -33,7 +33,7 @@
         "matrial": "Kraft Paper Board",
         "usage": "Edge protector for export pallestising of LCD TV , E-commerce supply of LCD TV, Pemanent solution to not using expensive wooden panels",
         "id": "lcdspecialized",
-        "imageAddress" : ["../images/p2.jpg","../images/p22.jpg","../images/p22222.jpg","../images/p2222222.jpg"]
+        "imageAddress" : ["/static/media/p2.437508071ce1e15efc54.jpg","../images/p22.jpg","../images/p22222.jpg","../images/p2222222.jpg"]
     },
     {
         "name": "PP Bin/Box",
