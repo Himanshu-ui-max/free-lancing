@@ -7,7 +7,7 @@
         "package for": "Electronics,Automobile,Fragile Handicrafts",
         "colour": "NaturalBrown, white,Dark Brown",
         "id": "paperangleboard",
-        "imageAddress" : ["/static/media/esdbinedited2.472e2703867f77fabffe.jpg"] 
+        "imageAddress" : ["/static/media/Paperangleboardedited2.72cbecc092ccd8582443.jpg"] 
     },
     {
         "name": "Paper Angle protector",
@@ -16,7 +16,7 @@
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "package for": "Electronics,Automobile,Fragile Handicrafts",
         "id": "paperangleprotector",
-        "imageAddress" : ["../images/Paperangleboardedited3.jpg"]
+        "imageAddress" : ["/static/media/Paperangleboardedited3.ee0c9a29b5c29a2709db.jpg"]
     },
     {
         "name": "Paper Edge Protector",
@@ -25,7 +25,7 @@
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "package for": "Electronics,Automobile,Fragile Handicrafts",
         "id": "paperangletray",
-        "imageAddress" : ["../images/Paperangleboardedited1.jpg"]
+        "imageAddress" : ["/static/media/paperangleboardedited1.0a787085d4a6f9b13aa9.jpg"]
     },
     {
         "name": "LCD speclized",
@@ -33,7 +33,7 @@
         "matrial": "Kraft Paper Board",
         "usage": "Edge protector for export pallestising of LCD TV , E-commerce supply of LCD TV, Pemanent solution to not using expensive wooden panels",
         "id": "lcdspecialized",
-        "imageAddress" : ["/static/media/p2.437508071ce1e15efc54.jpg","../images/p22.jpg","../images/p22222.jpg","../images/p2222222.jpg"]
+        "imageAddress" : ["/static/media/p2.437508071ce1e15efc54.jpg","/static/media/p22.84d55f616c413ef0d34a.jpg","/static/media/p2222.389146531f0458f2016a.jpg","/static/media/p2222222.ce00caf197f3c19e4b20.jpg"]
     },
     {
         "name": "PP Bin/Box",
@@ -41,7 +41,7 @@
         "Shape": "As per requirement",
         "Thickness": "3mm to 15mm",
         "id": "ppbinbox",
-        "imageAddress" : ["../images.p2p.jpg","../images/pp.jpg","../images/ppcorrugatedbin.jpg","../images/ppcorrugatedbox2edited.jpg"]
+        "imageAddress" : ["/static/media/p2p.99ad6703301013a9eb87.jpg","/static/media/pp.95916fa506603501454e.jpg","/static/media/PPcorrugatedbin.fc0204c40f57d5d2bb42.jpg","/static/media/ppcorrugatedbox2edited.874a978b6260d3e2d2ee.jpg"]
     },
     {
         "name": "PP Collapsable Bin/Box",
@@ -49,7 +49,7 @@
         "property": "waterporof,Lightweight,Reusable",
         "usage": "Automobile, Electronics,food, pharmaceutical,Hospital,Paint industries,Plastic inject Mouldings",
         "id": "ppcollapsablebinbox",
-        "imageAddress" : ["../images.p4p.jpg","../images/ppcorrugatedcollapsablebinedited.jpg"]
+        "imageAddress" : ["/static/media/p4p.faa5bced8973bd3109d3.jpg","/static/media/ppcorrugatedcollapsablebinedited.7bd2da937a6820860683.jpg"]
     },
     {
         "name": "EPE Fitment",
@@ -59,7 +59,7 @@
         "usage": "Electronics, Telecommunication Automobile,Handicrafts,Glass Industries or any industry where they need cushion based packaging",
         "size": "As per customer's drawing or prototype sample. We can even design the fitment as per the customer's product",
         "id": "epefitments",
-        "imageAddress" : ["../images/epe1.jpg","../images/epe2.jpg","../images/epe4.jpg","../images/EPfitmentedited.jpg"]
+        "imageAddress" : ["/static/media/epe1.497f00e3586ebd9bdea1.jpg","/static/media/epe2.7c1fc1775e1b30b9e567.jpg","/static/media/epe4.814d40150ccef2aa51df.jpg","/static/media/EPfitmentedited.671b4fafddd75bedfb4d.jpg"]
     },
     {
         "name": "ESD Polyproplene Reusable B0x/Bin",
@@ -68,7 +68,7 @@
         "Load Capacity": "5 to 15 kg",
         "size": "As per requirement",
         "id": "esdppreusablebinbox",
-        "imageAddress" : ["../images/esdbinedited2.jpg","../images/ESDppbin1edited.jpg"]
+        "imageAddress" : ["/static/media/esdbinedited2.472e2703867f77fabffe.jpg","/static/media/ESDppbin1edited.29033e63000a2dd37123.jpg"]
     },
     {
         "name": "EPE Foam sheets",
@@ -76,7 +76,7 @@
         "Thickness": "1mm to 10 mm",
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "id": "epefoamsheets",
-        "imageAddress" : ["../images/EPsheetedited.jpg","../images/editedEPsheet.jpg","../images/EPsheetedited3.jpg"]
+        "imageAddress" : ["/static/media/EPsheetedited.5dfffa724f642460d753.jpg","/static/media/editedEPsheet.9be0cf9082eb4482b165.jpg","/static/media/EPsheetedited3.4d2e73c9599a4f75ebba.jpg"]
     },
     {
         "name": "EPE Foam Roll",
@@ -86,7 +86,7 @@
         "property": "Flexible,Cushion based,Fracture proof,waterproof",
         "usage": "Fragile & Polished items for scratch proof packaging",
         "id": "epefoamroll",
-        "imageAddress" : ["../images/Epefoamroll.jpg"]
+        "imageAddress" : ["/static/media/Epefoamroll.7e23d973808ec5bc279e.jpg"]
     },
     {
         "name": "Air Bubble Pouches",
@@ -96,7 +96,7 @@
         "property": "Flexible,Cushion based,Fracture proof,waterproof",
         "usage": "Fragile & Polished items for scratch proof packaging",
         "id": "airbubblepouches",
-        "imageAddress" : ["../images/Airbubblepouchedited.jpg"]
+        "imageAddress" : ["/static/media/Airbubblepouchedited.bf79b287cd3bea2db615.jpg"]
     },
     {
         "name": "EPE Pouches",
@@ -105,6 +105,6 @@
         "size": "As per requirement",
         "usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "id": "epepouch",
-        "imageAddress" : ["../images/Epefoampouchedited.jpg","../images/EPE-foam-rollunderlay.jpg"]
+        "imageAddress" : ["/static/media/Epefoampouchedited.cf9ddb8c02cee0b142eb.jpg","/static/media/EPE-foam-rollunderlay.fc6fc800d3105af58a12.jpg"]
     }
 ]
