@@ -51,19 +51,21 @@ const ProductDetails = () => {
             <>
               <div id="imagesDiv">
                 <div id="mainImage">
-                  <img src={imageVariable} alt="" />
+                  <img className="productImage" src={imageVariable} alt="" />
                 </div>
                 <div id="imageButtons">
                   {
                     element.imageAddress.map((e)=>{
                       return(
-                        <button onClick={()=>{handleOnClick(e)}}><img src={e} alt="" height={'100px'} width={'100px'}/></button>
+                        <button onClick={()=>{handleOnClick(e)}}><img src={e} alt="" height={'50px'} width={'50px'}/></button>
                       )
                     })
                   }
                 </div>
               </div>
-              <div id="detailsDiv"></div>
+              <div id="detailsDiv">
+                
+              </div>
             </>
           );
         }
