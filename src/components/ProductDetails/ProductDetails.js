@@ -30,15 +30,15 @@ import { useParams } from "react-router-dom";
 // import p111 from "../images/EPE-foam-rollunderlay.jpg"
 const ProductDetails = () => {
   const { name } = useParams();
-  const [imageVariable, setimageVariable] = useState('');
-  const handleOnClick=(image)=>{
-    setimageVariable(image)
-  }
+  const [imageVariable, setimageVariable] = useState("");
+  const handleOnClick = (image) => {
+    setimageVariable(image);
+  };
   let i = -1;
   useEffect(() => {
     for (let index = 0; index < details.length; index++) {
       const element = details[index];
-      if(element.id === name){
+      if (element.id === name) {
         setimageVariable(element.imageAddress[0]);
       }
     }
@@ -51,20 +51,182 @@ const ProductDetails = () => {
             <>
               <div id="imagesDiv">
                 <div id="mainImage">
-                  <img className="productImage" src={imageVariable} alt="" />
+                  <img className="productImage" src={imageVariable} alt={""} />
                 </div>
                 <div id="imageButtons">
-                  {
-                    element.imageAddress.map((e)=>{
-                      return(
-                        <button onClick={()=>{handleOnClick(e)}}><img src={e} alt="" height={'50px'} width={'50px'}/></button>
-                      )
-                    })
-                  }
+                  {element.imageAddress.map((e) => {
+                    return (
+                      <button
+                        onClick={() => {
+                          handleOnClick(e);
+                        }}
+                      >
+                        <img className="miniButtons" src={e} alt={""} height={"50px"} width={"50px"} />
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
               <div id="detailsDiv">
-                
+                <b style={{ fontSize: "1.9rem", fontFamily: "poppins" }}>
+                  {" "}
+                  {element.name}
+                </b>
+                <p
+                  style={{
+                    fontFamily: "poppins",
+                    color: "gray",
+                    fontSize: "0.9rem",
+                    marginTop: "10px",
+                  }}
+                >
+                  {" "}
+                  {element.Thickness
+                    ? "Thickness-Ranging from " + element.Thickness
+                    : ""}
+                </p>
+                <div className="spanSex" style={{ marginTop: "30px",}}>
+                  {Object.keys(element).map((item) => {
+                    if (
+                      !(
+                        item === "name" ||
+                        item === "Thickness" ||
+                        item === "imageAddress" ||
+                        item === "id"
+                      )
+                    )
+                      return (
+                        <p  key={item}>
+                          <div 
+                            style={{ display: "flex", flexDirection: "row"}}
+                          >
+                            <b style={{ marginRight: "4px"}}>{item}</b> :
+                            <div className="contentDiv" style={{ marginLeft: "4px" }}>
+                              {" "}
+                              {element[item]}
+                            </div>
+                          </div>
+                        </p>
+                      );
+                  })}
+                </div>
+                <div style={{width : '250px'}}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100"
+                    height="100"
+                    viewBox="0 0 186 186"
+                    fill="none"
+                  >
+                    <g filter="url(#filter0_d_138_156)">
+                      <circle cx="93" cy="91" r="79" fill="white" />
+                    </g>
+                    <defs>
+                      <filter
+                        id="filter0_d_138_156"
+                        x="0"
+                        y="0"
+                        width="186"
+                        height="186"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                      >
+                        <feFlood
+                          flood-opacity="0"
+                          result="BackgroundImageFix"
+                        />
+                        <feColorMatrix
+                          in="SourceAlpha"
+                          type="matrix"
+                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha"
+                        />
+                        <feMorphology
+                          radius="2"
+                          operator="dilate"
+                          in="SourceAlpha"
+                          result="effect1_dropShadow_138_156"
+                        />
+                        <feOffset dy="2" />
+                        <feGaussianBlur stdDeviation="6" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix
+                          type="matrix"
+                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+                        />
+                        <feBlend
+                          mode="normal"
+                          in2="BackgroundImageFix"
+                          result="effect1_dropShadow_138_156"
+                        />
+                        <feBlend
+                          mode="normal"
+                          in="SourceGraphic"
+                          in2="effect1_dropShadow_138_156"
+                          result="shape"
+                        />
+                      </filter>
+                    </defs>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100"
+                    height="100"
+                    viewBox="0 0 186 186"
+                    fill="none"
+                  >
+                    <g filter="url(#filter0_d_138_156)">
+                      <circle cx="93" cy="91" r="79" fill="white" />
+                    </g>
+                    <defs>
+                      <filter
+                        id="filter0_d_138_156"
+                        x="0"
+                        y="0"
+                        width="186"
+                        height="186"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                      >
+                        <feFlood
+                          flood-opacity="0"
+                          result="BackgroundImageFix"
+                        />
+                        <feColorMatrix
+                          in="SourceAlpha"
+                          type="matrix"
+                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha"
+                        />
+                        <feMorphology
+                          radius="2"
+                          operator="dilate"
+                          in="SourceAlpha"
+                          result="effect1_dropShadow_138_156"
+                        />
+                        <feOffset dy="2" />
+                        <feGaussianBlur stdDeviation="6" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix
+                          type="matrix"
+                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+                        />
+                        <feBlend
+                          mode="normal"
+                          in2="BackgroundImageFix"
+                          result="effect1_dropShadow_138_156"
+                        />
+                        <feBlend
+                          mode="normal"
+                          in="SourceGraphic"
+                          in2="effect1_dropShadow_138_156"
+                          result="shape"
+                        />
+                      </filter>
+                    </defs>
+                  </svg>
+                </div>
+                <div className="buttonDiv"><button className='MemberBTT3' style={{width : "300px"}}><a className='atag' href='mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body=' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Send your enquiry</a></button></div>
               </div>
             </>
           );

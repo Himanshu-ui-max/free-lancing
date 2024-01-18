@@ -1,5 +1,5 @@
 .productDetails{
-    padding-top: 100px;
+    padding-top: 110px;
     display: flex;
     flex-direction: row;
 
@@ -17,6 +17,7 @@
 }
 #detailsDiv{
     width: 50%;
+    padding-top: 50px;
 }
 #imageButtons{
     display: flex;
@@ -28,4 +29,67 @@
     height: 500px;
     width: 500px;
     object-fit: contain !important;
+}
+@media screen and (max-width : 1176px) {
+    .productDetails{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imagesDiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imageButtons{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #detailsDiv{
+        text-align: center;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .spanSex{
+        /* text-align: center;
+        padding: 0px 100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px !important;
+    }
+    .buttonDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width : 673px) {
+    #mainImage{
+        height: 300px;
+        width: 300px;
+    }
+    .productImage{
+        height: 300px;
+        width: 300px;
+    }
+    .miniButtons{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .contentDiv{
+        width: 300px !important;
+    }
+}
+@media screen and (max-width : 401px){
+    .contentDiv{
+        width: 200px !important;
+        font-size: 0.8rem !important;
+    }
+
 }
