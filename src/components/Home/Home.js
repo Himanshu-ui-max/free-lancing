@@ -6,6 +6,7 @@ import AboutUsPage from './../AboutUsPage/AboutUsPage'
 import PartnersPage from './../PartnersPage/PartnersPage'
 import Testimonials from '../Testimonials/Testimonials'
 import OurMission from '../OurMission/OurMission'
+import Certificate from '../CertificatePage/Certificate'
 import Footer from '../Footer/Footer'
 
 const Home = () => {
