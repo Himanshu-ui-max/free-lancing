@@ -21,7 +21,7 @@ const Home = () => {
     <PartnersPage/>
     {/* <Sample/> */}
     <Testimonials/>
-    
+    <Certificate/>
   
 
     </>
