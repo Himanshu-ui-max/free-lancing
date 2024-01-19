@@ -15,6 +15,7 @@ function OurMission() {
             </div>
       <div className="ourmissionimg">
         <div className='ourmissionimg1' style={{height:'40%',width:'100%'}}>
+          
         <img className='omimg1' style={{height:'90%',width:'84.4%'}} src={paperangleboardedited1} alt="" />
         </div>
         <div className='d-flex ourmissionimg2' style={{height:'40%',width:'100%',gap:'2rem'}}>
