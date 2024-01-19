@@ -1,6 +1,6 @@
 import React,{useEffect,useState}from 'react'
 import './CompanyProfile.css'
-import Footer from '../Footer/Footer.js'
+
 const CompanyProfile = () => {
   return (
     <>
@@ -79,7 +79,7 @@ const CompanyProfile = () => {
            </div>
     </div>
     </section>
-    <Footer/>
+    
     </>
   )
 }
