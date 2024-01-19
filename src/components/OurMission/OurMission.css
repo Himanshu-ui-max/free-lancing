@@ -36,7 +36,7 @@
 @media screen and (max-width : 1260px) {
     .ourmission{
         flex-direction: column;
-        margin-top: 10%;
+        
         margin-bottom: 0%;
         margin-left: 0%;
         margin-right: 0%;
@@ -44,19 +44,19 @@
     }
     .ourmissiontext{
         /* flex-direction: column; */
-        margin-top: 25%;
+        /* margin-top: 25%; */
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100vw;
-        height:75vh;
+        height:60vh;
         text-align: justify;
         padding: 7%;
     }
     .ourmissionimg{
         display: none !important;
-        /* flex-direction: column;
-        align-items: center; */
+        flex-direction: column;
+        align-items: center;
 
     }
     .ourmissionimg2{
@@ -66,5 +66,8 @@
     .omimg2{
         height:100% !important;
         width:100% !important;
+    }
+    .ompara{
+        font-size: 1.2rem;
     }
 }

@@ -8,7 +8,7 @@ function OurMission() {
   return (
     <section id='ourmission' className='ourmission' style={{overflow : 'hidden'}} >
     <div className='d-flex ourmission justify-content-center'>
-        <div className="ourmissiontext d-flex" >
+        <div className="ourmissiontext" >
         <div><h1>Our Mission</h1></div>
             <div className='ompara'>Our mission is to give a customized range of packaging solutions so that our customers may minimize their transit damage and gain profits in their business with help of our specialized products.
             </div>

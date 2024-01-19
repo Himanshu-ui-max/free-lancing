@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import CompanyProfile from './components/CompanyProfile/CompanyProfile';
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route path='/companyProfile' element={<CompanyProfile/>}></Route>
         <Route path='/productDetails/:name' element={<ProductDetails key={'id'}/>}></Route>
       </Routes>
+      <Footer/>
     </Router>
     </>
   );

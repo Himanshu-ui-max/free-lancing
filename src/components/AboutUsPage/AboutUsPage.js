@@ -31,11 +31,11 @@ const AboutUsPage = () => {
       
       <div className="abttext " style={{width: "60%", marginRight:'5%'}}>
       <div className='abtheading' style={{color: "black", fontSize: "2.7rem", fontFamily: "Montserrat", fontWeight: "700", letterSpacing: "0.50px", wordWrap: "break-word"}}>About us</div>
-        <div className='abtdes' style={{textAlign:'justify',color: "#666666", fontSize: "1.6rem", fontFamily: "Montserrat", fontWeight: "500", letterSpacing: "0.31px", wordWrap: "break-word"}}>
+        <div className='abtdes' style={{textAlign:'justify',color: "#666666",  fontFamily: "Montserrat", fontWeight: "500", letterSpacing: "0.31px", wordWrap: "break-word"}}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
         </div>
         <div className='button'>
-        <button className='BTN'><Link className='atag' to='/companyProfile'>Company Profile</Link></button>
+        <button className='BTN'><Link className='atag' id='egf'  to='/companyProfile'>Company Profile</Link></button>
         </div>
         </div>
         </div>

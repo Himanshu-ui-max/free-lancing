@@ -58,7 +58,7 @@ const ProductDetails = () => {
                 <div id="imageButtons">
                   {element.imageAddress.map((e) => {
                     return (
-                      <button
+                      <button className="imgBt"
                         onClick={() => {
                           handleOnClick(e);
                         }}
