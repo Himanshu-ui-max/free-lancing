@@ -42,8 +42,10 @@ const ProductDetails = () => {
         setimageVariable(element.imageAddress[0]);
       }
     }
+    window.scrollTo(0, 0);
   }, [name]);
   return (
+    <section id="top">
     <div className="productDetails">
       {details.map((element) => {
         if (element.id === name) {
@@ -237,6 +239,7 @@ const ProductDetails = () => {
         }
       })}
     </div>
+    </section>
   );
 };
 

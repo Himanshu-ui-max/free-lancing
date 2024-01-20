@@ -123,7 +123,7 @@ const FeaturedProducts = () => {
                 <h2>Featured Products</h2></div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <Link to="/productDetails/paperangleprotector">
+                  <Link to="/productDetails/paperangleprotector/#top">
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited3} className="d-block " alt="123" />
                       <h3>Paper Angle Protector</h3>
