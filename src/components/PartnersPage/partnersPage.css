@@ -5,6 +5,10 @@
     margin-bottom: 4rem;
     margin-top: 5rem;
 }
+.imgPart{
+    display: flex;
+flex-direction: row;
+}
 
 .imgP{
     display: block;

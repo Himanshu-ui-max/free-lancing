@@ -30,7 +30,7 @@ align-items: center;
 }
 @media screen and (max-width : 1260px){
     .certiPage{
-        height: 80vh;
+        height: 90vh;
         width: 100vw;
         background-color:rgb(212, 211, 210);
         display: flex;
@@ -39,7 +39,7 @@ align-items: center;
         align-items: center;
     }
     .certiContent{
-        height: 25%;
+        height: 52%;
         width: 95%;
         display: flex;
     text-align: center;
@@ -54,5 +54,8 @@ align-items: center;
         padding: auto;
         display: flex;
         flex-direction: row;
+        /* object-fit:fill !important; */
     }
+    
+    
 }
