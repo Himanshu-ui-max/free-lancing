@@ -178,12 +178,15 @@
 
   }
   .aboutus{
-    height: 500px;
+    height: 95vh;
   }
   .abtdes{
     font-size: 1.2rem;
   }
   .abttext{
     margin: 0 !important;
+  }
+  .aboutus{
+    padding-top: 70px;
   }
 }
