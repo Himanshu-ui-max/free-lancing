@@ -323,7 +323,8 @@ p13{
 .CompanyLoc{
     height: 110vh;
     width: 100vw;
-    /* gap: 3rem; */
+    display: flex;
+    flex-direction: column
    
 }
 .AddMap{
@@ -357,17 +358,25 @@ p13{
 
 }
 #PHN{
-    width:91vw ;
+    padding-left: 15px;
+    width:100vw ;
     height: 9vh;
-    
+    justify-content: flex-start;
+    margin: 0;
 }
 #NaMe{
+    padding-left: 20px;
     height: 11vh;
-    width: 67vw;
+    width: 100vw;
+    justify-content: flex-start;
+    margin: 0;
 }
 #ADDlogo{
     height: 30vh;
     width: 100vw;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 15px;
 }
 p13{
     text-align: center;
