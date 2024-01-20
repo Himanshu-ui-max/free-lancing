@@ -5,7 +5,7 @@
 
 h1 {
     color: black;
-    font-size: 50px;
+    font-size: 3rem;
     font-family: Montserrat;
     font-weight: 700;
     letter-spacing: 0.50px;
@@ -41,7 +41,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 670px !important;
+    height: 670px!important;
     z-index: 0 !important;
 }
 /* #IndicatioN{
@@ -101,6 +101,18 @@ h1 {
     .d-block{
         height: 200px;
         width: 200px;
+        /* padding-top: 20px; */
     }
+    .productImg {
+        height: 35vh;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    #carouselExampleDark{
+        height: 50vh;
+    }
+    
    
 }
