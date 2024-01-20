@@ -14,7 +14,7 @@ const Testimonials = () => {
   }, [width]);
   return (
     <>
-      <section id="featuredProducts">
+      <section id="testimonialsSample">
         {width > 970 ? (
           <div
             id="carouselExampleDark"
