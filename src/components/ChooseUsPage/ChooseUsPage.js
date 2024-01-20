@@ -24,8 +24,7 @@ const ChooseUsPage = () => {
             <circle cx="98" cy="98" r="98" fill="#E4E4E4" />
           </svg>
           <p style={{ fontSize: "12px", }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididu{" "}
+          Zero-Wastage policy and 100% recyclable products for environmentally conscious choices.{" "}
           </p>
         </div>
         
@@ -41,8 +40,7 @@ const ChooseUsPage = () => {
             <circle cx="98" cy="98" r="98" fill="#E4E4E4" />
           </svg>
           <p style={{ fontSize: "12px" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididu{" "}
+          Pan India reach ensures prompt delivery to customers across the country.{" "}
           </p>
         </div>
         <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center" , marginBottom:"50px"}}>
@@ -57,8 +55,7 @@ const ChooseUsPage = () => {
             <circle cx="98" cy="98" r="98" fill="#E4E4E4" />
           </svg>
           <p style={{ fontSize: "12px" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididu{" "}
+          Skilled designers and enthusiastic team providing tailored solutions to meet specific customer needs.{" "}
           </p>
         </div>
         <div style={{ alignItems: "center", justifyContent: "center", width:"150px", height:"200px", textAlign:"center"}}>
@@ -73,8 +70,7 @@ const ChooseUsPage = () => {
             <circle cx="98" cy="98" r="98" fill="#E4E4E4" />
           </svg>
           <p style={{ fontSize: "12px" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididu{" "}
+          Spread over 2 acres, our state-of-the-art infrastructure ensures unmatched scale and efficiency for timely and high-quality delivery.{" "}
           </p>
         </div>
       </div>
