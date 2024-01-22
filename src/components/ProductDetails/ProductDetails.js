@@ -34,7 +34,6 @@ const ProductDetails = () => {
   const handleOnClick = (image) => {
     setimageVariable(image);
   };
-  let i = -1;
   useEffect(() => {
     for (let index = 0; index < details.length; index++) {
       const element = details[index];
@@ -47,7 +46,9 @@ const ProductDetails = () => {
   return (
     <section id="top">
     <div className="productDetails">
-      {details.map((element) => {
+    
+      {// eslint-disable-next-line
+      details.map((element) => {
         if (element.id === name) {
           return (
             <>
@@ -92,7 +93,8 @@ const ProductDetails = () => {
                     : ""}
                 </p>
                 <div className="spanSex" style={{ marginTop: "30px",}}>
-                  {Object.keys(element).map((item) => {
+                  {// eslint-disable-next-line
+                  Object.keys(element).map((item) => {
                     if (
                       !(
                         item === "name" ||
