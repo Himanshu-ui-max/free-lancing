@@ -40,7 +40,8 @@ const Certificate = () => {
              <p50> 100% recyclable products with our guarantee of safe and tested assured performance of our products which comply with international authoritative standards.</p50>
          </div>
           
-         <marquee scrollamount="10" height="75%" direction="left" width="150%" style={{display : 'flex', justifyContent : "space-evenly", gap:"2 rem"}}> 
+         {// eslint-disable-next-line
+          <marquee scrollamount="10" height="75%" direction="left" width="150%" style={{display : 'flex', justifyContent : "space-evenly", gap:"2 rem"}}> 
          <div className="certiImg" style={{display:"flex",flexDirection:"row",gap:"2rem"}}>
          <div className='certiIMG'>
         <img  style={{height:"55%",width:"20vw"}} src={jas} alt="" /></div>
@@ -49,7 +50,7 @@ const Certificate = () => {
         <div className='certiIMG'> <img  style={{height:"55%",width:"20vw", gap:"2rem"}} src={img4} alt="" /></div>
          <div className='certiIMG'><img  style={{height:"55%",width:"20vw"}} src={tick} alt="" />
          </div>
-           </div></marquee>
+           </div></marquee>}
     </div>
   )}
   </section>

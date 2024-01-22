@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
   <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="d-flex justify-content-between container-fluid" style={{zIndex:'1',display:'flex',justifyContent:'space-between',alignItems : 'center'}}>
-    <a className="navbar-brand" href="/" style={{'display':'block'}}><img src={logo}  className='logoimage'/></a>
+    <a className="navbar-brand" href="/" style={{'display':'block'}}><img src={logo} alt='' className='logoimage'/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -17,9 +17,10 @@ const Navbar = () => {
         </li>
         
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          {// eslint-disable-next-line
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Paper division
-          </a>
+          </a>}
           <ul className="dropdown-menu" id='dropdown'>
             <li><Link className="dropdown-item" to="/productDetails/paperangleboard">Paper Angle board</Link></li>
             <li><Link className="dropdown-item" to="/productDetails/paperangleprotector">Paper Angle Protector</Link></li>
@@ -28,9 +29,10 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          {// eslint-disable-next-line
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Plastic division
-          </a>
+          </a>}
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/productDetails/ppbinbox">PP BIN/BOX</Link></li>
             <li><Link className="dropdown-item" to="/productDetails/ppcollapsablebinbox">PP COLLAPSABLE BIN/BOX</Link></li>
@@ -46,9 +48,10 @@ const Navbar = () => {
           <HashLink className="nav-link" to={'/#aboutus'}>About us</HashLink>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          {// eslint-disable-next-line
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             More
-          </a>
+          </a>}
           <ul className="dropdown-menu">
             <li><HashLink className="dropdown-item" to="/#featuredProducts">Featured Products</HashLink></li>
             <li><HashLink className="dropdown-item" to="/#chooseUs">Why Choose Us</HashLink></li>
