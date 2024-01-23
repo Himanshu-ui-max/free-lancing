@@ -1,4 +1,4 @@
-import React,{useEffect,useState}from 'react'
+import React from 'react'
 import './CompanyProfile.css'
 
 const CompanyProfile = () => {
@@ -69,12 +69,12 @@ const CompanyProfile = () => {
             <p11>Factory Units</p11>
             <p12>3 in Greater Noida, 2 in Sanand, Ahmedabad & Gujarat</p12>
             <div className="MemberBTT">
-            <button className='MemberBTT1'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Tradeindia.com </a></button>
-            <button className='MemberBTT2'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Indiamart </a></button>
+            <button className='MemberBTT1'><a className='atag' href='https://www.tradeindia.com/sai-super-pack-2866391/' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Tradeindia.com </a></button>
+            <button className='MemberBTT2'><a className='atag' href='https://www.indiamart.com/saisuperpack/#home' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Indiamart </a></button>
             </div>
             <p13>We Cater to Specific Requests/Bulk Orders too!</p13>
             <div className="ClickBT">
-            <button className='MemberBTT3'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Click Here!</a></button>
+            <button className='MemberBTT3'><a className='atag' href='mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body=' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Click Here!</a></button>
             </div>
            </div>
     </div>

@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react'
 import './partnersPage.css'
-import lg from '../images/lg.png'
-import samsung from '../images/samsung.png'
-import hitachi from '../images/hitachi.png'
-import honda from '../images/honda.png'
-import suzuki from '../images/suzuki.png'
+// import lg from '../images/lg.png'
+// import samsung from '../images/samsung.png'
+// import hitachi from '../images/hitachi.png'
+// import honda from '../images/honda.png'
+// import suzuki from '../images/suzuki.png'
 const PartnersPage = () => {
       const [width, setWidth] = useState(window.innerWidth);
       const detectWidth=()=>{
@@ -67,7 +67,8 @@ const PartnersPage = () => {
       <div className='partners' id='partners'>
     <div><h1 style={{textAlign:'center'}}>Our Previous Partners</h1></div>
     <div style={{display:'flex',justifyContent:'center',gap:'1.5rem',marginTop:'4rem',alignItems:'center',padding:'0rem 1rem'}} >
-    <marquee scrollamount="10" height="75%" direction="left" width="120%" >
+    {// eslint-disable-next-line
+      <marquee scrollamount="10" height="75%" direction="left" width="120%" >
       <div className='imgPart' style={{gap:"2rem"}}>
       <div className='imgp'>
       <svg width="134" height="72" viewBox="0 0 194 92" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +107,7 @@ const PartnersPage = () => {
 </svg>
 
       </div></div>
-      </marquee>
+      </marquee>}
     </div>
     </div>
 
