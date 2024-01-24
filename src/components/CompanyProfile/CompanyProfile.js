@@ -14,9 +14,9 @@ const CompanyProfile = () => {
         <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris" style={{width:'70%',height:'70%'}}/>
         </div>
         <div className="PrTEXT">
-        <div><h2>loren ipsum</h2></div>
+        <div><h2>Company Profile</h2></div>
         <div  className='Prdesc'>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        Sai Super Pack is a prominent manufacturer and supplier of a broad array of Packaging Material like Air Bubble Pouches, PP Bins / Boxes, EPE Pouches, Stretch Film Rolls and more. These products are used in different industries for packaging of various goods. Our range of products shows a right mix of high-grade input material, advanced technology and cost-effectiveness. Keeping convenience, products' safety and high quality standards in mind, we offer efficient packaging solution for all kind of goods like delicate products, electronics items, furniture and many more. For an instance, our Air Bubble Pouches feature good cushioning, shockproof, anti-moisture and easy to use nature.
            </div>
            <div className="BUTT">
           <button className='BUTT'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer"style={{fontSize : '1.4rem'}}>Download Full Company Profile</a></button>
