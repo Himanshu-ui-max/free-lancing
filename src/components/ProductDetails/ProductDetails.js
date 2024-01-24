@@ -35,6 +35,7 @@ const ProductDetails = () => {
     setimageVariable(image);
   };
   useEffect(() => {
+    document.title = "Sai Super Pack - Product details"
     for (let index = 0; index < details.length; index++) {
       const element = details[index];
       if (element.id === name) {

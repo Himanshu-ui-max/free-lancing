@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './CompanyProfile.css'
 
 const CompanyProfile = () => {
+  useEffect(() => {
+    document.title = "Sai Super Pack - Company Profile"
+  }, [ ]);
   return (
     <>
     <section className='companyProfile' style={{overflow:"hidden"}}>
