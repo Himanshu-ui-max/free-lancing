@@ -12,6 +12,7 @@ const CompanyProfile = () => {
       <div className= 'PrFULL'>
         <div className="PrIMG" >
         <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris" style={{width:'70%',height:'70%'}}/>
+        
         </div>
         <div className="PrTEXT">
         <div><h2>loren ipsum</h2></div>
@@ -60,7 +61,9 @@ const CompanyProfile = () => {
            </div>
       </div>
       <div className="AddMap">
-      <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris"style={{width:"70%",height:"100%", borderRadius:"1rem"}}/>
+      {/* <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris"style={{width:"70%",height:"100%", borderRadius:"1rem"}}/> */}
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.744938590133!2d77.51713961202869!3d28.517320689200414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cebd529925621%3A0x5ce8c0a8b560c97f!2sSai%20Super%20Pack!5e0!3m2!1sen!2sin!4v1705816835886!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{width:"70%",height:"100%", borderRadius:"1rem"}}></iframe>
+    
       </div>
       </div>
     </div>
