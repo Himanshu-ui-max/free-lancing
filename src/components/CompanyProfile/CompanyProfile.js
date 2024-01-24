@@ -4,6 +4,7 @@ import './CompanyProfile.css'
 const CompanyProfile = () => {
   useEffect(() => {
     document.title = "Sai Super Pack - Company Profile"
+    window.scroll(0 ,0);
   }, [ ]);
   return (
     <>
