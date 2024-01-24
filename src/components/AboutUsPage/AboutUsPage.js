@@ -32,7 +32,7 @@ const AboutUsPage = () => {
       <div className="abttext " style={{width: "60%", marginRight:'5%'}}>
       <div className='abtheading' style={{color: "black", fontSize: "2.7rem", fontFamily: "Montserrat", fontWeight: "700", letterSpacing: "0.50px", wordWrap: "break-word"}}>About us</div>
         <div className='abtdes' style={{textAlign:'justify',color: "#666666",  fontFamily: "Montserrat", fontWeight: "500", letterSpacing: "0.31px", wordWrap: "break-word"}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        Sai Super Pack is an industry-leading enterprise which provides multiple customisable solutions under one roof related to 100% recyclable & reusable pp bins/boxes, paper angle and edge boards of all variants & EP Foams and their fitments. With our client-oriented business strategy and transparent business dealings, we have carved a formidable niche for ourselves in the packaging sector. With more than a decade’s work, we have gained trust and goodwill of countless clients through our dedicated work approach and focused positive attitude towards offering only quality products and personable solutions.
         </div>
         <div className='button'>
         <button className='BTN'><Link className='atag' id='egf'  to='/companyProfile'>Company Profile</Link></button>
