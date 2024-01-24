@@ -38,7 +38,7 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group1} style={{ height: "50px" }}></img>
+            <img src={group1} alt="" style={{ height: "50px" }}></img>
           </div>
           <p style={{ fontSize: "12px" }}>
             Zero-Wastage policy and 100% recyclable products for environmentally
@@ -70,7 +70,7 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group} style={{ height: "40px" }}></img>
+            <img src={group} alt="" style={{ height: "40px" }}></img>
           </div>
           <p style={{ fontSize: "12px" }}>
           Pan India reach ensures prompt delivery to customers across the country.{" "}
@@ -100,7 +100,7 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={vector} style={{ height: "50px" }}></img>
+            <img src={vector} alt="" style={{ height: "50px" }}></img>
           </div>
           <p style={{ fontSize: "12px" }}>
           Skilled designers and enthusiastic team providing tailored solutions to meet specific customer needs.{" "}
@@ -130,7 +130,7 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group21} style={{ height: "50px" }}></img>
+            <img src={group21} alt="" style={{ height: "50px" }}></img>
           </div>
           <p style={{ fontSize: "12px" }}>
           Spread over 2 acres, our state-of-the-art infrastructure ensures unmatched scale and efficiency for timely and high-quality delivery.{" "}
