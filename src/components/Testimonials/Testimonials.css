@@ -66,6 +66,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #arrow {
@@ -111,7 +112,7 @@ h1 {
         justify-content:space-around;
     }
     #carouselExampleDark{
-        height: 50vh;
+        height: 500px !important;
     }
     
    

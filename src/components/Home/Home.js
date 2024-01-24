@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Homepage from './../HomePage/Homepage'
 import ChooseUsPage from './../ChooseUsPage/ChooseUsPage'
 import FeaturedProducts from './../FeaturedProducts/FeaturedProducts'
@@ -7,9 +7,11 @@ import PartnersPage from './../PartnersPage/PartnersPage'
 import Testimonials from '../Testimonials/Testimonials'
 import OurMission from '../OurMission/OurMission'
 import Certificate from '../CertificatePage/Certificate'
-import Footer from '../Footer/Footer'
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Sai Super Pack - Home"
+  }, []);
   return (
     <>
     

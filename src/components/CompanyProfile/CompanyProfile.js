@@ -1,7 +1,11 @@
-import React,{useEffect,useState}from 'react'
+import React, { useEffect } from 'react'
 import './CompanyProfile.css'
 
 const CompanyProfile = () => {
+  useEffect(() => {
+    document.title = "Sai Super Pack - Company Profile"
+    window.scroll(0 ,0);
+  }, [ ]);
   return (
     <>
     <section className='companyProfile' style={{overflow:"hidden"}}>
@@ -15,9 +19,9 @@ const CompanyProfile = () => {
         
         </div>
         <div className="PrTEXT">
-        <div><h2>loren ipsum</h2></div>
+        <div><h2>Company Profile</h2></div>
         <div  className='Prdesc'>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        Sai Super Pack is a prominent manufacturer and supplier of a broad array of Packaging Material like Air Bubble Pouches, PP Bins / Boxes, EPE Pouches, Stretch Film Rolls and more. These products are used in different industries for packaging of various goods. Our range of products shows a right mix of high-grade input material, advanced technology and cost-effectiveness. Keeping convenience, products' safety and high quality standards in mind, we offer efficient packaging solution for all kind of goods like delicate products, electronics items, furniture and many more. For an instance, our Air Bubble Pouches feature good cushioning, shockproof, anti-moisture and easy to use nature.
            </div>
            <div className="BUTT">
           <button className='BUTT'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer"style={{fontSize : '1.4rem'}}>Download Full Company Profile</a></button>
@@ -72,12 +76,12 @@ const CompanyProfile = () => {
             <p11>Factory Units</p11>
             <p12>3 in Greater Noida, 2 in Sanand, Ahmedabad & Gujarat</p12>
             <div className="MemberBTT">
-            <button className='MemberBTT1'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Tradeindia.com </a></button>
-            <button className='MemberBTT2'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Indiamart </a></button>
+            <button className='MemberBTT1'><a className='atag' href='https://www.tradeindia.com/sai-super-pack-2866391/' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Tradeindia.com </a></button>
+            <button className='MemberBTT2'><a className='atag' href='https://www.indiamart.com/saisuperpack/#home' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Member of Indiamart </a></button>
             </div>
             <p13>We Cater to Specific Requests/Bulk Orders too!</p13>
             <div className="ClickBT">
-            <button className='MemberBTT3'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Click Here!</a></button>
+            <button className='MemberBTT3'><a className='atag' href='mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body=' target='_blank' rel="noreferrer" style={{fontSize : '1.4rem'}}>Click Here!</a></button>
             </div>
            </div>
     </div>

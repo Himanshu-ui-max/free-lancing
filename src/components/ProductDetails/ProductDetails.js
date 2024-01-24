@@ -34,18 +34,22 @@ const ProductDetails = () => {
   const handleOnClick = (image) => {
     setimageVariable(image);
   };
-  let i = -1;
   useEffect(() => {
+    document.title = "Sai Super Pack - Product details"
     for (let index = 0; index < details.length; index++) {
       const element = details[index];
       if (element.id === name) {
         setimageVariable(element.imageAddress[0]);
       }
     }
+    window.scrollTo(0, 0);
   }, [name]);
   return (
+    <section id="top">
     <div className="productDetails">
-      {details.map((element) => {
+    
+      {// eslint-disable-next-line
+      details.map((element) => {
         if (element.id === name) {
           return (
             <>
@@ -90,7 +94,8 @@ const ProductDetails = () => {
                     : ""}
                 </p>
                 <div className="spanSex" style={{ marginTop: "30px",}}>
-                  {Object.keys(element).map((item) => {
+                  {// eslint-disable-next-line
+                  Object.keys(element).map((item) => {
                     if (
                       !(
                         item === "name" ||
@@ -237,6 +242,7 @@ const ProductDetails = () => {
         }
       })}
     </div>
+    </section>
   );
 };
 

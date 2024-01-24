@@ -30,7 +30,7 @@ align-items: center;
 }
 @media screen and (max-width : 1260px){
     .certiPage{
-        height: 90vh;
+        height: 70vh;
         width: 100vw;
         background-color:rgb(212, 211, 210);
         display: flex;

@@ -10,7 +10,7 @@
 
 .homePage ::before{
     content: '';
-    background-image: url('../images/disposable-eco-friendly-food-packaging-brown-kraft-paper-food-containers-blue-background-top-view-flat-lay_101906-861.avif');
+    background-image: url('../images/core\ pipe\ 3\ watermarked.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -70,16 +70,16 @@
 }
 @keyframes change {
     0%{
-        background-image: url('../images/food-packages-frame-transformed.jpeg');
+        background-image: url('../images/core\ pipe\ 3\ watermarked.jpg');
     }
     33%{
-        background-image: url('../images/food-packages-frame-delivery-concept_53876-128914.avif');
+        background-image: url('../images/core\ pipe\ 4\ watermarked.jpg');
     }
     66%{
-        background-image: url('../images/disposable-eco-friendly-food-packaging-brown-kraft-paper-food-containers-blue-background-top-view-flat-lay_101906-861.avif');
+        background-image: url('../images/core\ pipe\ 1\ watermarked.jpg');
     }
     100%{
-        background-image: url('../images/food-packages-frame-transformed.jpeg');
+        background-image: url('../images/core\ pipe\ 3\ watermarked.jpg');
     }
 }
 @media screen and (max-width : 1080px) and (min-width : 915px) {
