@@ -24,7 +24,7 @@ const CompanyProfile = () => {
         Sai Super Pack is a prominent manufacturer and supplier of a broad array of Packaging Material like Air Bubble Pouches, PP Bins / Boxes, EPE Pouches, Stretch Film Rolls and more. These products are used in different industries for packaging of various goods. Our range of products shows a right mix of high-grade input material, advanced technology and cost-effectiveness. Keeping convenience, products' safety and high quality standards in mind, we offer efficient packaging solution for all kind of goods like delicate products, electronics items, furniture and many more. For an instance, our Air Bubble Pouches feature good cushioning, shockproof, anti-moisture and easy to use nature.
            </div>
            <div className="BUTT">
-          <button className='BUTT'><a className='atag' href='https://online.fliphtml5.com/gqcm/ypfz/#p=3' target='_blank' rel="noreferrer"style={{fontSize : '1.4rem'}}>Download Full Company Profile</a></button>
+          <button className='BUTT'><a className='atag' href='https://online.fliphtml5.com/gqcm/bvhw/#p=1' target='_blank' rel="noreferrer"style={{fontSize : '1.4rem'}}>Download Full Company Profile</a></button>
           </div>
           </div>
       </div>
