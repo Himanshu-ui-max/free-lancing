@@ -47,7 +47,7 @@ const Navbar = () => {
         <li className="nav-item">
           <HashLink className="nav-link" to={'/#aboutus'}>About us</HashLink>
         </li>
-        <li className="nav-item dropdown">
+        {/* <li className="nav-item dropdown">
           {// eslint-disable-next-line
             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             More
@@ -58,7 +58,7 @@ const Navbar = () => {
             <li><HashLink className="dropdown-item" to="/#partners">Our Partners</HashLink></li>
             <li><HashLink className="dropdown-item" to="/#homePage">Back to top</HashLink></li>
           </ul>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a className="nav-link" href={'mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body='}>Contact us</a>
         </li>
