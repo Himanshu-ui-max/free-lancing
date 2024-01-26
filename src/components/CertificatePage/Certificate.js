@@ -27,11 +27,11 @@ const Certificate = () => {
          </div>
          <div className="certiImg"> 
         
-          <img  style={{height:"35%",width:"9vw"}} src={jas} alt="" />
-         <img  style={{height:"35%",width:"9vw"}} src={iso} alt="" />
-         <img  style={{height:"35%",width:"9vw"}} src={img3} alt="" />
-         <img  style={{height:"35%",width:"9vw"}} src={img4} alt="" />
-         <img  style={{height:"35%",width:"9vw"}} src={tick} alt="" />
+          <img  style={{height:"80%",width:"9vw",objectFit:"contain"}} src={jas} alt="" />
+         <img  style={{height:"80%",width:"9vw",objectFit:"contain"}} src={iso} alt="" />
+         <img  style={{height:"80%",width:"9vw",objectFit:"contain"}} src={img3} alt="" />
+         <img  style={{height:"80%",width:"9vw",objectFit:"contain"}} src={img4} alt="" />
+         <img  style={{height:"80%",width:"9vw",objectFit:"contain"}} src={tick} alt="" />
            </div>
     </div>
 ):(
