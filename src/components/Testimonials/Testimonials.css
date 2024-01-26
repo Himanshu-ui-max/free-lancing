@@ -74,11 +74,10 @@ h1 {
 }
 
 .carousel-control-next-icon {
-    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25638.png") !important;
+   filter: invert(3) !important;
 }
-
 .carousel-control-prev-icon {
-    background-image: url("https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png") !important;
+    filter: invert(3) !important;
 
 }
 
@@ -113,6 +112,10 @@ h1 {
     }
     #carouselExampleDark{
         height: 500px !important;
+    }
+    .But {
+        width: 40px;
+    
     }
     
    

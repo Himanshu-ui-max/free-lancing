@@ -96,14 +96,14 @@ h2{
     color: black !important;
 }
 
-.carousel-control-next-icon {
+/* .carousel-control-next-icon {
     background-image: url("https://cdn-icons-png.flaticon.com/512/25/25638.png") !important;
 }
 
 .carousel-control-prev-icon {
     background-image: url("https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png") !important;
 
-}
+} */
 
 .carousel-indicators [data-bs-target] {
     background-color: black;
