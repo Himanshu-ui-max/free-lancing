@@ -15,7 +15,7 @@ const CompanyProfile = () => {
       </div>
       <div className= 'PrFULL'>
         <div className="PrIMG" >
-        <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris" style={{width:'70%',height:'70%'}}/>
+        <img src="https://saisuperpack.in/mobilesuperpack/factory.jpg" alt="Paris" style={{width:'70%',height:'70%'}}/>
         
         </div>
         <div className="PrTEXT">
