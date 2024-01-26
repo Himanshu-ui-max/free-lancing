@@ -23,7 +23,7 @@ padding-top: 85px;
     background-image: url('https://saisuperpack.in/machine.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 387px;
+    height: 693px;
     width: 100vw;
     position: absolute;
     top: 85px;
@@ -40,7 +40,7 @@ font-size:5rem ;
 display: flex;
 justify-content: center;
 align-items: center;
-
+text-align: center;
 }
 
 .PrFULL{
