@@ -5,32 +5,32 @@
         "Dimension": "(25*25) to(100*100) mm",
         "Material": "Kraft Paper Board",
         "Usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
-        "Package-For": "Electronics,Automobile,Fragile Handicrafts",
-        "Colour": "NaturalBrown, white,Dark Brown",
+        "Package-For": "Electronics, Automobile, Fragile Handicrafts",
+        "Colour": "NaturalBrown, White, Dark Brown",
         "id": "paperangleboard",
         "imageAddress" : ["p"] 
     },
     {
         "name": "Paper Angle protector",
-        "Colour": "NaturalBrown, white,Dark Brown",
+        "Colour": "NaturalBrown, White, Dark Brown",
         "Material": "Kraft Paper Board",
         "Usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
-        "Package-For": "Electronics,Automobile,Fragile Handicrafts",
+        "Package-For": "Electronics, Automobile, Fragile Handicrafts",
         "id": "paperangleprotector",
         "imageAddress" : ["p0"]
     },
     {
         "name": "Paper Edge Protector",
-        "Colour": "NaturalBrown, white,Dark Brown",
+        "Colour": "NaturalBrown, White, Dark Brown",
         "Material": "Kraft Paper Board",
         "Usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
-        "Package-For": "Electronics,Automobile,Fragile Handicrafts",
+        "Package-For": "Electronics, Automobile, Fragile Handicrafts",
         "id": "paperangletray",
         "imageAddress" : ["p1"]
     },
     {
         "name": "LCD speclized",
-        "Colour": "NaturalBrown, white,Dark Brown-Paper edge flatboard",
+        "Colour": "NaturalBrown, White, Dark Brown-Paper edge flatboard",
         "Material": "Kraft Paper Board",
         "Usage": "Edge protector for export pallestising of LCD TV , E-commerce supply of LCD TV, Pemanent solution to not using expensive wooden panels",
         "id": "lcdspecialized",
@@ -38,7 +38,7 @@
     },
     {
         "name": "PP Bin/Box",
-        "Colour": "Blue, Grey,Green,Orange,Black,Peach",
+        "Colour": "Blue, Grey, Green, Orange, Black, Peach",
         "Shape": "As per requirement",
         "Thickness": "3mm to 15mm",
         "id": "ppbinbox",
@@ -46,18 +46,18 @@
     },
     {
         "name": "PP Collapsable Bin/Box",
-        "Colour": "Blue, Grey,Green,Orange,Black,Peach",
+        "Colour": "Blue, Grey, Green, Orange, Black, Peach",
         "Property": "waterporof,Lightweight,Reusable",
-        "Usage": "Automobile, Electronics,food, pharmaceutical,Hospital,Paint industries,Plastic inject Mouldings",
+        "Usage": "Automobile, Electronics,food, pharmaceutical, Hospital, Paint industries, Plastic inject Mouldings",
         "id": "ppcollapsablebinbox",
         "imageAddress" : ["p5","p55"]
     },
     {
         "name": "EPE Fitment",
-        "Colour": "white, Grey,Black,Peach,Pink",
-        "Property": "Flexible,Cushion based,Fracture proof",
+        "Colour": "white, Grey, Black, Peach, Pink",
+        "Property": "Flexible, Cushion based, Fracture proof",
         "Shape": "As per design and requirements",
-        "Usage": "Electronics, Telecommunication Automobile,Handicrafts,Glass Industries or any industry where they need cushion based packaging",
+        "Usage": "Electronics, Telecommunication Automobile, Handicrafts, Glass Industries or any industry where they need cushion based packaging",
         "Size": "As per customer's drawing or prototype sample. We can even design the fitment as per the customer's product",
         "id": "epefitments",
         "imageAddress" : ["p6","p66","p666","p6666"]
@@ -73,7 +73,7 @@
     },
     {
         "name": "EPE Foam sheets",
-        "Colour": "white, Grey,Black,Peach,Pink",
+        "Colour": "white, Grey, Black, Peach, Pink",
         "Thickness": "1mm to 10 mm",
         "Usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "id": "epefoamsheets",
@@ -84,17 +84,17 @@
         "Colour": "Transparent",
         "Thickness": "1mm to 20 mm",
         "Dimension": "1000mm to 2000mm",
-        "Property": "Flexible,Cushion based,Fracture proof,waterproof",
+        "Property": "Flexible,Cushion based, Fracture proof, Waterproof",
         "Usage": "Fragile & Polished items for scratch proof packaging",
         "id": "epefoamroll",
         "imageAddress" : ["p9"]
     },
     {
         "name": "Air Bubble Pouches",
-        "Colour": "Transparent,Pink",
+        "Colour": "Transparent, Pink",
         "Size": "LLDF(low density polyethylene film)",
         "Shape": "As per design and requirements",
-        "Property": "Flexible,Cushion based,Fracture proof,waterproof",
+        "Property": "Flexible, Cushion based, Fracture proof, Waterproof",
         "Usage": "Fragile & Polished items for scratch proof packaging",
         "id": "airbubblepouches",
         "imageAddress" : ["p10"]
