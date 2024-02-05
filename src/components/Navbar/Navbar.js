@@ -18,7 +18,7 @@ const Navbar = () => {
         
         <li className="nav-item dropdown">
           {// eslint-disable-next-line
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Paper division
           </a>}
           <ul className="dropdown-menu" id='dropdown'>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item dropdown">
           {// eslint-disable-next-line
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Plastic division
           </a>}
           <ul className="dropdown-menu">
@@ -45,7 +45,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <HashLink className="nav-link" to={'/#aboutus'}>About us</HashLink>
+          <HashLink className="nav-link active" to={'/#aboutus'}>About us</HashLink>
         </li>
         {/* <li className="nav-item dropdown">
           {// eslint-disable-next-line
@@ -60,7 +60,7 @@ const Navbar = () => {
           </ul>
         </li> */}
         <li className="nav-item">
-          <a className="nav-link" href={'mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body='}>Contact us</a>
+          <a className="nav-link active" href={'mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body='}>Contact us</a>
         </li>
       </ul>
     </div>
