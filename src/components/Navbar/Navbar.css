@@ -2,6 +2,9 @@
     width: 200px;
     height: 80px;
 }
+.nav-items{
+    font-family: Montserrat !important;
+}
 nav{
     width: 100vw;
     font-size: 1rem;
@@ -20,25 +23,26 @@ li{
 #navitems{
     margin: 0px !important; 
     color: #242323;
+    font-size: 1.05rem;
     /* font-size: 22px; */
-    font-family: Poppins;
+    font-family: Montserrat;
     font-weight: 500;
     letter-spacing: 0.22px;
     word-wrap: break-word;
 }
 @media screen and (max-width : 1150px) and (min-width :1078px) {
     #navitems {
-        font-size: 0.9rem !important;
+        font-size: 1rem !important;
     }
 }
 @media screen and (max-width : 1078px) and (min-width :1030px) {
     #navitems {
-        font-size: 0.8rem !important;
+        font-size: 0.9rem !important;
     }
 }
 @media screen and (max-width : 1030px) and (min-width :991px) {
     #navitems {
-        font-size: 0.75rem !important;
+        font-size: 0.8rem !important;
     }
 }
 @media screen and (max-width : 900px) {
