@@ -19,17 +19,17 @@ const ChooseUsPage = () => {
             display:"flex",
             flexDirection:"column",
             alignItems: "center",
-            justifyContent: "center",
-            width: "150px",
-            height: "200px",
+            // justifyContent: "center",
+            width: "250px",
+            height: "400px",
             textAlign: "center",
             marginBottom: "50px",
           }}
         >
           <div
             style={{
-              width: 100,
-              height: 100,
+              width: 175,
+              height: 175,
               background: "#F4F4F4",
               borderRadius: 9999,
               display:"flex",
@@ -38,9 +38,9 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group1} alt="" style={{ height: "50px" }}></img>
+            <img src={group1} alt="" style={{ height: "80px" }}></img>
           </div>
-          <p style={{ fontSize: "12px" }}>
+          <p style={{ fontSize: "20px", marginTop : '20px' }}>
             Zero-Wastage policy and 100% recyclable products for environmentally
             conscious choices.{" "}
           </p>
@@ -51,17 +51,17 @@ const ChooseUsPage = () => {
             display:"flex",
             flexDirection:"column",
             alignItems: "center",
-            justifyContent: "center",
-            width: "150px",
-            height: "200px",
+            
+            width: "250px",
+            height: "400px",
             textAlign: "center",
             marginBottom: "50px",
           }}
         >
           <div
             style={{
-              width: 100,
-              height: 100,
+              width: 175,
+              height: 175,
               background: "#F4F4F4",
               borderRadius: 9999,
               display:"flex",
@@ -70,9 +70,9 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group} alt="" style={{ height: "40px" }}></img>
+            <img src={group} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p style={{ fontSize: "12px" }}>
+          <p style={{ fontSize: "20px", marginTop : '20px' }}>
           Pan India reach ensures prompt delivery to customers across the country.{" "}
           </p>
         </div>
@@ -81,17 +81,17 @@ const ChooseUsPage = () => {
             display:"flex",
             flexDirection:"column",
             alignItems: "center",
-            justifyContent: "center",
-            width: "150px",
-            height: "250px",
+            // justifyContent: "center",
+            width: "250px",
+            height: "400px",
             textAlign: "center",
             marginBottom: "50px",
           }}
         >
           <div
             style={{
-              width: 100,
-              height: 100,
+              width: 175,
+              height: 175,
               background: "#F4F4F4",
               borderRadius: 9999,
               display:"flex",
@@ -100,9 +100,9 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={vector} alt="" style={{ height: "50px" }}></img>
+            <img src={vector} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p style={{ fontSize: "12px" }}>
+          <p style={{ fontSize: "20px", marginTop : '20px'}}>
           Skilled designers and enthusiastic team providing tailored solutions to meet specific customer needs.{" "}
           </p>
         </div>
@@ -111,17 +111,17 @@ const ChooseUsPage = () => {
             display:"flex",
             flexDirection:"column",
             alignItems: "center",
-            justifyContent: "center",
-            width: "150px",
-            height: "250px",
+            // justifyContent: "center",
+            width: "250px",
+            height: "400px",
             textAlign: "center",
             marginBottom: "50px",
           }}
         >
           <div
             style={{
-              width: 100,
-              height: 100,
+              width: 175,
+              height: 175,
               background: "#F4F4F4",
               borderRadius: 9999,
               display:"flex",
@@ -130,9 +130,9 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group21} alt="" style={{ height: "50px" }}></img>
+            <img src={group21} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p style={{ fontSize: "12px" }}>
+          <p style={{ fontSize: "20px", marginTop : '20px' }}>
           Spread over 2 acres, our state-of-the-art infrastructure ensures unmatched scale and efficiency for timely and high-quality delivery.{" "}
           </p>
         </div>
