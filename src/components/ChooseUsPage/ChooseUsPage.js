@@ -15,6 +15,7 @@ const ChooseUsPage = () => {
       </div>
       <div className="d-flex justify-content-evenly" id="chooseUs">
         <div
+          className="whychooseus"
           style={{
             display:"flex",
             flexDirection:"column",
@@ -27,6 +28,7 @@ const ChooseUsPage = () => {
           }}
         >
           <div
+          className="whychooseus1"
             style={{
               width: 175,
               height: 175,
@@ -38,15 +40,16 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group1} alt="" style={{ height: "80px" }}></img>
+            <img className="imagechoose"  src={group1} alt="" style={{ height: "80px" }}></img>
           </div>
-          <p style={{ fontSize: "20px", marginTop : '20px' }}>
+          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px' }}>
             Zero-Wastage policy and 100% recyclable products for environmentally
             conscious choices.{" "}
           </p>
         </div>
 
         <div
+        className="whychooseus"
           style={{
             display:"flex",
             flexDirection:"column",
@@ -59,6 +62,7 @@ const ChooseUsPage = () => {
           }}
         >
           <div
+          className="whychooseus1"
             style={{
               width: 175,
               height: 175,
@@ -70,13 +74,14 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group} alt="" style={{ height: "75px" }}></img>
+            <img className="imagechoose" src={group} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p style={{ fontSize: "20px", marginTop : '20px' }}>
+          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px' }}>
           Pan India reach ensures prompt delivery to customers across the country.{" "}
           </p>
         </div>
         <div
+        className="whychooseus"
           style={{
             display:"flex",
             flexDirection:"column",
@@ -89,6 +94,7 @@ const ChooseUsPage = () => {
           }}
         >
           <div
+          className="whychooseus1"
             style={{
               width: 175,
               height: 175,
@@ -100,13 +106,14 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={vector} alt="" style={{ height: "75px" }}></img>
+            <img className="imagechoose" src={vector} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p style={{ fontSize: "20px", marginTop : '20px'}}>
+          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px'}}>
           Skilled designers and enthusiastic team providing tailored solutions to meet specific customer needs.{" "}
           </p>
         </div>
         <div
+        className="whychooseus"
           style={{
             display:"flex",
             flexDirection:"column",
@@ -119,6 +126,7 @@ const ChooseUsPage = () => {
           }}
         >
           <div
+          className="whychooseus1"
             style={{
               width: 175,
               height: 175,
@@ -130,9 +138,9 @@ const ChooseUsPage = () => {
               
             }}
           >
-            <img src={group21} alt="" style={{ height: "75px" }}></img>
+            <img className="imagechoose" src={group21} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p style={{ fontSize: "20px", marginTop : '20px' }}>
+          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px' }}>
           Spread over 2 acres, our state-of-the-art infrastructure ensures unmatched scale and efficiency for timely and high-quality delivery.{" "}
           </p>
         </div>

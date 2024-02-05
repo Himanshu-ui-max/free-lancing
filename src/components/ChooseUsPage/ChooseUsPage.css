@@ -8,7 +8,23 @@
     
     line-height: normal;
 }
-@media screen and (max-width:810px){
+@media screen and (max-width : 1248px) and (min-width : 1030px){
+    .whychooseus{
+        width: 200px !important;
+        height: 350px !important;
+    }
+    .whychooseus1{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .fontchooseus{
+        font-size: 16px !important;
+    }
+    .imagechoose{
+        height: 60px !important;
+    }
+}
+@media screen and (max-width:1030px){
     
     #chooseUs{
         flex-direction: column !important;
