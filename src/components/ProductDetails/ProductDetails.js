@@ -244,7 +244,7 @@ const ProductDetails = () => {
                         })
                       }
                     </div>
-                    <div style={{ width: "250px", display:"flex", flexDirection:"row" }}>
+                    <div className="yoyo" style={{ width: "250px", display:"flex", flexDirection:"row" }}>
                       <div
                         style={{
                           width: 90,
