@@ -104,8 +104,8 @@ text-align: center;
    flex-direction: column;
    justify-content: center;
    gap: 2rem; 
-   width: 70%;
-   align-items: center; 
+   width: 30%;
+   align-items: flex-start; 
 }
 
 .Companypro{
@@ -115,16 +115,16 @@ text-align: center;
 }
 
 .AddMap{
-    width: 40%; 
+    width: 28%; 
 }
 
 #NaMe{
     display: flex;
-    width: 18vw;
+    width: 30vw;
     height: 12vh;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
-    margin-right: 4%;
+    /* margin-right: 4%; */
 }
 
 #UsEr{
@@ -133,22 +133,22 @@ text-align: center;
 }
 
 #PHN{
-    width:21vw ;
+    width:30vw ;
     height: 9vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
-    margin-left: 3%;
+    /* margin-left: 3%; */
 }
 #ADDlogo{
     display: flex;
     flex-direction: row;
     width:30vw ;
     height: 12vh;
-    justify-content: center; 
+    /* justify-content: center;  */
     gap: 1rem; 
-    margin-left: 19%;
+    /* margin-left: 19%; */
 }
 #CompADD{
     display: flex;
@@ -313,7 +313,7 @@ p13{
         height: 555px;
     }
     .IMGcont::before{
-        height: 450px;
+        height: 555px;
     }
 
   .PrFULL{
@@ -346,7 +346,7 @@ p13{
     font-size: 0.95rem !important;
 }
 .CompanyLoc{
-    height: 110vh;
+    height: 133vh;
     width: 100vw;
     display: flex;
     flex-direction: column
@@ -362,7 +362,7 @@ p13{
     /* margin: auto; */
 }
 .Companypro{
-    height: 80vh;
+    height: 105vh;
     width: 100vw;
    display: flex;
    flex-direction: column;
@@ -370,7 +370,8 @@ p13{
    align-items: center!important;
    margin: auto;
    padding: auto;
-   gap: 6rem;
+   gap: 5rem;
+   margin-top: 15%;
 }
 .AddDetails{
     width: 100vw;
@@ -381,6 +382,9 @@ p13{
     align-items: center;
     
 
+}
+.LocText{
+    padding-bottom: 0px;
 }
 #PHN{
     padding-left: 15px;
