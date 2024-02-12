@@ -18,7 +18,7 @@ const PartnersPage = () => {
       }, [width]);
   return(
     <>  <section id='Partlogo'>
-    {width > 970 ?(
+    {width > 1494 ?(
     <div className='partners' id='partners'>
     <div><h1 style={{textAlign:'center'}}>Our Previous Partners</h1></div>
     <div style={{display:'flex',justifyContent:'center',gap:'1.5rem',marginTop:'4rem',alignItems:'center',padding:'0rem 1rem'}} >

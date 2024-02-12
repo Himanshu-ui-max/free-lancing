@@ -25,6 +25,8 @@ const ChooseUsPage = () => {
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
+            border : "2px solid black",
+            borderRadius : "20px"
           }}
         >
           <div
@@ -37,7 +39,8 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
-              
+              border : "2px solid black",
+              marginTop : "10px"
             }}
           >
             <img className="imagechoose"  src={group1} alt="" style={{ height: "80px" }}></img>
@@ -59,6 +62,8 @@ const ChooseUsPage = () => {
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
+            border : "2px solid black",
+            borderRadius : "20px"
           }}
         >
           <div
@@ -71,7 +76,8 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
-              
+              border : "2px solid black",
+              marginTop : "10px"
             }}
           >
             <img className="imagechoose" src={group} alt="" style={{ height: "75px" }}></img>
@@ -91,6 +97,8 @@ const ChooseUsPage = () => {
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
+            border : "2px solid black",
+            borderRadius : "20px"
           }}
         >
           <div
@@ -103,6 +111,8 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
+              border : "2px solid black",
+              marginTop : "10px"
               
             }}
           >
@@ -123,6 +133,8 @@ const ChooseUsPage = () => {
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
+            border : "2px solid black",
+            borderRadius : "20px"
           }}
         >
           <div
@@ -135,6 +147,8 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
+              border : "2px solid black",
+              marginTop : "10px"
               
             }}
           >
