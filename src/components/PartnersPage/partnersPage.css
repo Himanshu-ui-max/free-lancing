@@ -20,6 +20,7 @@ flex-direction: row;
 .imgp{
     width: 60%;
     height: 60%;
+    text-align: center;
 }
 
 @media screen and (max-width : 1260px) {

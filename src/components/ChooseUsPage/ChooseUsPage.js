@@ -13,7 +13,7 @@ const ChooseUsPage = () => {
       >
         Why Choose Us
       </div>
-      <div className="d-flex justify-content-evenly" id="chooseUs">
+      <div className="d-flex justify-content-around" id="chooseUs">
         <div
           className="whychooseus"
           style={{
@@ -21,7 +21,7 @@ const ChooseUsPage = () => {
             flexDirection:"column",
             alignItems: "center",
             // justifyContent: "center",
-            width: "250px",
+            width: "365px",
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
@@ -45,7 +45,7 @@ const ChooseUsPage = () => {
           >
             <img className="imagechoose"  src={group1} alt="" style={{ height: "80px" }}></img>
           </div>
-          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px' }}>
+          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px' }}>
             Zero-Wastage policy and 100% recyclable products for environmentally
             conscious choices.{" "}
           </p>
@@ -58,7 +58,7 @@ const ChooseUsPage = () => {
             flexDirection:"column",
             alignItems: "center",
             
-            width: "250px",
+            width: "365px",
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
@@ -82,7 +82,7 @@ const ChooseUsPage = () => {
           >
             <img className="imagechoose" src={group} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px' }}>
+          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px' }}>
           Pan India reach ensures prompt delivery to customers across the country.{" "}
           </p>
         </div>
@@ -93,7 +93,7 @@ const ChooseUsPage = () => {
             flexDirection:"column",
             alignItems: "center",
             // justifyContent: "center",
-            width: "250px",
+            width: "365px",
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
@@ -118,8 +118,8 @@ const ChooseUsPage = () => {
           >
             <img className="imagechoose" src={vector} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px'}}>
-          Skilled designers and enthusiastic team providing tailored solutions to meet specific customer needs.{" "}
+          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px'}}>
+          Experienced team offering customized solutions for unique customer requirements.{" "}
           </p>
         </div>
         <div
@@ -129,7 +129,7 @@ const ChooseUsPage = () => {
             flexDirection:"column",
             alignItems: "center",
             // justifyContent: "center",
-            width: "250px",
+            width: "365px",
             height: "400px",
             textAlign: "center",
             marginBottom: "50px",
@@ -154,8 +154,9 @@ const ChooseUsPage = () => {
           >
             <img className="imagechoose" src={group21} alt="" style={{ height: "75px" }}></img>
           </div>
-          <p className="fontchooseus" style={{ fontSize: "20px", marginTop : '20px' }}>
-          Spread over 2 acres, our state-of-the-art infrastructure ensures unmatched scale and efficiency for timely and high-quality delivery.{" "}
+          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px' }}>
+          
+On 2 acres, our advanced infrastructure guarantees efficient, timely, high-quality deliveries.{" "}
           </p>
         </div>
       </div>
