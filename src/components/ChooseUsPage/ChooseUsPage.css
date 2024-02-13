@@ -8,6 +8,15 @@
     
     line-height: normal;
 }
+@media screen and (max-width : 1440px) and (min-width : 1248px) {
+    .whychooseus{
+        width: 317px !important;
+        height: 400px !important;
+    }
+    .fontchooseus{
+        font-size: 24px !important;
+    }
+}
 @media screen and (max-width : 1248px) and (min-width : 1030px){
     .whychooseus{
         width: 200px !important;
