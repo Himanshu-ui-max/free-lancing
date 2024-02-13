@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutUsPage.css'
+import image1 from "../images/ssp front.jpg"
 import { Link } from 'react-router-dom'
 const AboutUsPage = () => {
   return (
@@ -11,7 +12,7 @@ const AboutUsPage = () => {
         <div className="flip-box">
   <div className="flip-box-inner" >
     <div className="flip-box-front">
-      <img src="https://media.istockphoto.com/id/453102697/photo/a-horizontal-view-of-an-industrial-paper-mill-on-a-river.jpg?s=612x612&w=0&k=20&c=9uXJuE2dxuCSHWZoLQSEBWdkDEksWORgahfHg7JJ-6I=" alt="Paris" style={{ height:'400px',width:'500px',borderRadius: '6px'}} />
+      <img src={image1} alt="Paris" style={{ height:'400px',width:'500px',borderRadius: '6px'}} />
     </div>
     <div className="flip-box-back">
     <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris" style={{ height:'400px',width:'500px',borderRadius: '6px'}}/>

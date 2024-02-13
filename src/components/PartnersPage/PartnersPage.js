@@ -20,7 +20,7 @@ const PartnersPage = () => {
     <>  <section id='Partlogo'>
     {width > 1494 ?(
     <div className='partners' id='partners'>
-    <div><h1 style={{textAlign:'center'}}>Our Previous Partners</h1></div>
+    <div><h1 style={{textAlign:'center'}}>Our Partners</h1></div>
     <div style={{display:'flex',justifyContent:'center',gap:'1.5rem',marginTop:'4rem',alignItems:'center',padding:'0rem 1rem'}} >
       <div className='imgp'>
       <svg width="194" height="92" viewBox="0 0 194 92" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +65,7 @@ const PartnersPage = () => {
         
 
       <div className='partners' id='partners'>
-    <div><h1 style={{textAlign:'center'}}>Our Previous Partners</h1></div>
+    <div><h1 style={{textAlign:'center'}}>Our Partners</h1></div>
     <div style={{display:'flex',justifyContent:'center',gap:'1.5rem',marginTop:'4rem',alignItems:'center',padding:'0rem 1rem'}} >
     {// eslint-disable-next-line
       <marquee scrollamount="10" height="75%" direction="left" width="120%" >

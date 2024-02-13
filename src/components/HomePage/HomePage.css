@@ -10,7 +10,7 @@
 
 .homePage ::before{
     content: '';
-    background-image: url('../images/core\ pipe\ 3\ watermarked.jpg');
+    /* background-image: url('../images/3-4-850x590.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -26,7 +26,7 @@
     height: 80px;
     border-radius: 40px;
     display: block;
-    background: #A26B39;
+    background: #00aeef;
     margin: auto;
     border: none;
     text-align: center;
@@ -47,7 +47,7 @@
 }
 
 .hometext {
-    color: aliceblue;
+    color: black;
     font-family: Montserrat;
     font-size: 2.5rem;
     /* font-size: 50px; */
@@ -71,16 +71,16 @@
 }
 @keyframes change {
     0%{
-        background-image: url('../images/core\ pipe\ 3\ watermarked.jpg');
+        background-image: url('../images/3-4-850x590.jpg');
     }
     33%{
-        background-image: url('../images/core\ pipe\ 4\ watermarked.jpg');
+        background-image: url('../images/Core\ Pipe\ 1.jpg');
     }
     66%{
-        background-image: url('../images/core\ pipe\ 1\ watermarked.jpg');
+        background-image: url('../images/core\ pipe\ 5.jpeg');
     }
     100%{
-        background-image: url('../images/core\ pipe\ 3\ watermarked.jpg');
+        background-image: url('../images/3-4-850x590.jpg');
     }
 }
 @media screen and (max-width : 1080px) and (min-width : 915px) {

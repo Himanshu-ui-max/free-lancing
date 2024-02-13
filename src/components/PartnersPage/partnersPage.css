@@ -1,7 +1,7 @@
 .partners{
-    height: 68vh;
+    height: 44vh;
     background: #F1F1F1;
-    padding-top: 5.5%;
+    padding-top: 2.5%;
     margin-bottom: 4rem;
     margin-top: 5rem;
 }
@@ -25,6 +25,6 @@ flex-direction: row;
 
 @media screen and (max-width : 1260px) {
     .partners{
-        height: 57vh;
+        height: 33vh;
     }
 }
