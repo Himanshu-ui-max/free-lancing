@@ -44,7 +44,10 @@ li{
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
-@media screen and (max-width : 1366px) and (min-width : 1220px){
+@media screen and (max-width : 1440px) and (min-width : 1220px){
+    nav{
+        height: 80px !important;
+    }
     #navitems {
         font-size: 1rem !important;
     }

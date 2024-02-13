@@ -83,6 +83,14 @@
         background-image: url('../images/3-4-850x590.jpg');
     }
 }
+@media screen and (max-width : 1440px){
+    .homePage{
+        padding-top: 80px;
+    }
+    .homePage ::before{
+        top: 80px;
+    }
+}
 @media screen and (max-width : 1080px) and (min-width : 915px) {
     .hometext{
         font-size: 2rem;
