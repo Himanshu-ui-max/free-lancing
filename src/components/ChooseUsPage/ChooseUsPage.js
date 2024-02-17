@@ -9,7 +9,7 @@ const ChooseUsPage = () => {
     <div className="chooseus" style={{ overflow: "hidden" }}>
       <div
         className="d-flex justify-content-center"
-        style={{ fontSize: "40px", marginBottom: "60px" }}
+        style={{ fontSize: "40px", marginBottom: "60px", fontWeight : "600" }}
       >
         Why Choose Us
       </div>
@@ -22,11 +22,10 @@ const ChooseUsPage = () => {
             alignItems: "center",
             // justifyContent: "center",
             width: "365px",
-            height: "400px",
+            height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            border : "2px solid black",
-            borderRadius : "20px"
+            borderRadius : "20px",
           }}
         >
           <div
@@ -39,13 +38,12 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
-              border : "2px solid black",
               marginTop : "10px"
             }}
           >
-            <img className="imagechoose"  src={group1} alt="" style={{ height: "80px" }}></img>
+            <img className="imagechoose"  src={group1} alt="" style={{ height: "120px" }}></img>
           </div>
-          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px' }}>
+          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px'}}>
             Zero-Wastage policy and 100% recyclable products for environmentally
             conscious choices.{" "}
           </p>
@@ -59,10 +57,9 @@ const ChooseUsPage = () => {
             alignItems: "center",
             
             width: "365px",
-            height: "400px",
+            height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            border : "2px solid black",
             borderRadius : "20px"
           }}
         >
@@ -76,11 +73,10 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
-              border : "2px solid black",
               marginTop : "10px"
             }}
           >
-            <img className="imagechoose" src={group} alt="" style={{ height: "75px" }}></img>
+            <img className="imagechoose" src={group} alt="" style={{ height: "100px" }}></img>
           </div>
           <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px' }}>
           Pan India reach ensures prompt delivery to customers across the country.{" "}
@@ -94,10 +90,9 @@ const ChooseUsPage = () => {
             alignItems: "center",
             // justifyContent: "center",
             width: "365px",
-            height: "400px",
+            height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            border : "2px solid black",
             borderRadius : "20px"
           }}
         >
@@ -111,12 +106,11 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
-              border : "2px solid black",
               marginTop : "10px"
               
             }}
           >
-            <img className="imagechoose" src={vector} alt="" style={{ height: "75px" }}></img>
+            <img className="imagechoose" src={vector} alt="" style={{ height: "110px" }}></img>
           </div>
           <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px'}}>
           Experienced team offering customized solutions for unique customer requirements.{" "}
@@ -130,10 +124,9 @@ const ChooseUsPage = () => {
             alignItems: "center",
             // justifyContent: "center",
             width: "365px",
-            height: "400px",
+            height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            border : "2px solid black",
             borderRadius : "20px"
           }}
         >
@@ -147,12 +140,11 @@ const ChooseUsPage = () => {
               display:"flex",
               alignItems:"center",
               justifyContent:"center",
-              border : "2px solid black",
               marginTop : "10px"
               
             }}
           >
-            <img className="imagechoose" src={group21} alt="" style={{ height: "75px" }}></img>
+            <img className="imagechoose" src={group21} alt="" style={{ height: "110px" }}></img>
           </div>
           <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px' }}>
           

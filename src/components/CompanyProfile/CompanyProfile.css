@@ -63,6 +63,7 @@ text-align: center;
     background: #00aeef;
     border: none;
     text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
 }
 .PrTEXT{
     display: flex;
@@ -275,6 +276,7 @@ p13{
     background: #00aeef;
     border: none;
     text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
     /* font-size: 1.3rem; */
     
 }
@@ -297,6 +299,7 @@ p13{
     background: #00aeef;
     border: none;
     text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
 }
 .MemberBTT3{
     height:67px ;
@@ -307,6 +310,7 @@ p13{
     border: none;
     text-align: center;
     margin-top: 5%;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
 }
 @media screen and (max-width : 1260px) {
     .IMGcont{
