@@ -17,7 +17,12 @@ const FeaturedProducts = () => {
   }
   useEffect(() => {
     setInterval(() => {
-      ref.current.click();
+      if(ref){
+        if(ref.current){
+          (ref.current)?.click();
+
+        }
+      }
     }, 2500);
     window.addEventListener('resize', detectWidth);
     return () => {
