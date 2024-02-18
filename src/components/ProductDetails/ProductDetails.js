@@ -30,8 +30,11 @@ import p11 from "../images/Epefoampouchedited.jpg";
 import p111 from "../images/EPE-foam-rollunderlay.jpg";
 import a3 from "../images/3.png";
 import a4 from "../images/4.png"
+import { Link } from "react-router-dom";
 const ProductDetails = () => {
   const { name } = useParams();
+  const {division} = useParams();
+  const [tabLi, setTabLi] = useState([]);
   const [imageVariable, setimageVariable] = useState("");
   const handleOnClick = (image) => {
     setimageVariable(image);
@@ -44,10 +47,50 @@ const ProductDetails = () => {
         setimageVariable(element.imageAddress[0]);
       }
     }
+    console.log(division);
+    if(division === "PaperDivision"){
+      setTabLi([
+        "Paper Angle board","Paper Angle Protector","Paper Angle Tray","LCD Specialized"
+      ])
+    }
+    if(division === "PlasticDivision"){
+      setTabLi([
+        "PP Bin/Box","PP Collapsable Bin/Box","EPE Fitments","ESD PP Reusable Bin/Box","EPE Foam Sheets","EPE Foam Roll","Air Bubble Pouches","EPE Pouch"
+      ])
+    }
     window.scrollTo(0, 0);
-  }, [name]);
+  }, [name,division]);
   return (
     <section id="top">
+      <div className="tabs">
+        <ul>
+
+        {
+          tabLi.map((element)=>{
+            let newstring = ''
+            let arr = element.split(" ");
+            for (let index = 0; index < arr.length; index++) {
+              newstring += arr[index];
+            }
+            if(element === "PP Bin/Box"){
+              newstring = 'ppbinbox'
+            }
+            if(element === "PP Collapsable Bin/Box"){
+              newstring = 'ppcollapsablebinbox'
+            }
+            if(element === "ESD PP Reusable Bin/Box"){
+              newstring = 'esdppreusablebinbox'
+            }
+            return <li key={newstring}>
+              <Link to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
+
+              {element}
+            </Link>
+              </li> 
+          })
+        }
+        </ul>
+      </div>
       <div className="productDetails">
         {
           // eslint-disable-next-line
@@ -56,6 +99,7 @@ const ProductDetails = () => {
               return (
                 <>
                   <div id="imagesDiv">
+                    <div className="tabs"></div>
                     <div id="mainImage">
                       <img
                         className="productImage"
