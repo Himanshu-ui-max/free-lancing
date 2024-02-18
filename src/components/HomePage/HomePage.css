@@ -61,6 +61,7 @@
     height: 183px;
     margin: 80px;
     padding: 10px;
+    animation: change2 15s infinite ease-in-out;
 }
 .homecontain{
     width : 100vw;
@@ -83,6 +84,20 @@
     }
     100%{
         background-image: url('../images/3-4-850x590.jpg');
+    }
+}
+@keyframes change2 {
+    0%{
+        content: "MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.";
+    }
+    33%{
+        content: "Your Cargo, Our Commitment";
+    }
+    66%{
+        content: "Handling Tomorrow, Today";
+    }
+    100%{
+        content: "MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.";
     }
 }
 @media screen and (max-width : 1440px){
