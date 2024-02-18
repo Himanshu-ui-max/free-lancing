@@ -44,6 +44,22 @@ const Navbar = () => {
             <li><Link className="dropdown-item" to="/productDetails/epepouch">EPE Pouch</Link></li>
           </ul>
         </li>
+        <li className="nav-item dropdown">
+          {// eslint-disable-next-line
+            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            LED Division
+          </a>}
+          <ul className="dropdown-menu">
+            <li><Link className="dropdown-item" to="/productDetails/ppbinbox">PP Bin/Box</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/ppcollapsablebinbox">PP Collapsable Bin/Box</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/epefitments">EPE Fitments</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/esdppreusablebinbox">ESD PP Reusable Bin/Box</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/epefoamsheets">EPE Foam Sheets</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/epefoamroll">EPE Foam Roll</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/airbubblepouches">Air Bubble Pouches</Link></li>
+            <li><Link className="dropdown-item" to="/productDetails/epepouch">EPE Pouch</Link></li>
+          </ul>
+        </li>
         <li className="nav-item">
           <HashLink className="nav-link active" to={'/#aboutus'}>About Us</HashLink>
         </li>
@@ -59,9 +75,9 @@ const Navbar = () => {
             <li><HashLink className="dropdown-item" to="/#homePage">Back to top</HashLink></li>
           </ul>
         </li> */}
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link active" href={'mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body='}>Contact Us</a>
-        </li>
+        </li> */}
       </ul>
     </div>
   </div>

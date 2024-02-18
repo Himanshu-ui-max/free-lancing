@@ -10,16 +10,16 @@ import EPfitmentedited from '../images/EPfitmentedited.jpg'
 import Paperangleboardedited2 from '../images/Paperangleboardedited2.jpg'
 import { Link } from 'react-router-dom'
 const FeaturedProducts = () => {
-  const ref = useRef();
+  const refrence = useRef('');
   const [width, setWidth] = useState(window.innerWidth);
   const detectWidth = () => {
     setWidth(window.innerWidth);
   }
   useEffect(() => {
     setInterval(() => {
-      if(ref){
-        if(ref.current){
-          (ref.current)?.click();
+      if(refrence){
+        if(refrence.current){
+          (refrence.current)?.click();
 
         }
       }
@@ -108,7 +108,7 @@ const FeaturedProducts = () => {
               <span className="carousel-control-prev-icon" id="arrow" aria-hidden="true"></span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next But" type="button"ref={ref} id='button' data-bs-target=" #carouselExample" data-bs-slide="next">
+            <button className="carousel-control-next But" type="button"ref={refrence} id='button' data-bs-target=" #carouselExample" data-bs-slide="next">
               <span className="carousel-control-next-icon" aria-hidden="true" ></span>
               <span className="visually-hidden">Next</span>
             </button>
@@ -200,7 +200,7 @@ const FeaturedProducts = () => {
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
               </button>
-              <button className="carousel-control-next" ref={ref} type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <button className="carousel-control-next" ref={refrence} type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
               </button>
