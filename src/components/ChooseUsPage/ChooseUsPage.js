@@ -25,7 +25,7 @@ const ChooseUsPage = () => {
             height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            borderRadius : "20px",
+            borderRadius : "10px",
           }}
         >
           <div
@@ -60,7 +60,7 @@ const ChooseUsPage = () => {
             height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            borderRadius : "20px"
+            borderRadius : "10px"
           }}
         >
           <div
@@ -93,7 +93,7 @@ const ChooseUsPage = () => {
             height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            borderRadius : "20px"
+            borderRadius : "10px"
           }}
         >
           <div
@@ -127,7 +127,7 @@ const ChooseUsPage = () => {
             height: "435px",
             textAlign: "center",
             marginBottom: "50px",
-            borderRadius : "20px"
+            borderRadius : "10px"
           }}
         >
           <div
