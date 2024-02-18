@@ -2,10 +2,11 @@
     background-color: black;
     color: white;
     justify-content: center;
-    height: 40vh;
+    /* height: 40vh; */
 }
 .footerheading{
-    color: white; font-size: 2rem; font-family: Poppins; font-weight: 570; letter-spacing: 0.84px; word-wrap: break-word;
+    color: white; font-size: 2rem; font-family: Poppins; font-weight: 570; letter-spacing: -0.16px; word-wrap: break-word;
+    width: 250px;
 }
 .para{
     width: 70%; text-align: justify; color: white; font-size: 18px; font-family: Montserrat; font-weight: 400; letter-spacing: 0.18px; word-wrap: break-word;
@@ -35,9 +36,13 @@
 .rect{
     width: 0.4rem; height: 2.4rem; background: #D52B1E; border-radius: 5px;margin-top: 2%;
 }
+.contactheading{
+    justify-content: center;
+    align-items: center;
+}
 .contactusfooter{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 1.5rem;
 }
@@ -46,7 +51,7 @@
             flex-direction: column;
             align-items: center;
             gap: 2rem;
-            height: 75vh;
+            /* height: 75vh; */
          }
          .infofooter{
               width: 85%;
@@ -58,4 +63,44 @@
             width: 85%;
        }
 
+}
+@media screen and (max-width : 754px){
+    .footerheading{
+        width: 178px;
+        font-size: 1.5rem;
+    }
+    .para{
+        font-size: 1rem;
+    }
+    .cont{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width : 500px){
+    .footerheading{
+        width: 150px;
+        font-size: 1rem;
+    }
+    .para{
+        font-size: 0.8rem;
+    }
+    .cont{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width : 430px){
+    .footerheading{
+        width: 125px;
+        font-size: 0.9rem;
+    }
+    .para{
+        font-size: 0.6rem;
+    }
+    .cont{
+        font-size: 0.6rem;
+    }
+    .SV{
+        height: 15px;
+        width: 15px;
+    }
 }
