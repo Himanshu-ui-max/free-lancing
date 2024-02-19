@@ -63,7 +63,7 @@ const ProductDetails = () => {
   return (
     <section id="top">
       <div className="tabs">
-        <ul>
+        <div className=" d-flex justify-content-center">
 
         {
           tabLi.map((element)=>{
@@ -81,15 +81,15 @@ const ProductDetails = () => {
             if(element === "ESD PP Reusable Bin/Box"){
               newstring = 'esdppreusablebinbox'
             }
-            return <li key={newstring}>
+            return <div key={newstring} style={{margin:"20px"}} className="hovereffect">
               <Link to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
 
               {element}
             </Link>
-              </li> 
+              </div> 
           })
         }
-        </ul>
+        </div>
       </div>
       <div className="productDetails">
         {
