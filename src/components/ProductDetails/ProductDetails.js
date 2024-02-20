@@ -61,10 +61,10 @@ const ProductDetails = () => {
     window.scrollTo(0, 0);
   }, [name,division]);
   return (
-    <section id="top">
-      <div className="tabs">
-        <div className=" d-flex justify-content-center">
-
+    <section id="top" >
+      <aside className="tabs">
+        <div >
+        <p style={{fontFamily:"Montserrat", fontSize:"18px"}}> More Products </p>
         {
           tabLi.map((element)=>{
             let newstring = ''
@@ -81,16 +81,16 @@ const ProductDetails = () => {
             if(element === "ESD PP Reusable Bin/Box"){
               newstring = 'esdppreusablebinbox'
             }
-            return <div key={newstring} style={{margin:"20px"}} className="hovereffect">
-              <Link to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
-
-              {element}
+            return <div key={newstring} >
+              <Link style={{fontFamily:"Montserrat", fontSize:"16px"}} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
+              <div className="hovereffect" style={{fontFamily:"Montserrat", fontSize:"16px"}}>{element}</div>
+              
             </Link>
               </div> 
           })
         }
         </div>
-      </div>
+      </aside>
       <div className="productDetails">
         {
           // eslint-disable-next-line
