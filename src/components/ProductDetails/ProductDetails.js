@@ -30,10 +30,22 @@ import p11 from "../images/Epefoampouchedited.jpg";
 import p111 from "../images/EPE-foam-rollunderlay.jpg";
 import a3 from "../images/3.png";
 import a4 from "../images/4.png"
+import p12 from "../images/Core pipe 1 2.jpg"
+import p121 from "../images/core pipe 9.jpg"
+import p1211 from "../images/core pipe 5.jpeg"
+import p13 from "../images/DSC06823.jpg"
+import p131 from "../images/DSC06824.jpg"
+import p1311 from "../images/DSC06825.jpg"
+import p13111 from "../images/DSC06841.jpg"
+import p131111 from "../images/DSC06844.jpg"
+import p14 from "../images/DSC06859.jpg"
+import p141 from "../images/DSC06864.jpg"
+import p15 from "../images/DSC06873.jpg"
+import p151 from "../images/DSC06877.jpg"
 import { Link } from "react-router-dom";
 const ProductDetails = () => {
   const { name } = useParams();
-  const {division} = useParams();
+  const { division } = useParams();
   const [tabLi, setTabLi] = useState([]);
   const [imageVariable, setimageVariable] = useState("");
   const handleOnClick = (image) => {
@@ -48,50 +60,50 @@ const ProductDetails = () => {
       }
     }
     console.log(division);
-    if(division === "PaperDivision"){
+    if (division === "PaperDivision") {
       setTabLi([
-        "Paper Angle board","Paper Angle Protector","Paper Edge Protector","LCD Specialized"
+        "Paper Angle board", "Paper Angle Protector", "Paper Edge Protector","Paper Core Pipe", "LCD Specialized"
       ])
     }
-    if(division === "PlasticDivision"){
+    if (division === "PlasticDivision") {
       setTabLi([
-        "PP Bin/Box","PP Collapsable Bin/Box","EPE Fitments","ESD PP Reusable Bin/Box","EPE Foam Sheets","EPE Foam Roll","Air Bubble Pouches","EPE Pouch"
+        "PP Bin/Box", "PP Collapsable Bin/Box", "EPE Fitments", "ESD PP Reusable Bin/Box", "EPE Foam Sheets", "EPE Foam Roll", "Air Bubble Pouches", "EPE Pouch"
       ])
     }
-    if(division === "ledDivision"){
-      setTabLi(["LED EPE Fitment","PP Box with EPE Lining","Paper Angle tray"])
+    if (division === "ledDivision") {
+      setTabLi(["LED EPE Fitment", "PP Box with EPE Lining", "Paper Angle tray"])
     }
     window.scrollTo(0, 0);
-  }, [name,division]);
+  }, [name, division]);
   return (
     <section id="top" >
       <aside className="tabs">
         <div >
-        <p style={{fontFamily:"Montserrat", fontSize:"18px"}}> More Products </p>
-        {
-          tabLi.map((element)=>{
-            let newstring = ''
-            let arr = element.split(" ");
-            for (let index = 0; index < arr.length; index++) {
-              newstring += arr[index];
-            }
-            if(element === "PP Bin/Box"){
-              newstring = 'ppbinbox'
-            }
-            if(element === "PP Collapsable Bin/Box"){
-              newstring = 'ppcollapsablebinbox'
-            }
-            if(element === "ESD PP Reusable Bin/Box"){
-              newstring = 'esdppreusablebinbox'
-            }
-            return <div key={newstring} >
-              <Link style={{fontFamily:"Montserrat", fontSize:"16px"}} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
-              <div className="hovereffect" style={{fontFamily:"Montserrat", fontSize:"16px"}}>{element}</div>
-              
-            </Link>
-              </div> 
-          })
-        }
+          <p style={{ fontFamily: "Montserrat", fontSize: "18px" }}> More Products </p>
+          {
+            tabLi.map((element) => {
+              let newstring = ''
+              let arr = element.split(" ");
+              for (let index = 0; index < arr.length; index++) {
+                newstring += arr[index];
+              }
+              if (element === "PP Bin/Box") {
+                newstring = 'ppbinbox'
+              }
+              if (element === "PP Collapsable Bin/Box") {
+                newstring = 'ppcollapsablebinbox'
+              }
+              if (element === "ESD PP Reusable Bin/Box") {
+                newstring = 'esdppreusablebinbox'
+              }
+              return <div key={newstring} >
+                <Link style={{ fontFamily: "Montserrat", fontSize: "16px" }} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
+                  <div className="hovereffect" style={{ fontFamily: "Montserrat", fontSize: "16px" }}>{element}</div>
+
+                </Link>
+              </div>
+            })
+          }
         </div>
       </aside>
       <div className="productDetails">
@@ -110,56 +122,80 @@ const ProductDetails = () => {
                           imageVariable === "p"
                             ? p
                             : imageVariable === "p0"
-                            ? p0
-                            : imageVariable === "p1"
-                            ? p1
-                            : imageVariable === "p2"
-                            ? p2
-                            : imageVariable === "p22"
-                            ? p22
-                            : imageVariable === "p222"
-                            ? p222
-                            : imageVariable === "p2222"
-                            ? p2222
-                            : imageVariable === "p4"
-                            ? p4
-                            : imageVariable === "p44"
-                            ? p44
-                            : imageVariable === "p444"
-                            ? p444
-                            : imageVariable === "p4444"
-                            ? p4444
-                            : imageVariable === "p5"
-                            ? p5
-                            : imageVariable === "p55"
-                            ? p55
-                            : imageVariable === "p6"
-                            ? p6
-                            : imageVariable === "p66"
-                            ? p66
-                            : imageVariable === "p666"
-                            ? p666
-                            : imageVariable === "p6666"
-                            ? p6666
-                            : imageVariable === "p7"
-                            ? p7
-                            : imageVariable === "p77"
-                            ? p77
-                            : imageVariable === "p8"
-                            ? p8
-                            : imageVariable === "p88"
-                            ? p88
-                            : imageVariable === "p888"
-                            ? p888
-                            : imageVariable === "p9"
-                            ? p9
-                            : imageVariable === "p10"
-                            ? p10
-                            : imageVariable === "p11"
-                            ? p11
-                            : imageVariable === "p111"
-                            ? p111
-                            : ""
+                              ? p0
+                              : imageVariable === "p1"
+                                ? p1
+                                : imageVariable === "p2"
+                                  ? p2
+                                  : imageVariable === "p22"
+                                    ? p22
+                                    : imageVariable === "p222"
+                                      ? p222
+                                      : imageVariable === "p2222"
+                                        ? p2222
+                                        : imageVariable === "p4"
+                                          ? p4
+                                          : imageVariable === "p44"
+                                            ? p44
+                                            : imageVariable === "p444"
+                                              ? p444
+                                              : imageVariable === "p4444"
+                                                ? p4444
+                                                : imageVariable === "p5"
+                                                  ? p5
+                                                  : imageVariable === "p55"
+                                                    ? p55
+                                                    : imageVariable === "p6"
+                                                      ? p6
+                                                      : imageVariable === "p66"
+                                                        ? p66
+                                                        : imageVariable === "p666"
+                                                          ? p666
+                                                          : imageVariable === "p6666"
+                                                            ? p6666
+                                                            : imageVariable === "p7"
+                                                              ? p7
+                                                              : imageVariable === "p77"
+                                                                ? p77
+                                                                : imageVariable === "p8"
+                                                                  ? p8
+                                                                  : imageVariable === "p88"
+                                                                    ? p88
+                                                                    : imageVariable === "p888"
+                                                                      ? p888
+                                                                      : imageVariable === "p9"
+                                                                        ? p9
+                                                                        : imageVariable === "p10"
+                                                                          ? p10
+                                                                          : imageVariable === "p11"
+                                                                            ? p11
+                                                                            : imageVariable === "p111"
+                                                                              ? p111
+                                                                              : imageVariable === "p12"
+                                                                                ? p12
+                                                                                : imageVariable === "p121"
+                                                                                  ? p121
+                                                                                  : imageVariable === "p1211"
+                                                                                    ? p1211
+                                                                              : imageVariable === "p13"
+                                                                                ? p13
+                                                                                : imageVariable === "p131"
+                                                                                  ? p131
+                                                                                  : imageVariable === "p1311"
+                                                                                    ? p1311
+                                                                                    : imageVariable === "p13111"
+                                                                                      ? p13111
+                                                                                      : imageVariable === "p131111"
+                                                                                        ? p131111
+                                                                                        :imageVariable === "p14"
+                                                                                        ?p14
+                                                                                        :imageVariable === "p141"
+                                                                                        ?p141
+                                                                                        :imageVariable === "p15"
+                                                                                        ?p15
+                                                                                        :imageVariable === "p151"
+                                                                                        ?p151
+                                                                                        : ""
                         }
                         alt={""}
                       />
@@ -179,56 +215,80 @@ const ProductDetails = () => {
                                 e === "p"
                                   ? p
                                   : e === "p0"
-                                  ? p0
-                                  : e === "p1"
-                                  ? p1
-                                  : e === "p2"
-                                  ? p2
-                                  : e === "p22"
-                                  ? p22
-                                  : e === "p222"
-                                  ? p222
-                                  : e === "p2222"
-                                  ? p2222
-                                  : e === "p4"
-                                  ? p4
-                                  : e === "p44"
-                                  ? p44
-                                  : e === "p444"
-                                  ? p444
-                                  : e === "p4444"
-                                  ? p4444
-                                  : e === "p5"
-                                  ? p5
-                                  : e === "p55"
-                                  ? p55
-                                  : e === "p6"
-                                  ? p6
-                                  : e === "p66"
-                                  ? p66
-                                  : e === "p666"
-                                  ? p666
-                                  : e === "p6666"
-                                  ? p6666
-                                  : e === "p7"
-                                  ? p7
-                                  : e === "p77"
-                                  ? p77
-                                  : e === "p8"
-                                  ? p8
-                                  : e === "p88"
-                                  ? p88
-                                  : e === "p888"
-                                  ? p888
-                                  : e === "p9"
-                                  ? p9
-                                  : e === "p10"
-                                  ? p10
-                                  : e === "p11"
-                                  ? p11
-                                  : e === "p111"
-                                  ? p111
-                                  : ""
+                                    ? p0
+                                    : e === "p1"
+                                      ? p1
+                                      : e === "p2"
+                                        ? p2
+                                        : e === "p22"
+                                          ? p22
+                                          : e === "p222"
+                                            ? p222
+                                            : e === "p2222"
+                                              ? p2222
+                                              : e === "p4"
+                                                ? p4
+                                                : e === "p44"
+                                                  ? p44
+                                                  : e === "p444"
+                                                    ? p444
+                                                    : e === "p4444"
+                                                      ? p4444
+                                                      : e === "p5"
+                                                        ? p5
+                                                        : e === "p55"
+                                                          ? p55
+                                                          : e === "p6"
+                                                            ? p6
+                                                            : e === "p66"
+                                                              ? p66
+                                                              : e === "p666"
+                                                                ? p666
+                                                                : e === "p6666"
+                                                                  ? p6666
+                                                                  : e === "p7"
+                                                                    ? p7
+                                                                    : e === "p77"
+                                                                      ? p77
+                                                                      : e === "p8"
+                                                                        ? p8
+                                                                        : e === "p88"
+                                                                          ? p88
+                                                                          : e === "p888"
+                                                                            ? p888
+                                                                            : e === "p9"
+                                                                              ? p9
+                                                                              : e === "p10"
+                                                                                ? p10
+                                                                                : e === "p11"
+                                                                                  ? p11
+                                                                                  : e === "p111"
+                                                                                    ? p111
+                                                                                    : e === "p12"
+                                                                                      ? p12
+                                                                                      : e === "p121"
+                                                                                        ? p121
+                                                                                        : e === "p1211"
+                                                                                          ? p1211
+                                                                                    : e === "p13"
+                                                                                      ? p13
+                                                                                      : e === "p131"
+                                                                                        ? p131
+                                                                                        : e === "p1311"
+                                                                                          ? p1311
+                                                                                          : e === "p13111"
+                                                                                            ? p13111
+                                                                                            : e === "p131111"
+                                                                                              ? p131111
+                                                                                              : e === "p14"?
+                                                                                              p14:
+                                                                                              e === "p141"?
+                                                                                              p141
+                                                                                              : e === "p15"?
+                                                                                              p15:
+                                                                                              e === "p151"?
+                                                                                              p151
+                                                                                              : ""
                               }
                               alt={""}
                               height={"50px"}
@@ -291,7 +351,7 @@ const ProductDetails = () => {
                         })
                       }
                     </div>
-                    <div className="yoyo" style={{ width: "250px", display:"flex", flexDirection:"row" }}>
+                    <div className="yoyo" style={{ width: "250px", display: "flex", flexDirection: "row" }}>
                       <div
                         style={{
                           width: 90,
@@ -315,7 +375,7 @@ const ProductDetails = () => {
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
-                          marginLeft:"20px",
+                          marginLeft: "20px",
                           boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
                         }}
                       >
@@ -323,7 +383,7 @@ const ProductDetails = () => {
                       </div>
                     </div>
                     <div className="buttonDiv">
-                      <button className="MemberBTT3" style={{ width: "260px",height:"60px" }}>
+                      <button className="MemberBTT3" style={{ width: "260px", height: "60px" }}>
                         <a
                           className="atag"
                           href="mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body="
