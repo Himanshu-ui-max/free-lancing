@@ -97,8 +97,8 @@ const ProductDetails = () => {
           details.map((element) => {
             if (element.id === name) {
               return (
-                <>
-                  <div id="imagesDiv">
+                <div className="hfhv">
+                  <div id="imagesDiv" >
                     <div className="tabs"></div>
                     <div id="mainImage">
                       <img
@@ -320,7 +320,7 @@ const ProductDetails = () => {
                       </div>
                     </div>
                     <div className="buttonDiv">
-                      <button className="MemberBTT3" style={{ width: "300px" }}>
+                      <button className="MemberBTT3" style={{ width: "260px",height:"60px" }}>
                         <a
                           className="atag"
                           href="mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body="
@@ -333,7 +333,7 @@ const ProductDetails = () => {
                       </button>
                     </div>
                   </div>
-                </>
+                </div>
               );
             }
           })
