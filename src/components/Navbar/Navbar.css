@@ -17,11 +17,6 @@ nav{
 li{
     margin: 20px;
 }
-.dropdown-menu{
-    position: relative;
-    left: -50px;
-    top: 200px;
-}
 #navitems{
     margin: 0px !important; 
     color: #000000 !important;
