@@ -50,13 +50,16 @@ const ProductDetails = () => {
     console.log(division);
     if(division === "PaperDivision"){
       setTabLi([
-        "Paper Angle board","Paper Angle Protector","Paper Angle Tray","LCD Specialized"
+        "Paper Angle board","Paper Angle Protector","Paper Edge Protector","LCD Specialized"
       ])
     }
     if(division === "PlasticDivision"){
       setTabLi([
         "PP Bin/Box","PP Collapsable Bin/Box","EPE Fitments","ESD PP Reusable Bin/Box","EPE Foam Sheets","EPE Foam Roll","Air Bubble Pouches","EPE Pouch"
       ])
+    }
+    if(division === "ledDivision"){
+      setTabLi(["LED EPE Fitment","PP Box with EPE Lining","Paper Angle tray"])
     }
     window.scrollTo(0, 0);
   }, [name,division]);

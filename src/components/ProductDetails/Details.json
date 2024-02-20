@@ -25,7 +25,7 @@
         "Material": "Kraft Paper Board",
         "Usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "Package-For": "Electronics, Automobile, Fragile Handicrafts",
-        "id": "paperangletray",
+        "id": "paperedgeprotector",
         "imageAddress" : ["p1"]
     },
     {
@@ -137,7 +137,7 @@
         "Colour": "PP box can be as per demand, Inner EPE lining can be black or white",    
         "Material": "PP Sheet GSM & EPE Foam density as per demand",
         "Tv spec we cater to": "43”Inch, 50”Inch, 55”Inch, 65”Inch, 75”Inch ",
-        "id": "ppboxlining",
+        "id": "ppboxwithepelining",
         "imageAddress" : ["p15","p151"]
     }
     

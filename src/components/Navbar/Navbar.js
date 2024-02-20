@@ -31,7 +31,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item dropdown">
           {// eslint-disable-next-line
-            <Link className="nav-link active" to={'/productDetails/ledDivision'}  role="button" aria-expanded="false">
+            <Link className="nav-link active" to={'/productDetails/ledDivision/ledepefitment'}  role="button" aria-expanded="false">
             LED Division
           </Link>}
         </li>
