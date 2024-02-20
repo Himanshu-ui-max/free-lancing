@@ -8,7 +8,7 @@
         "Package-For": "Electronics, Automobile, Fragile Handicrafts",
         "Colour": "NaturalBrown, White, Dark Brown",
         "id": "paperangleboard",
-        "imageAddress" : ["p"] 
+        "imageAddress" : ["p","pp","ppp","pppp","ppppp","pppppp"] 
     },
     {
         "name": "Edge Protector",
@@ -17,7 +17,7 @@
         "Usage": "Edge protector for export pallestising , corrugated boxes edge protector/vertical reinforcement and improve static loads",
         "Package-For": "Electronics, Automobile, Fragile Handicrafts",
         "id": "edgeprotector",
-        "imageAddress" : ["p0"]
+        "imageAddress" : ["p0","p00","p000","p0000"]
     },
     {
         "name": "Paper Edge Protector",
@@ -60,7 +60,7 @@
         "Usage": "Electronics, Telecommunication Automobile, Handicrafts, Glass Industries or any industry where they need cushion based packaging",
         "Size": "As per customer's drawing or prototype sample. We can even design the fitment as per the customer's product",
         "id": "epefitments",
-        "imageAddress" : ["p6","p66","p666","p6666"]
+        "imageAddress" : ["p6","p66","p666","p6666","p66666","p666666","p6666666"]
     },
     {
         "name": "ESD Polyproplene Reusable Box/Bin",
