@@ -2,7 +2,8 @@
     background-color: black;
     color: white;
     justify-content: center;
-    /* height: 40vh; */
+    height: 10vh;
+    z-index: 2 !important;
 }
 .footerheading{
     color: white; font-size: 2rem; font-family: Poppins; font-weight: 570; letter-spacing: -0.16px; word-wrap: break-word;
@@ -51,7 +52,7 @@
             flex-direction: column;
             align-items: center;
             gap: 2rem;
-            /* height: 75vh; */
+            height: 40vh;
          }
          .infofooter{
               width: 85%;

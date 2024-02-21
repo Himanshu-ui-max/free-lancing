@@ -43,7 +43,7 @@ const ChooseUsPage = () => {
           >
             <img className="imagechoose"  src={group1} alt="" style={{ height: "120px" }}></img>
           </div>
-          <p className="fontchooseus" style={{ fontSize: "28px", marginTop : '20px'}}>
+          <p className="fontchooseus" style={{ fontSize: "22px", marginTop : '20px'}}>
             Zero-Wastage policy and 100% recyclable products for environmentally
             conscious choices.{" "}
           </p>

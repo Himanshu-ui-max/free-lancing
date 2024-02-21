@@ -10,9 +10,11 @@
 }
 .fontchooseus{
     padding: 0px 5px;
+    color: white;
+    font-size: 22px !important;
 }
 .whychooseus{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background: linear-gradient(180deg,rgba(38,67,78,0),#20404b 68.05%);
 }
 .whychooseus1{
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%) !important;
@@ -23,7 +25,7 @@
         height: 400px !important;
     }
     .fontchooseus{
-        font-size: 24px !important;
+        font-size: 22px !important;
     }
 }
 @media screen and (max-width : 1248px) and (min-width : 1030px){

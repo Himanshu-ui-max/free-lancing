@@ -2,6 +2,7 @@
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
+    height: 90vh;
 }
 .productDetails{
     display: flex;
@@ -16,14 +17,16 @@
 .hfhv{
     display: flex;
     flex-direction: row;
+    padding-top: 100px;
 }
 aside {
     color: #fff;
     width: 250px;
     padding-left: 20px;
-    height: 100vh;
+    /* height: 79.5vh; */
     background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
     border-top-right-radius: 80px;
+    z-index: 0;
   }
   
   aside .hovereffect {
@@ -85,7 +88,8 @@ aside {
     width: 50%;
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    align-items: center;
+    flex-direction: column;
     margin-right: 40px;
     
 }
@@ -104,11 +108,11 @@ aside {
 }
 #detailsDiv{
     width: 50%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 #imageButtons{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-right: 10px;

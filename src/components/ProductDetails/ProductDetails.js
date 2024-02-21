@@ -90,7 +90,7 @@ const ProductDetails = () => {
     <section id="top" >
       <aside className="tabs">
         <div >
-          <p style={{ fontFamily: "Montserrat", fontSize: "18px" }}> More Products </p>
+          <p style={{ fontFamily: "Montserrat", fontSize: "18px" }}>{division === "PaperDivision"?"Paper Division":division === "PlasticDivision"?"Plastic Division":division === "ledDivision"?"LED Division":""} </p>
           {
             tabLi.map((element) => {
               let newstring = ''
@@ -372,7 +372,7 @@ const ProductDetails = () => {
                         ? "Thickness-Ranging from " + element.Thickness
                         : ""}
                     </p>
-                    <div className="spanSex" style={{ marginTop: "30px" }}>
+                    <div className="spanSex" style={{ marginTop: "30px",fontSize:'1.3rem' }}>
                       {
                         // eslint-disable-next-line
                         Object.keys(element).map((item) => {
@@ -437,7 +437,7 @@ const ProductDetails = () => {
                         <img src={a4} alt="" style={{ height: "50px" }}></img>
                       </div>
                     </div>
-                    <div className="buttonDiv">
+                    <div className="buttonDiv2">
                       <button className="MemberBTT3" style={{ width: "260px", height: "60px" }}>
                         <a
                           className="atag"
