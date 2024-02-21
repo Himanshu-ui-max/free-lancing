@@ -93,12 +93,12 @@ const ProductDetails = () => {
     return () => {
       window.removeEventListener('resize', detectWidth)
     }
-  }, [name,division,width]);
+  }, [name, division, width]);
   return (
     <section id="top" >
-      {width > 1100?(<><aside className="tabs">
+      {width > 1100 ? (<><aside className="tabs">
         <div >
-          <p style={{ fontFamily: "Montserrat", fontSize: "18px" }}>{division === "PaperDivision"?"Paper Division":division === "PlasticDivision"?"Plastic Division":division === "ledDivision"?"LED Division":""} </p>
+          <p style={{ fontFamily: "Montserrat", fontSize: "18px" }}>{division === "PaperDivision" ? "Paper Division" : division === "PlasticDivision" ? "Plastic Division" : division === "ledDivision" ? "LED Division" : ""} </p>
           {
             tabLi.map((element) => {
               let newstring = ''
@@ -125,731 +125,731 @@ const ProductDetails = () => {
           }
         </div>
       </aside>
-      <div className="productDetails">
-        {
-          // eslint-disable-next-line
-          details.map((element) => {
-            if (element.id === name) {
-              return (
-                <div className="hfhv">
-                  <div id="imagesDiv" >
-                    <div className="tabs"></div>
-                    <div id="mainImage">
-                      <img
-                        className="productImage"
-                        src={
-                          imageVariable === "p"
-                            ? p
-                            : imageVariable === "pp"
-                              ? pp
-                              : imageVariable === "ppp"
-                                ? ppp
-                                : imageVariable === "pppp"
-                                  ? pppp
-                                  : imageVariable === "ppppp"
-                                    ? ppppp
-                                    : imageVariable === "pppppp"
-                                      ? pppppp
-                                      : imageVariable === "p0"
-                                        ? p0
-                                        : imageVariable === "p00"
-                                          ? p00
-                                          : imageVariable === "p000"
-                                            ? p000
-                                            : imageVariable === "p0000"
-                                              ? p0000
-                                              : imageVariable === "p1"
-                                                ? p1
-                                                : imageVariable === "p2"
-                                                  ? p2
-                                                  : imageVariable === "p22"
-                                                    ? p22
-                                                    : imageVariable === "p222"
-                                                      ? p222
-                                                      : imageVariable === "p2222"
-                                                        ? p2222
-                                                        : imageVariable === "p4"
-                                                          ? p4
-                                                          : imageVariable === "p44"
-                                                            ? p44
-                                                            : imageVariable === "p444"
-                                                              ? p444
-                                                              : imageVariable === "p4444"
-                                                                ? p4444
-                                                                : imageVariable === "p5"
-                                                                  ? p5
-                                                                  : imageVariable === "p55"
-                                                                    ? p55
-                                                                    : imageVariable === "p6"
-                                                                      ? p6
-                                                                      : imageVariable === "p66"
-                                                                        ? p66
-                                                                        : imageVariable === "p666"
-                                                                          ? p666
-                                                                          : imageVariable === "p6666"
-                                                                            ? p6666
-                                                                            : imageVariable === "p66666"
-                                                                              ? p66666
-                                                                              : imageVariable === "p666666"
-                                                                                ? p666666
-                                                                                : imageVariable === "p6666666"
-                                                                                  ? p6666666
-                                                                                  : imageVariable === "p7"
-                                                                                    ? p7
-                                                                                    : imageVariable === "p77"
-                                                                                      ? p77
-                                                                                      : imageVariable === "p8"
-                                                                                        ? p8
-                                                                                        : imageVariable === "p88"
-                                                                                          ? p88
-                                                                                          : imageVariable === "p888"
-                                                                                            ? p888
-                                                                                            : imageVariable === "p9"
-                                                                                              ? p9
-                                                                                              : imageVariable === "p10"
-                                                                                                ? p10
-                                                                                                : imageVariable === "p11"
-                                                                                                  ? p11
-                                                                                                  : imageVariable === "p111"
-                                                                                                    ? p111
-                                                                                                    : imageVariable === "p12"
-                                                                                                      ? p12
-                                                                                                      : imageVariable === "p121"
-                                                                                                        ? p121
-                                                                                                        : imageVariable === "p1211"
-                                                                                                          ? p1211
-                                                                                                          : imageVariable === "p13"
-                                                                                                            ? p13
-                                                                                                            : imageVariable === "p131"
-                                                                                                              ? p131
-                                                                                                              : imageVariable === "p1311"
-                                                                                                                ? p1311
-                                                                                                                : imageVariable === "p13111"
-                                                                                                                  ? p13111
-                                                                                                                  : imageVariable === "p131111"
-                                                                                                                    ? p131111
-                                                                                                                    : imageVariable === "p14"
-                                                                                                                      ? p14
-                                                                                                                      : imageVariable === "p141"
-                                                                                                                        ? p141
-                                                                                                                        : imageVariable === "p15"
-                                                                                                                          ? p15
-                                                                                                                          : imageVariable === "p151"
-                                                                                                                            ? p151
-                                                                                                                            : ""
-                        }
-                        alt={""}
-                      />
+        <div className="productDetails">
+          {
+            // eslint-disable-next-line
+            details.map((element) => {
+              if (element.id === name) {
+                return (
+                  <div className="hfhv">
+                    <div id="imagesDiv" >
+                      <div className="tabs"></div>
+                      <div id="mainImage">
+                        <img
+                          className="productImage"
+                          src={
+                            imageVariable === "p"
+                              ? p
+                              : imageVariable === "pp"
+                                ? pp
+                                : imageVariable === "ppp"
+                                  ? ppp
+                                  : imageVariable === "pppp"
+                                    ? pppp
+                                    : imageVariable === "ppppp"
+                                      ? ppppp
+                                      : imageVariable === "pppppp"
+                                        ? pppppp
+                                        : imageVariable === "p0"
+                                          ? p0
+                                          : imageVariable === "p00"
+                                            ? p00
+                                            : imageVariable === "p000"
+                                              ? p000
+                                              : imageVariable === "p0000"
+                                                ? p0000
+                                                : imageVariable === "p1"
+                                                  ? p1
+                                                  : imageVariable === "p2"
+                                                    ? p2
+                                                    : imageVariable === "p22"
+                                                      ? p22
+                                                      : imageVariable === "p222"
+                                                        ? p222
+                                                        : imageVariable === "p2222"
+                                                          ? p2222
+                                                          : imageVariable === "p4"
+                                                            ? p4
+                                                            : imageVariable === "p44"
+                                                              ? p44
+                                                              : imageVariable === "p444"
+                                                                ? p444
+                                                                : imageVariable === "p4444"
+                                                                  ? p4444
+                                                                  : imageVariable === "p5"
+                                                                    ? p5
+                                                                    : imageVariable === "p55"
+                                                                      ? p55
+                                                                      : imageVariable === "p6"
+                                                                        ? p6
+                                                                        : imageVariable === "p66"
+                                                                          ? p66
+                                                                          : imageVariable === "p666"
+                                                                            ? p666
+                                                                            : imageVariable === "p6666"
+                                                                              ? p6666
+                                                                              : imageVariable === "p66666"
+                                                                                ? p66666
+                                                                                : imageVariable === "p666666"
+                                                                                  ? p666666
+                                                                                  : imageVariable === "p6666666"
+                                                                                    ? p6666666
+                                                                                    : imageVariable === "p7"
+                                                                                      ? p7
+                                                                                      : imageVariable === "p77"
+                                                                                        ? p77
+                                                                                        : imageVariable === "p8"
+                                                                                          ? p8
+                                                                                          : imageVariable === "p88"
+                                                                                            ? p88
+                                                                                            : imageVariable === "p888"
+                                                                                              ? p888
+                                                                                              : imageVariable === "p9"
+                                                                                                ? p9
+                                                                                                : imageVariable === "p10"
+                                                                                                  ? p10
+                                                                                                  : imageVariable === "p11"
+                                                                                                    ? p11
+                                                                                                    : imageVariable === "p111"
+                                                                                                      ? p111
+                                                                                                      : imageVariable === "p12"
+                                                                                                        ? p12
+                                                                                                        : imageVariable === "p121"
+                                                                                                          ? p121
+                                                                                                          : imageVariable === "p1211"
+                                                                                                            ? p1211
+                                                                                                            : imageVariable === "p13"
+                                                                                                              ? p13
+                                                                                                              : imageVariable === "p131"
+                                                                                                                ? p131
+                                                                                                                : imageVariable === "p1311"
+                                                                                                                  ? p1311
+                                                                                                                  : imageVariable === "p13111"
+                                                                                                                    ? p13111
+                                                                                                                    : imageVariable === "p131111"
+                                                                                                                      ? p131111
+                                                                                                                      : imageVariable === "p14"
+                                                                                                                        ? p14
+                                                                                                                        : imageVariable === "p141"
+                                                                                                                          ? p141
+                                                                                                                          : imageVariable === "p15"
+                                                                                                                            ? p15
+                                                                                                                            : imageVariable === "p151"
+                                                                                                                              ? p151
+                                                                                                                              : ""
+                          }
+                          alt={""}
+                        />
+                      </div>
+                      <div id="imageButtons">
+                        {element.imageAddress.map((e) => {
+                          return (
+                            <button
+                              className="imgBt"
+                              onClick={() => {
+                                handleOnClick(e);
+                              }}
+                            >
+                              <img
+                                className="miniButtons"
+                                src={
+                                  e === "p"
+                                    ? p
+                                    : e === "pp"
+                                      ? pp
+                                      : e === "ppp"
+                                        ? ppp
+                                        : e === "pppp"
+                                          ? pppp
+                                          : e === "ppppp"
+                                            ? ppppp
+                                            : e === "pppppp"
+                                              ? pppppp
+                                              : e === "p0"
+                                                ? p0
+                                                : e === "p00"
+                                                  ? p00
+                                                  : e === "p000"
+                                                    ? p000
+                                                    : e === "p0000"
+                                                      ? p0000
+                                                      : e === "p1"
+                                                        ? p1
+                                                        : e === "p2"
+                                                          ? p2
+                                                          : e === "p22"
+                                                            ? p22
+                                                            : e === "p222"
+                                                              ? p222
+                                                              : e === "p2222"
+                                                                ? p2222
+                                                                : e === "p4"
+                                                                  ? p4
+                                                                  : e === "p44"
+                                                                    ? p44
+                                                                    : e === "p444"
+                                                                      ? p444
+                                                                      : e === "p4444"
+                                                                        ? p4444
+                                                                        : e === "p5"
+                                                                          ? p5
+                                                                          : e === "p55"
+                                                                            ? p55
+                                                                            : e === "p6"
+                                                                              ? p6
+                                                                              : e === "p66"
+                                                                                ? p66
+                                                                                : e === "p666"
+                                                                                  ? p666
+                                                                                  : e === "p6666"
+                                                                                    ? p6666
+                                                                                    : e === "p66666"
+                                                                                      ? p66666
+                                                                                      : e === "p666666"
+                                                                                        ? p666666
+                                                                                        : e === "p6666666"
+                                                                                          ? p6666666
+                                                                                          : e === "p7"
+                                                                                            ? p7
+                                                                                            : e === "p77"
+                                                                                              ? p77
+                                                                                              : e === "p8"
+                                                                                                ? p8
+                                                                                                : e === "p88"
+                                                                                                  ? p88
+                                                                                                  : e === "p888"
+                                                                                                    ? p888
+                                                                                                    : e === "p9"
+                                                                                                      ? p9
+                                                                                                      : e === "p10"
+                                                                                                        ? p10
+                                                                                                        : e === "p11"
+                                                                                                          ? p11
+                                                                                                          : e === "p111"
+                                                                                                            ? p111
+                                                                                                            : e === "p12"
+                                                                                                              ? p12
+                                                                                                              : e === "p121"
+                                                                                                                ? p121
+                                                                                                                : e === "p1211"
+                                                                                                                  ? p1211
+                                                                                                                  : e === "p13"
+                                                                                                                    ? p13
+                                                                                                                    : e === "p131"
+                                                                                                                      ? p131
+                                                                                                                      : e === "p1311"
+                                                                                                                        ? p1311
+                                                                                                                        : e === "p13111"
+                                                                                                                          ? p13111
+                                                                                                                          : e === "p131111"
+                                                                                                                            ? p131111
+                                                                                                                            : e === "p14" ?
+                                                                                                                              p14 :
+                                                                                                                              e === "p141" ?
+                                                                                                                                p141
+                                                                                                                                : e === "p15" ?
+                                                                                                                                  p15 :
+                                                                                                                                  e === "p151" ?
+                                                                                                                                    p151
+                                                                                                                                    : ""
+                                }
+                                alt={""}
+                                height={"50px"}
+                                width={"50px"}
+                              />
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
-                    <div id="imageButtons">
-                      {element.imageAddress.map((e) => {
-                        return (
-                          <button
-                            className="imgBt"
-                            onClick={() => {
-                              handleOnClick(e);
-                            }}
-                          >
-                            <img
-                              className="miniButtons"
-                              src={
-                                e === "p"
-                                  ? p
-                                  : e === "pp"
-                                    ? pp
-                                    : e === "ppp"
-                                      ? ppp
-                                      : e === "pppp"
-                                        ? pppp
-                                        : e === "ppppp"
-                                          ? ppppp
-                                          : e === "pppppp"
-                                            ? pppppp
-                                            : e === "p0"
-                                              ? p0
-                                              : e === "p00"
-                                                ? p00
-                                                : e === "p000"
-                                                  ? p000
-                                                  : e === "p0000"
-                                                    ? p0000
-                                                    : e === "p1"
-                                                      ? p1
-                                                      : e === "p2"
-                                                        ? p2
-                                                        : e === "p22"
-                                                          ? p22
-                                                          : e === "p222"
-                                                            ? p222
-                                                            : e === "p2222"
-                                                              ? p2222
-                                                              : e === "p4"
-                                                                ? p4
-                                                                : e === "p44"
-                                                                  ? p44
-                                                                  : e === "p444"
-                                                                    ? p444
-                                                                    : e === "p4444"
-                                                                      ? p4444
-                                                                      : e === "p5"
-                                                                        ? p5
-                                                                        : e === "p55"
-                                                                          ? p55
-                                                                          : e === "p6"
-                                                                            ? p6
-                                                                            : e === "p66"
-                                                                              ? p66
-                                                                              : e === "p666"
-                                                                                ? p666
-                                                                                : e === "p6666"
-                                                                                  ? p6666
-                                                                                  : e === "p66666"
-                                                                                    ? p66666
-                                                                                    : e === "p666666"
-                                                                                      ? p666666
-                                                                                      : e === "p6666666"
-                                                                                        ? p6666666
-                                                                                        : e === "p7"
-                                                                                          ? p7
-                                                                                          : e === "p77"
-                                                                                            ? p77
-                                                                                            : e === "p8"
-                                                                                              ? p8
-                                                                                              : e === "p88"
-                                                                                                ? p88
-                                                                                                : e === "p888"
-                                                                                                  ? p888
-                                                                                                  : e === "p9"
-                                                                                                    ? p9
-                                                                                                    : e === "p10"
-                                                                                                      ? p10
-                                                                                                      : e === "p11"
-                                                                                                        ? p11
-                                                                                                        : e === "p111"
-                                                                                                          ? p111
-                                                                                                          : e === "p12"
-                                                                                                            ? p12
-                                                                                                            : e === "p121"
-                                                                                                              ? p121
-                                                                                                              : e === "p1211"
-                                                                                                                ? p1211
-                                                                                                                : e === "p13"
-                                                                                                                  ? p13
-                                                                                                                  : e === "p131"
-                                                                                                                    ? p131
-                                                                                                                    : e === "p1311"
-                                                                                                                      ? p1311
-                                                                                                                      : e === "p13111"
-                                                                                                                        ? p13111
-                                                                                                                        : e === "p131111"
-                                                                                                                          ? p131111
-                                                                                                                          : e === "p14" ?
-                                                                                                                            p14 :
-                                                                                                                            e === "p141" ?
-                                                                                                                              p141
-                                                                                                                              : e === "p15" ?
-                                                                                                                                p15 :
-                                                                                                                                e === "p151" ?
-                                                                                                                                  p151
-                                                                                                                                  : ""
-                              }
-                              alt={""}
-                              height={"50px"}
-                              width={"50px"}
-                            />
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                  <div id="detailsDiv">
-                    <b style={{ fontSize: "1.9rem", fontFamily: "poppins" }}>
-                      {" "}
-                      {element.name}
-                    </b>
-                    <p
-                      style={{
-                        fontFamily: "poppins",
-                        color: "gray",
-                        fontSize: "0.9rem",
-                        marginTop: "10px",
-                      }}
-                    >
-                      {" "}
-                      {element.Thickness
-                        ? "Thickness-Ranging from " + element.Thickness
-                        : ""}
-                    </p>
-                    <div className="spanSex" style={{ marginTop: "30px",fontSize:'1.3rem' }}>
-                      {
-                        // eslint-disable-next-line
-                        Object.keys(element).map((item) => {
-                          if (
-                            !(
-                              item === "name" ||
-                              item === "Thickness" ||
-                              item === "imageAddress" ||
-                              item === "id"
+                    <div id="detailsDiv">
+                      <b style={{ fontSize: "1.9rem", fontFamily: "poppins" }}>
+                        {" "}
+                        {element.name}
+                      </b>
+                      <p
+                        style={{
+                          fontFamily: "poppins",
+                          color: "gray",
+                          fontSize: "0.9rem",
+                          marginTop: "10px",
+                        }}
+                      >
+                        {" "}
+                        {element.Thickness
+                          ? "Thickness-Ranging from " + element.Thickness
+                          : ""}
+                      </p>
+                      <div className="spanSex" style={{ marginTop: "30px", fontSize: '1.3rem' }}>
+                        {
+                          // eslint-disable-next-line
+                          Object.keys(element).map((item) => {
+                            if (
+                              !(
+                                item === "name" ||
+                                item === "Thickness" ||
+                                item === "imageAddress" ||
+                                item === "id"
+                              )
                             )
-                          )
-                            return (
-                              <p key={item}>
-                                <div
-                                  style={{
-                                    display: "flex",
-                                    flexDirection: "row",
-                                  }}
-                                >
-                                  <b style={{ marginRight: "4px" }}>{item}</b> :
+                              return (
+                                <p key={item}>
                                   <div
-                                    className="contentDiv"
-                                    style={{ marginLeft: "4px" }}
+                                    style={{
+                                      display: "flex",
+                                      flexDirection: "row",
+                                    }}
                                   >
-                                    {" "}
-                                    {element[item]}
+                                    <b style={{ marginRight: "4px" }}>{item}</b> :
+                                    <div
+                                      className="contentDiv"
+                                      style={{ marginLeft: "4px" }}
+                                    >
+                                      {" "}
+                                      {element[item]}
+                                    </div>
                                   </div>
-                                </div>
-                              </p>
-                            );
-                        })
-                      }
-                    </div>
-                    <div className="yoyo" style={{ width: "250px", display: "flex", flexDirection: "row" }}>
-                      <div
-                        style={{
-                          width: 90,
-                          height: 90,
-                          background: "white",
-                          borderRadius: 9999,
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
-                        }}
-                      >
-                        <img src={a3} alt="" style={{ height: "50px" }}></img>
+                                </p>
+                              );
+                          })
+                        }
                       </div>
-                      <div
-                        style={{
-                          width: 90,
-                          height: 90,
-                          background: "white",
-                          borderRadius: 9999,
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          marginLeft: "20px",
-                          boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
-                        }}
-                      >
-                        <img src={a4} alt="" style={{ height: "50px" }}></img>
-                      </div>
-                    </div>
-                    <div className="buttonDiv2">
-                      <button className="MemberBTT3" style={{ width: "260px", height: "60px" }}>
-                        <a
-                          className="atag"
-                          href="mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body="
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{ fontSize: "1.4rem" }}
-                        >
-                          Send your enquiry
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              );
-            }
-          })
-        }
-      </div></>):
-      // mobile HTML
-      <>
-      
-
-      <div>
-      <div className="offcanvas offcanvas-start vyvy" id="demo">
-      <div className="offcanvas-header">
-    <h1 style={{ fontFamily: "Montserrat", fontSize: "18px" , color:"white"}} className="offcanvas-title">{division === "PaperDivision"?"Paper Division":division === "PlasticDivision"?"Plastic Division":division === "ledDivision"?"LED Division":""}</h1>
-    <button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
-  </div>
-        
-        {
-          tabLi.map((element) => {
-            let newstring = ''
-            let arr = element.split(" ");
-            for (let index = 0; index < arr.length; index++) {
-              newstring += arr[index];
-            }
-            if (element === "PP Bin/Box") {
-              newstring = 'ppbinbox'
-            }
-            if (element === "PP Collapsable Bin/Box") {
-              newstring = 'ppcollapsablebinbox'
-            }
-            if (element === "ESD PP Reusable Bin/Box") {
-              newstring = 'esdppreusablebinbox'
-            }
-            <div></div>
-            return <div key={newstring}  >
-              <Link style={{ fontFamily: "Montserrat", fontSize: "16px", color:"white" }} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
-                <div className="hovereffect offcanvas-body click" style={{ fontFamily: "Montserrat", fontSize: "16px" }}>
-                  <div>{element}</div>
-                  </div>
-
-              </Link>
-            </div>
-          })
-        }
-      </div>
-      <div class="container-fluid mt-3" >
-  <button class="btn btn-primary vyvy"  type="button" style={{borderRadius:"50%",position:'absolute',right:"20px",top:'80px',zIndex:'2'}} data-bs-toggle="offcanvas" data-bs-target="#demo">
-    O
-  </button>
-</div>
-    </div>
-    <div className="productDetails">
-      {
-        // eslint-disable-next-line
-        details.map((element) => {
-          if (element.id === name) {
-            return (
-              <div className="hfhv">
-                <div id="imagesDiv" >
-                  <div className="tabs"></div>
-                  <div id="mainImage">
-                    <img
-                      className="productImage"
-                      src={
-                        imageVariable === "p"
-                          ? p
-                          : imageVariable === "pp"
-                            ? pp
-                            : imageVariable === "ppp"
-                              ? ppp
-                              : imageVariable === "pppp"
-                                ? pppp
-                                : imageVariable === "ppppp"
-                                  ? ppppp
-                                  : imageVariable === "pppppp"
-                                    ? pppppp
-                                    : imageVariable === "p0"
-                                      ? p0
-                                      : imageVariable === "p00"
-                                        ? p00
-                                        : imageVariable === "p000"
-                                          ? p000
-                                          : imageVariable === "p0000"
-                                            ? p0000
-                                            : imageVariable === "p1"
-                                              ? p1
-                                              : imageVariable === "p2"
-                                                ? p2
-                                                : imageVariable === "p22"
-                                                  ? p22
-                                                  : imageVariable === "p222"
-                                                    ? p222
-                                                    : imageVariable === "p2222"
-                                                      ? p2222
-                                                      : imageVariable === "p4"
-                                                        ? p4
-                                                        : imageVariable === "p44"
-                                                          ? p44
-                                                          : imageVariable === "p444"
-                                                            ? p444
-                                                            : imageVariable === "p4444"
-                                                              ? p4444
-                                                              : imageVariable === "p5"
-                                                                ? p5
-                                                                : imageVariable === "p55"
-                                                                  ? p55
-                                                                  : imageVariable === "p6"
-                                                                    ? p6
-                                                                    : imageVariable === "p66"
-                                                                      ? p66
-                                                                      : imageVariable === "p666"
-                                                                        ? p666
-                                                                        : imageVariable === "p6666"
-                                                                          ? p6666
-                                                                          : imageVariable === "p66666"
-                                                                            ? p66666
-                                                                            : imageVariable === "p666666"
-                                                                              ? p666666
-                                                                              : imageVariable === "p6666666"
-                                                                                ? p6666666
-                                                                                : imageVariable === "p7"
-                                                                                  ? p7
-                                                                                  : imageVariable === "p77"
-                                                                                    ? p77
-                                                                                    : imageVariable === "p8"
-                                                                                      ? p8
-                                                                                      : imageVariable === "p88"
-                                                                                        ? p88
-                                                                                        : imageVariable === "p888"
-                                                                                          ? p888
-                                                                                          : imageVariable === "p9"
-                                                                                            ? p9
-                                                                                            : imageVariable === "p10"
-                                                                                              ? p10
-                                                                                              : imageVariable === "p11"
-                                                                                                ? p11
-                                                                                                : imageVariable === "p111"
-                                                                                                  ? p111
-                                                                                                  : imageVariable === "p12"
-                                                                                                    ? p12
-                                                                                                    : imageVariable === "p121"
-                                                                                                      ? p121
-                                                                                                      : imageVariable === "p1211"
-                                                                                                        ? p1211
-                                                                                                        : imageVariable === "p13"
-                                                                                                          ? p13
-                                                                                                          : imageVariable === "p131"
-                                                                                                            ? p131
-                                                                                                            : imageVariable === "p1311"
-                                                                                                              ? p1311
-                                                                                                              : imageVariable === "p13111"
-                                                                                                                ? p13111
-                                                                                                                : imageVariable === "p131111"
-                                                                                                                  ? p131111
-                                                                                                                  : imageVariable === "p14"
-                                                                                                                    ? p14
-                                                                                                                    : imageVariable === "p141"
-                                                                                                                      ? p141
-                                                                                                                      : imageVariable === "p15"
-                                                                                                                        ? p15
-                                                                                                                        : imageVariable === "p151"
-                                                                                                                          ? p151
-                                                                                                                          : ""
-                      }
-                      alt={""}
-                    />
-                  </div>
-                  <div id="imageButtons">
-                    {element.imageAddress.map((e) => {
-                      return (
-                        <button
-                          className="imgBt"
-                          onClick={() => {
-                            handleOnClick(e);
+                      <div className="yoyo" style={{ width: "250px", display: "flex", flexDirection: "row" }}>
+                        <div
+                          style={{
+                            width: 90,
+                            height: 90,
+                            background: "white",
+                            borderRadius: 9999,
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
                           }}
                         >
+                          <img src={a3} alt="" style={{ height: "50px" }}></img>
+                        </div>
+                        <div
+                          style={{
+                            width: 90,
+                            height: 90,
+                            background: "white",
+                            borderRadius: 9999,
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            marginLeft: "20px",
+                            boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
+                          }}
+                        >
+                          <img src={a4} alt="" style={{ height: "50px" }}></img>
+                        </div>
+                      </div>
+                      <div className="buttonDiv2">
+                        <button className="MemberBTT3" style={{ width: "260px", height: "60px" }}>
+                          <a
+                            className="atag"
+                            href="mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body="
+                            target="_blank"
+                            rel="noreferrer"
+                            style={{ fontSize: "1.4rem" }}
+                          >
+                            Send your enquiry
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+            })
+          }
+        </div></>) :
+        // mobile HTML
+        <>
+
+
+          <div>
+            <div className="offcanvas offcanvas-start vyvy" id="demo">
+              <div className="offcanvas-header">
+                <h1 style={{ fontFamily: "Montserrat", fontSize: "18px", color: "white" }} className="offcanvas-title">{division === "PaperDivision" ? "Paper Division" : division === "PlasticDivision" ? "Plastic Division" : division === "ledDivision" ? "LED Division" : ""}</h1>
+                <button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+
+              {
+                tabLi.map((element) => {
+                  let newstring = ''
+                  let arr = element.split(" ");
+                  for (let index = 0; index < arr.length; index++) {
+                    newstring += arr[index];
+                  }
+                  if (element === "PP Bin/Box") {
+                    newstring = 'ppbinbox'
+                  }
+                  if (element === "PP Collapsable Bin/Box") {
+                    newstring = 'ppcollapsablebinbox'
+                  }
+                  if (element === "ESD PP Reusable Bin/Box") {
+                    newstring = 'esdppreusablebinbox'
+                  }
+                  <div></div>
+                  return <div key={newstring}  >
+                    <Link style={{ fontFamily: "Montserrat", fontSize: "16px", color: "white" }} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
+                      <div className="hovereffect offcanvas-body click" style={{ fontFamily: "Montserrat", fontSize: "16px" }}>
+                        <div>{element}</div>
+                      </div>
+
+                    </Link>
+                  </div>
+                })
+              }
+            </div>
+            <div class="container-fluid mt-3" >
+              <button class="btn btn-primary vyvy" type="button" style={{ borderRadius: "50%", position: 'absolute', right: "20px", top: '100px', zIndex: '1' }} data-bs-toggle="offcanvas" data-bs-target="#demo">
+                O
+              </button>
+            </div>
+          </div>
+          <div className="productDetails">
+            {
+              // eslint-disable-next-line
+              details.map((element) => {
+                if (element.id === name) {
+                  return (
+                    <div className="hfhv">
+                      <div id="imagesDiv" >
+                        <div className="tabs"></div>
+                        <div id="mainImage">
                           <img
-                            className="miniButtons"
+                            className="productImage"
                             src={
-                              e === "p"
+                              imageVariable === "p"
                                 ? p
-                                : e === "pp"
+                                : imageVariable === "pp"
                                   ? pp
-                                  : e === "ppp"
+                                  : imageVariable === "ppp"
                                     ? ppp
-                                    : e === "pppp"
+                                    : imageVariable === "pppp"
                                       ? pppp
-                                      : e === "ppppp"
+                                      : imageVariable === "ppppp"
                                         ? ppppp
-                                        : e === "pppppp"
+                                        : imageVariable === "pppppp"
                                           ? pppppp
-                                          : e === "p0"
+                                          : imageVariable === "p0"
                                             ? p0
-                                            : e === "p00"
+                                            : imageVariable === "p00"
                                               ? p00
-                                              : e === "p000"
+                                              : imageVariable === "p000"
                                                 ? p000
-                                                : e === "p0000"
+                                                : imageVariable === "p0000"
                                                   ? p0000
-                                                  : e === "p1"
+                                                  : imageVariable === "p1"
                                                     ? p1
-                                                    : e === "p2"
+                                                    : imageVariable === "p2"
                                                       ? p2
-                                                      : e === "p22"
+                                                      : imageVariable === "p22"
                                                         ? p22
-                                                        : e === "p222"
+                                                        : imageVariable === "p222"
                                                           ? p222
-                                                          : e === "p2222"
+                                                          : imageVariable === "p2222"
                                                             ? p2222
-                                                            : e === "p4"
+                                                            : imageVariable === "p4"
                                                               ? p4
-                                                              : e === "p44"
+                                                              : imageVariable === "p44"
                                                                 ? p44
-                                                                : e === "p444"
+                                                                : imageVariable === "p444"
                                                                   ? p444
-                                                                  : e === "p4444"
+                                                                  : imageVariable === "p4444"
                                                                     ? p4444
-                                                                    : e === "p5"
+                                                                    : imageVariable === "p5"
                                                                       ? p5
-                                                                      : e === "p55"
+                                                                      : imageVariable === "p55"
                                                                         ? p55
-                                                                        : e === "p6"
+                                                                        : imageVariable === "p6"
                                                                           ? p6
-                                                                          : e === "p66"
+                                                                          : imageVariable === "p66"
                                                                             ? p66
-                                                                            : e === "p666"
+                                                                            : imageVariable === "p666"
                                                                               ? p666
-                                                                              : e === "p6666"
+                                                                              : imageVariable === "p6666"
                                                                                 ? p6666
-                                                                                : e === "p66666"
+                                                                                : imageVariable === "p66666"
                                                                                   ? p66666
-                                                                                  : e === "p666666"
+                                                                                  : imageVariable === "p666666"
                                                                                     ? p666666
-                                                                                    : e === "p6666666"
+                                                                                    : imageVariable === "p6666666"
                                                                                       ? p6666666
-                                                                                      : e === "p7"
+                                                                                      : imageVariable === "p7"
                                                                                         ? p7
-                                                                                        : e === "p77"
+                                                                                        : imageVariable === "p77"
                                                                                           ? p77
-                                                                                          : e === "p8"
+                                                                                          : imageVariable === "p8"
                                                                                             ? p8
-                                                                                            : e === "p88"
+                                                                                            : imageVariable === "p88"
                                                                                               ? p88
-                                                                                              : e === "p888"
+                                                                                              : imageVariable === "p888"
                                                                                                 ? p888
-                                                                                                : e === "p9"
+                                                                                                : imageVariable === "p9"
                                                                                                   ? p9
-                                                                                                  : e === "p10"
+                                                                                                  : imageVariable === "p10"
                                                                                                     ? p10
-                                                                                                    : e === "p11"
+                                                                                                    : imageVariable === "p11"
                                                                                                       ? p11
-                                                                                                      : e === "p111"
+                                                                                                      : imageVariable === "p111"
                                                                                                         ? p111
-                                                                                                        : e === "p12"
+                                                                                                        : imageVariable === "p12"
                                                                                                           ? p12
-                                                                                                          : e === "p121"
+                                                                                                          : imageVariable === "p121"
                                                                                                             ? p121
-                                                                                                            : e === "p1211"
+                                                                                                            : imageVariable === "p1211"
                                                                                                               ? p1211
-                                                                                                              : e === "p13"
+                                                                                                              : imageVariable === "p13"
                                                                                                                 ? p13
-                                                                                                                : e === "p131"
+                                                                                                                : imageVariable === "p131"
                                                                                                                   ? p131
-                                                                                                                  : e === "p1311"
+                                                                                                                  : imageVariable === "p1311"
                                                                                                                     ? p1311
-                                                                                                                    : e === "p13111"
+                                                                                                                    : imageVariable === "p13111"
                                                                                                                       ? p13111
-                                                                                                                      : e === "p131111"
+                                                                                                                      : imageVariable === "p131111"
                                                                                                                         ? p131111
-                                                                                                                        : e === "p14" ?
-                                                                                                                          p14 :
-                                                                                                                          e === "p141" ?
-                                                                                                                            p141
-                                                                                                                            : e === "p15" ?
-                                                                                                                              p15 :
-                                                                                                                              e === "p151" ?
-                                                                                                                                p151
+                                                                                                                        : imageVariable === "p14"
+                                                                                                                          ? p14
+                                                                                                                          : imageVariable === "p141"
+                                                                                                                            ? p141
+                                                                                                                            : imageVariable === "p15"
+                                                                                                                              ? p15
+                                                                                                                              : imageVariable === "p151"
+                                                                                                                                ? p151
                                                                                                                                 : ""
                             }
                             alt={""}
-                            height={"50px"}
-                            width={"50px"}
                           />
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-                <div id="detailsDiv">
-                  <b style={{ fontSize: "1.9rem", fontFamily: "poppins" }}>
-                    {" "}
-                    {element.name}
-                  </b>
-                  <p
-                    style={{
-                      fontFamily: "poppins",
-                      color: "gray",
-                      fontSize: "0.9rem",
-                      marginTop: "10px",
-                    }}
-                  >
-                    {" "}
-                    {element.Thickness
-                      ? "Thickness-Ranging from " + element.Thickness
-                      : ""}
-                  </p>
-                  <div className="spanSex" style={{ marginTop: "30px",fontSize:'1.3rem' }}>
-                    {
-                      // eslint-disable-next-line
-                      Object.keys(element).map((item) => {
-                        if (
-                          !(
-                            item === "name" ||
-                            item === "Thickness" ||
-                            item === "imageAddress" ||
-                            item === "id"
-                          )
-                        )
-                          return (
-                            <p key={item}>
-                              <div
-                                style={{
-                                  display: "flex",
-                                  flexDirection: "row",
+                        </div>
+                        <div id="imageButtons">
+                          {element.imageAddress.map((e) => {
+                            return (
+                              <button
+                                className="imgBt"
+                                onClick={() => {
+                                  handleOnClick(e);
                                 }}
                               >
-                                <b style={{ marginRight: "4px" }}>{item}</b> :
-                                <div
-                                  className="contentDiv"
-                                  style={{ marginLeft: "4px" }}
-                                >
-                                  {" "}
-                                  {element[item]}
-                                </div>
-                              </div>
-                            </p>
-                          );
-                      })
-                    }
-                  </div>
-                  <div className="yoyo" style={{ width: "250px", display: "flex", flexDirection: "row" }}>
-                    <div
-                      style={{
-                        width: 90,
-                        height: 90,
-                        background: "white",
-                        borderRadius: 9999,
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
-                      }}
-                    >
-                      <img src={a3} alt="" style={{ height: "50px" }}></img>
+                                <img
+                                  className="miniButtons"
+                                  src={
+                                    e === "p"
+                                      ? p
+                                      : e === "pp"
+                                        ? pp
+                                        : e === "ppp"
+                                          ? ppp
+                                          : e === "pppp"
+                                            ? pppp
+                                            : e === "ppppp"
+                                              ? ppppp
+                                              : e === "pppppp"
+                                                ? pppppp
+                                                : e === "p0"
+                                                  ? p0
+                                                  : e === "p00"
+                                                    ? p00
+                                                    : e === "p000"
+                                                      ? p000
+                                                      : e === "p0000"
+                                                        ? p0000
+                                                        : e === "p1"
+                                                          ? p1
+                                                          : e === "p2"
+                                                            ? p2
+                                                            : e === "p22"
+                                                              ? p22
+                                                              : e === "p222"
+                                                                ? p222
+                                                                : e === "p2222"
+                                                                  ? p2222
+                                                                  : e === "p4"
+                                                                    ? p4
+                                                                    : e === "p44"
+                                                                      ? p44
+                                                                      : e === "p444"
+                                                                        ? p444
+                                                                        : e === "p4444"
+                                                                          ? p4444
+                                                                          : e === "p5"
+                                                                            ? p5
+                                                                            : e === "p55"
+                                                                              ? p55
+                                                                              : e === "p6"
+                                                                                ? p6
+                                                                                : e === "p66"
+                                                                                  ? p66
+                                                                                  : e === "p666"
+                                                                                    ? p666
+                                                                                    : e === "p6666"
+                                                                                      ? p6666
+                                                                                      : e === "p66666"
+                                                                                        ? p66666
+                                                                                        : e === "p666666"
+                                                                                          ? p666666
+                                                                                          : e === "p6666666"
+                                                                                            ? p6666666
+                                                                                            : e === "p7"
+                                                                                              ? p7
+                                                                                              : e === "p77"
+                                                                                                ? p77
+                                                                                                : e === "p8"
+                                                                                                  ? p8
+                                                                                                  : e === "p88"
+                                                                                                    ? p88
+                                                                                                    : e === "p888"
+                                                                                                      ? p888
+                                                                                                      : e === "p9"
+                                                                                                        ? p9
+                                                                                                        : e === "p10"
+                                                                                                          ? p10
+                                                                                                          : e === "p11"
+                                                                                                            ? p11
+                                                                                                            : e === "p111"
+                                                                                                              ? p111
+                                                                                                              : e === "p12"
+                                                                                                                ? p12
+                                                                                                                : e === "p121"
+                                                                                                                  ? p121
+                                                                                                                  : e === "p1211"
+                                                                                                                    ? p1211
+                                                                                                                    : e === "p13"
+                                                                                                                      ? p13
+                                                                                                                      : e === "p131"
+                                                                                                                        ? p131
+                                                                                                                        : e === "p1311"
+                                                                                                                          ? p1311
+                                                                                                                          : e === "p13111"
+                                                                                                                            ? p13111
+                                                                                                                            : e === "p131111"
+                                                                                                                              ? p131111
+                                                                                                                              : e === "p14" ?
+                                                                                                                                p14 :
+                                                                                                                                e === "p141" ?
+                                                                                                                                  p141
+                                                                                                                                  : e === "p15" ?
+                                                                                                                                    p15 :
+                                                                                                                                    e === "p151" ?
+                                                                                                                                      p151
+                                                                                                                                      : ""
+                                  }
+                                  alt={""}
+                                  height={"50px"}
+                                  width={"50px"}
+                                />
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
+                      <div id="detailsDiv">
+                        <b style={{ fontSize: "1.9rem", fontFamily: "poppins" }}>
+                          {" "}
+                          {element.name}
+                        </b>
+                        <p
+                          style={{
+                            fontFamily: "poppins",
+                            color: "gray",
+                            fontSize: "0.9rem",
+                            marginTop: "10px",
+                          }}
+                        >
+                          {" "}
+                          {element.Thickness
+                            ? "Thickness-Ranging from " + element.Thickness
+                            : ""}
+                        </p>
+                        <div className="spanSex" style={{ marginTop: "30px", fontSize: '1.3rem' }}>
+                          {
+                            // eslint-disable-next-line
+                            Object.keys(element).map((item) => {
+                              if (
+                                !(
+                                  item === "name" ||
+                                  item === "Thickness" ||
+                                  item === "imageAddress" ||
+                                  item === "id"
+                                )
+                              )
+                                return (
+                                  <p key={item}>
+                                    <div
+                                      style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                      }}
+                                    >
+                                      <b style={{ marginRight: "4px" }}>{item}</b> :
+                                      <div
+                                        className="contentDiv"
+                                        style={{ marginLeft: "4px" }}
+                                      >
+                                        {" "}
+                                        {element[item]}
+                                      </div>
+                                    </div>
+                                  </p>
+                                );
+                            })
+                          }
+                        </div>
+                        <div className="yoyo" style={{ width: "250px", display: "flex", flexDirection: "row" }}>
+                          <div
+                            style={{
+                              width: 90,
+                              height: 90,
+                              background: "white",
+                              borderRadius: 9999,
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
+                            }}
+                          >
+                            <img src={a3} alt="" style={{ height: "50px" }}></img>
+                          </div>
+                          <div
+                            style={{
+                              width: 90,
+                              height: 90,
+                              background: "white",
+                              borderRadius: 9999,
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              marginLeft: "20px",
+                              boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
+                            }}
+                          >
+                            <img src={a4} alt="" style={{ height: "50px" }}></img>
+                          </div>
+                        </div>
+                        <div className="buttonDiv2">
+                          <button className="MemberBTT3" style={{ width: "260px", height: "60px" }}>
+                            <a
+                              className="atag"
+                              href="mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body="
+                              target="_blank"
+                              rel="noreferrer"
+                              style={{ fontSize: "1.4rem" }}
+                            >
+                              Send your enquiry
+                            </a>
+                          </button>
+                        </div>
+                      </div>
                     </div>
-                    <div
-                      style={{
-                        width: 90,
-                        height: 90,
-                        background: "white",
-                        borderRadius: 9999,
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        marginLeft: "20px",
-                        boxShadow: '0px 2px 12px 2px rgba(0, 0, 0, 0.05)'
-                      }}
-                    >
-                      <img src={a4} alt="" style={{ height: "50px" }}></img>
-                    </div>
-                  </div>
-                  <div className="buttonDiv2">
-                    <button className="MemberBTT3" style={{ width: "260px", height: "60px" }}>
-                      <a
-                        className="atag"
-                        href="mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body="
-                        target="_blank"
-                        rel="noreferrer"
-                        style={{ fontSize: "1.4rem" }}
-                      >
-                        Send your enquiry
-                      </a>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            );
-          }
-        })
-      }
-    </div></>
+                  );
+                }
+              })
+            }
+          </div></>
       }
     </section>
   );
