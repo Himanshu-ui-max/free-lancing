@@ -467,9 +467,15 @@ const ProductDetails = () => {
       </div></>):
       // mobile HTML
       <>
-      <aside className="tabs">
-      <div >
-        <p style={{ fontFamily: "Montserrat", fontSize: "18px" }}>{division === "PaperDivision"?"Paper Division":division === "PlasticDivision"?"Plastic Division":division === "ledDivision"?"LED Division":""} </p>
+      
+
+      <div>
+      <div className="offcanvas offcanvas-start vyvy" id="demo">
+      <div className="offcanvas-header">
+    <h1 style={{ fontFamily: "Montserrat", fontSize: "18px" , color:"white"}} className="offcanvas-title">{division === "PaperDivision"?"Paper Division":division === "PlasticDivision"?"Plastic Division":division === "ledDivision"?"LED Division":""}</h1>
+    <button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+        
         {
           tabLi.map((element) => {
             let newstring = ''
@@ -486,16 +492,24 @@ const ProductDetails = () => {
             if (element === "ESD PP Reusable Bin/Box") {
               newstring = 'esdppreusablebinbox'
             }
-            return <div key={newstring} >
-              <Link style={{ fontFamily: "Montserrat", fontSize: "16px" }} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
-                <div className="hovereffect" style={{ fontFamily: "Montserrat", fontSize: "16px" }}>{element}</div>
+            <div></div>
+            return <div key={newstring}  >
+              <Link style={{ fontFamily: "Montserrat", fontSize: "16px", color:"white" }} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
+                <div className="hovereffect offcanvas-body click" style={{ fontFamily: "Montserrat", fontSize: "16px" }}>
+                  <div>{element}</div>
+                  </div>
 
               </Link>
             </div>
           })
         }
       </div>
-    </aside>
+      <div class="container-fluid mt-3" >
+  <button class="btn btn-primary vyvy"  type="button" style={{borderRadius:"50%"}} data-bs-toggle="offcanvas" data-bs-target="#demo">
+    O
+  </button>
+</div>
+    </div>
     <div className="productDetails">
       {
         // eslint-disable-next-line
