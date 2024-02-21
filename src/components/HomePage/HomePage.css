@@ -146,9 +146,12 @@
     .atag{
         font-size: 1.3rem;
     }
+    .buttonDiv{
+        margin-left: 50px;
+    }
     .BT{
-        width: 300px;
-        height: 80px;
+        width: 223px;
+        height: 48px;
     }
 }
 @media screen and (max-width : 915px) and (min-width : 435px) {
@@ -157,6 +160,9 @@
         margin: 40px;
         width: 410px;
         
+    }
+    .buttonDiv{
+        margin-left: 40px;
     }
     .homePage{
         padding-top: 80px;
@@ -168,8 +174,8 @@
         font-size: 1rem;
     }
     .BT{
-        width: 250px;
-        height: 65px;
+        width: 209px;
+        height: 45px;
     }
 }
 @media screen and (max-width : 435px) {
@@ -185,9 +191,12 @@
         font-size: 0.7rem;
         line-height: 0px;
     }
+    .buttonDiv{
+        margin-left: 30px;
+    }
     .BT{
-        width: 270px;
-        height: 60px;
+        width: 165px;
+        height: 38px;
     }
     .homePage{
         
