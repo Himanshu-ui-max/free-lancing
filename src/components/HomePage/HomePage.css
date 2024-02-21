@@ -6,11 +6,13 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+    background: linear-gradient(250deg,rgba(38,67,78,0),#20404b 68.05%);
 }
 
 .homePage ::before{
     content: '';
     /* background-image: url('../images/3-4-850x590.jpg'); */
+    
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -21,13 +23,17 @@
     z-index: -1;
     animation: change 15s infinite ease-in-out;
 }
+.buttonDiv{
+    width: 700px;
+    margin-left: 80px;
+}
 .BT {
     width: 300px;
     height: 60px;
     border-radius: 40px;
     display: block;
     background: #00aeef;
-    margin: auto;
+    /* margin: auto; */
     border: none;
     text-align: center;
     
@@ -49,21 +55,22 @@
 }
 
 .hometext {
-    color: black;
+    color: white;
     font-family: Montserrat;
-    font-size: 2.5rem;
+    font-size: 5rem;
     /* font-size: 50px; */
     font-weight: 700;
     line-height: 61px;
     letter-spacing: 0.01em;
-    text-align: center;
+    text-align: left;
     width: 700px;
-    height: 183px;
+    /* height: 183px; */
     margin: 80px;
     padding: 10px;
 }
 .hometext::after{
-    content: "MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.";
+    content: "Pack, Protect, Prosper";
+    line-height: 88px;
     position: relative !important;
     top: 0 !important;
     left: 0 !important;
@@ -74,10 +81,10 @@
 }
 .homecontain{
     width : 100vw;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin-top: -100px;
     /* margin-top: -100px; */
 }
@@ -97,7 +104,7 @@
 }
 @keyframes change2 {
     0%{
-        content: "MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.";
+        content: "Pack, Protect, Prosper";
         opacity: 1;
     }
     17%{
@@ -118,7 +125,7 @@
         opacity: 0;
     }
     100%{
-        content: "MATERIAL HANDLING CRATES AND FLEXIBLE PROTECTIVE PACKAGING.";
+        content: "Pack, Protect, Prosper";
         opacity: 1;
     }
 }
