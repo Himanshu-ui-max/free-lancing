@@ -505,7 +505,7 @@ const ProductDetails = () => {
         }
       </div>
       <div class="container-fluid mt-3" >
-  <button class="btn btn-primary vyvy"  type="button" style={{borderRadius:"50%"}} data-bs-toggle="offcanvas" data-bs-target="#demo">
+  <button class="btn btn-primary vyvy"  type="button" style={{borderRadius:"50%",position:'absolute',right:"20px",top:'80px',zIndex:'2'}} data-bs-toggle="offcanvas" data-bs-target="#demo">
     O
   </button>
 </div>
