@@ -4,6 +4,7 @@
     justify-content: center;
     height: 10vh;
     z-index: 2 !important;
+    padding: 40px;
 }
 .footerheading{
     color: white; font-size: 2rem; font-family: Poppins; font-weight: 570; letter-spacing: -0.16px; word-wrap: break-word;
