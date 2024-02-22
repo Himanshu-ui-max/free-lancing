@@ -178,6 +178,15 @@ aside {
         justify-content: center;
     }
 } */ 
+@media screen and (max-width : 1440px) and (min-width : 1100px) {
+    .contentDiv{
+        font-size: 1 rem !important;
+    }
+    #mainImage{
+        width: 400px !important;
+        height: 400px !important;
+    }
+}
 @media screen and (max-width: 1100px){
     #top{
         padding-top: 100px;
