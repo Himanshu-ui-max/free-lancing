@@ -11,7 +11,7 @@ const CompanyProfile = () => {
     <section className='companyProfile' style={{overflow:"hidden"}}>
     <div className='companyprofile' style={{overflow:"hidden"}}>
       <div className="IMGcont">
-        <div className="ProfileText">Sai Super Pack</div>
+        <div className="ProfileText">WHO WE ARE...</div>
       </div>
       <div className= 'PrFULL'>
         <div className="PrIMG" >
