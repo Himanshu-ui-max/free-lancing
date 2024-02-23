@@ -156,8 +156,9 @@ height: 100px;
     .card-text{
         padding-top: 8px !important;
     }
-    /* .carousel-inner{
-        height: 80%;
-    } */
+
+    .card{
+        height: 27rem;
+    }
    
 }
