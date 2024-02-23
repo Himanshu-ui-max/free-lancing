@@ -785,7 +785,7 @@ const ProductDetails = () => {
                                         flexDirection: "row",
                                       }}
                                     >
-                                      <b style={{ marginRight: "4px" }}>{item}</b> :
+                                      <b className="bold" style={{ marginRight: "4px" }}>{item}</b> <span className="Span">:</span> 
                                       <div
                                         className="contentDiv"
                                         style={{ marginLeft: "4px" }}

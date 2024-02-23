@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: linear-gradient(250deg,rgba(38,67,78,0),#20404b 68.05%);
+    background: linear-gradient(250deg,rgba(38,67,78,0),#20404ba8 68.05%)
 }
 
 .homePage ::before{
