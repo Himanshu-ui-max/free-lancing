@@ -18,6 +18,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    
 }
 
 .SpecificProduct {
@@ -102,8 +103,8 @@ height: 100px;
 
 .card-img-top {
     max-width: 100%;
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
 }
 
 .card {
@@ -133,19 +134,31 @@ height: 100px;
         /* padding-top: 20px; */
     }
     .productImg {
-        height: 35vh;
+        height: 57vh;
         align-items: center;
         display: flex;
         flex-direction: row;
         justify-content:space-around;
+        font-size: 13px;
     }
     #carouselExampleDark{
-        height: 500px !important;
+        height: 540px !important;
     }
     .But {
         width: 40px;
     
     }
+
+    .SpecificProduct{
+        height: 395px;
+    }
     
+    .card-text{
+        padding-top: 8px !important;
+    }
+
+    .card{
+        height: 27rem;
+    }
    
 }
