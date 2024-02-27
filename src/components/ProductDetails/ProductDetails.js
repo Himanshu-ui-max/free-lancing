@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./ProductDetails.css";
 import details from "./Details.json";
 import { useParams } from "react-router-dom";
@@ -55,6 +55,10 @@ import p15 from "../images/DSC06873.jpg"
 import p151 from "../images/DSC06877.jpg"
 import { Link } from "react-router-dom";
 const ProductDetails = () => {
+  const handleClick=()=>{
+    anyRef.current.click();
+  }
+  const anyRef = useRef();
   const { name } = useParams();
   const { division } = useParams();
   const [tabLi, setTabLi] = useState([]);
@@ -473,7 +477,7 @@ const ProductDetails = () => {
             <div className="offcanvas offcanvas-start vyvy" id="demo">
               <div className="offcanvas-header">
                 <h1 style={{ fontFamily: "Montserrat", fontSize: "18px", color: "white" }} className="offcanvas-title">{division === "PaperDivision" ? "Paper Division" : division === "PlasticDivision" ? "Plastic Division" : division === "ledDivision" ? "LED Division" : ""}</h1>
-                <button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
+                <button ref={anyRef} type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
               </div>
 
               {
@@ -493,7 +497,7 @@ const ProductDetails = () => {
                     newstring = 'esdppreusablebinbox'
                   }
                   <div></div>
-                  return <div key={newstring}  >
+                  return <div key={newstring} onClick={handleClick}>
                     <Link style={{ fontFamily: "Montserrat", fontSize: "16px", color: "white" }} to={`/productDetails/${division}/${newstring.toLowerCase()}`}>
                       <div className="hovereffect offcanvas-body click" style={{ fontFamily: "Montserrat", fontSize: "16px" }}>
                         <div>{element}</div>
