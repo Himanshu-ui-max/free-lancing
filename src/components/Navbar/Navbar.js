@@ -6,7 +6,9 @@ import { HashLink } from 'react-router-hash-link'
 const Navbar = () => {
   const anyRef = useRef()
   const handleClick=()=>{
-    anyRef.current.click();
+    if(window.innerWidth <= 910){
+      anyRef.current.click();
+    }
   }
   return (
   <nav className="navbar navbar-expand-lg" style={{backgroundColor : "white"}}>
