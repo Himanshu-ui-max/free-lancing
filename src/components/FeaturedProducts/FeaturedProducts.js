@@ -44,20 +44,20 @@ const FeaturedProducts = () => {
             <div className="carousel-inner ">
               <div className="carousel-item active">
                 <div className="productImg" id="ProductImg">
-                  <Link to="/productDetails/paperangleprotector">
+                  <Link to="/productDetails/PaperDivision/edgeprotector">
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited3} className="d-block " alt="123" />
-                      <h3>Paper Angle Protector</h3>
+                      <h3>Edge Protector</h3>
                       <p className='productPara'>Prevent Transit Damages</p></div>
                   </Link>
                   {/* <div className="ProductName"><h5>EPE Foam</h5></div> */}
-                  <Link to="/productDetails/epefoamsheets">
+                  <Link to="/productDetails/PlasticDivision/epefoamsheets">
                     <div className="SpecificProduct">
                       <img src={EPsheetedited3} className="d-block" alt="..." />
                       <h3>EP Sheets</h3>
                       <p className='productPara'>Enabled flexibility</p></div>
                   </Link>
-                  <Link to="/productDetails/paperangletray">
+                  <Link to="/productDetails/PaperDivision/paperedgeprotector">
                     <div className="SpecificProduct">
                       <img src={paperangleboardedited1} className="d-block " alt="..." />
                       <h3>Paper Edge Protector</h3>
@@ -67,19 +67,19 @@ const FeaturedProducts = () => {
               </div>
               <div className="carousel-item" >
                 <div className="productImg" id="ProductImg">
-                  <Link to="/productDetails/esdppreusablebinbox">
+                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
                     <div className="SpecificProduct">
                       <img src={esdbinedited2} className="d-block " alt="456" />
                       <h3>ESD PP Resuable box</h3>
                       <p className='productPara'>Waterproof & sustainable </p></div>
                   </Link>
-                  <Link to="/productDetails/esdppreusablebinbox">
+                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
                     <div className="SpecificProduct">
                       <img src={ESDppbin1edited} className="d-block " alt="456" />
                       <h3>ESD PP Bins</h3>
                       <p className='productPara'>Load capacity upto 15KG</p></div>
                   </Link>
-                  <Link to="/productDetails/ppbinbox">
+                  <Link to="/productDetails/PlasticDivision/ppbinbox">
                     <div className="SpecificProduct">
                       <img src={ppcorrugatedbox2edited} className="d-block " alt="456" />
                       <h3>PP Bin/Box</h3>
@@ -89,13 +89,13 @@ const FeaturedProducts = () => {
               </div>
               <div className="carousel-item">
                 <div className="productImg" id="ProductImg">
-                  <Link to="/productDetails/epefitments">
+                  <Link to="/productDetails/PlasticDivision/epefitments">
                     <div className="SpecificProduct">
                       <img src={EPfitmentedited} className="d-block" alt="789" />
                       <h3>EPE Fitments</h3>
                       <p className='productPara'>Customisable</p></div>
                   </Link>
-                  <Link to="/productDetails/paperangleboard">
+                  <Link to="/productDetails/PaperDivision/paperangleboard">
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited2} className="d-block" alt="789" />
                       <h3>Paper Angle Board</h3>
@@ -132,15 +132,15 @@ const FeaturedProducts = () => {
                 <h2>Featured Products</h2></div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <Link to="/productDetails/paperangleprotector/#top">
+                  <Link to="/productDetails/PaperDivision/edgeprotector/">
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited3} className="d-block " alt="123" />
-                      <h3>Paper Angle Protector</h3>
+                      <h3>Edge Protector</h3>
                       <p className='productPara'>Prevent Transit Damages</p></div>
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/epefoamsheets">
+                  <Link to="/productDetails/PlasticDivision/epefoamsheets">
                     <div className="SpecificProduct">
                       <img src={EPsheetedited3} className="d-block" alt="..." />
                       <h3>EP Sheets</h3>
@@ -148,7 +148,7 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/paperangletray">
+                  <Link to="/productDetails/PaperDivision/paperedgeprotector">
                     <div className="SpecificProduct">
                       <img src={paperangleboardedited1} className="d-block " alt="..." />
                       <h3>Paper Edge Protector</h3>
@@ -156,7 +156,7 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/esdppreusablebinbox">
+                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
                     <div className="SpecificProduct">
                       <img src={esdbinedited2} className="d-block " alt="456" />
                       <h3>ESD PP Resuable box</h3>
@@ -164,7 +164,7 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/esdppreusablebinbox">
+                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
                     <div className="SpecificProduct">
                       <img src={ESDppbin1edited} className="d-block " alt="456" />
                       <h3>ESD PP Bins</h3>
@@ -172,7 +172,7 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/ppbinbox">
+                  <Link to="/productDetails/PlasticDivision/ppbinbox">
                     <div className="SpecificProduct">
                       <img src={ppcorrugatedbox2edited} className="d-block " alt="456" />
                       <h3>PP Bin/Box</h3>
@@ -180,7 +180,7 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/epefitments">
+                  <Link to="/productDetails/PlasticDivision/epefitments">
                     <div className="SpecificProduct">
                       <img src={EPfitmentedited} className="d-block" alt="789" />
                       <h3>EPE Fitments</h3>
@@ -188,7 +188,7 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/paperangleboard">
+                  <Link to="/productDetails/PaperDivision/paperangleboard">
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited2} className="d-block" alt="789" />
                       <h3>Paper Angle Board</h3>
