@@ -11,8 +11,6 @@
 
 .homePage ::before{
     content: '';
-    /* background-image: url('../images/3-4-850x590.jpg'); */
-    
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -80,7 +78,7 @@
     animation: change2 15s infinite ease-in-out;
 }
 .homecontain{
-    width : 100vw;
+    width : 98vw;
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,10 +154,13 @@
 }
 @media screen and (max-width : 915px) and (min-width : 435px) {
     .hometext{
-        font-size: 1.5rem;
-        margin: 40px;
-        width: 410px;
-        
+        font-size: 1.9rem;
+        margin: 0px;
+        height: 130px;
+        width: 88vw;
+        line-height: 30px;
+        margin-bottom: 0px;
+        padding-left: 30px;
     }
     .buttonDiv{
         margin-left: 40px;
@@ -183,7 +184,7 @@
         font-size: 1.9rem;
         margin: 0px;
         height: 130px;
-        width: 100vw;
+        width: 88vw;
         line-height: 30px;
         margin-bottom: 0px;
         padding-left: 30px;
