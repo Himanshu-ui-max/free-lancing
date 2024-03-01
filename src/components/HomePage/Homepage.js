@@ -8,7 +8,7 @@ const Homepage = () => {
     <div className='homePage' id='homePage'>
 
       <div className='homecontain' style={{display : "flex", justifyContent : "space-between"}}>
-        <div>
+        <div style={{width : "0px"}}>
           <div className='hometext'>
             <span className='impWord'></span>
           </div>
