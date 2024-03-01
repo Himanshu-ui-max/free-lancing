@@ -1,8 +1,6 @@
 import React from 'react'
 import './HomePage.css'
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
 const Homepage = () => {
   return (
     <div className='homePage' id='homePage'>
