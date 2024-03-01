@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomePage.css'
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 const Homepage = () => {
@@ -18,9 +18,9 @@ const Homepage = () => {
           </div>
         </div>
         <div className='socialDiv' style={{ display: "flex", flexDirection: "column", alignItems : "center", justifyContent : "center" }}>
-          <a href='https://www.facebook.com' target='_blank' rel="noreferrer" ><FaFacebook style={{ height: "47px", width: "47px", margin : "10px" }} /></a>
-          <a href='https://www.facebook.com' target='_blank' rel="noreferrer" ><FaYoutube style={{ height: "47px", width: "47px", margin : "10px" }} /></a>
-          <a href='https://www.facebook.com' target='_blank' rel="noreferrer" ><FaTwitter style={{ height: "47px", width: "47px", margin : "10px" }} /></a>
+          <a href='https://www.facebook.com/profile.php?id=100079658515735' target='_blank' rel="noreferrer" ><FaFacebook style={{ height: "47px", width: "47px", margin : "10px" }} /></a>
+          <a href='https://www.facebook.com' target='_blank' rel="noreferrer" ><FaInstagram style={{ height: "47px", width: "47px", margin : "10px" }} /></a>
+          <a href='https://www.linkedin.com/company/sai-super-pack/' target='_blank' rel="noreferrer" ><FaLinkedin style={{ height: "47px", width: "47px", margin : "10px" }} /></a>
         </div>
       </div>
     </div>
