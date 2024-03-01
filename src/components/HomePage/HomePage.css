@@ -8,7 +8,14 @@
     width: 100vw;
     background: linear-gradient(250deg,rgba(38,67,78,0),#20404ba8 68.05%)
 }
-
+#fb:hover{
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    cursor: pointer;
+    color: #00aeef;   
+    background-color: #00aeef;
+  }
 .homePage ::before{
     content: '';
     background-repeat: no-repeat;
