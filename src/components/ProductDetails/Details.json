@@ -42,7 +42,7 @@
         "Shape": "As per requirement",
         "Thickness": "3mm to 15mm",
         "id": "ppbinbox",
-        "imageAddress" : ["p4","p44","p444","p4444"]
+        "imageAddress" : ["p4","p44","p444","p4444","p44444"]
     },
     {
         "name": "PP Collapsable Bin/Box",
@@ -53,14 +53,14 @@
         "imageAddress" : ["p5","p55"]
     },
     {
-        "name": "EPE Fitment",
+        "name": "EPE and XLPE Fitment",
         "Colour": "white, Grey, Black, Peach, Pink",
         "Property": "Flexible, Cushion based, Fracture proof",
         "Shape": "As per design and requirements",
         "Usage": "Electronics, Telecommunication Automobile, Handicrafts, Glass Industries or any industry where they need cushion based packaging",
         "Size": "As per customer's drawing or prototype sample. We can even design the fitment as per the customer's product",
         "id": "epefitments",
-        "imageAddress" : ["p6","p66","p666","p6666","p66666","p666666","p6666666"]
+        "imageAddress" : ["p6","p66","p666","p6666","p66666","p666666","p6666666","p66666666"]
     },
     {
         "name": "ESD Polyproplene Reusable Box/Bin",

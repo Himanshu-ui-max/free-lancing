@@ -18,18 +18,20 @@ import p22 from "../images/p22.jpg";
 import p222 from "../images/p2222.jpg";
 import p2222 from "../images/p2222222.jpg";
 import p4 from "../images/p2p.jpg";
-import p44 from "../images/pp.jpg";
-import p444 from "../images/PPcorrugatedbin.jpg";
-import p4444 from "../images/ppcorrugatedbox2edited.jpg";
+import p44 from "../images/DSC_0252.JPG";
+import p444 from "../images/DSC_0253.JPG";
+import p4444 from "../images/DSC_0254.JPG";
+import p44444 from "../images/DSC_0256.JPG";
 import p5 from "../images/p4p.jpg";
 import p55 from "../images/ppcorrugatedcollapsablebinedited.jpg";
-import p6 from "../images/epe1.jpg";
-import p66 from "../images/epe2.jpg";
-import p666 from "../images/epe4.jpg";
-import p6666 from "../images/EPfitmentedited.jpg";
+import p6 from "../images/DSC_0258.JPG";
+import p66 from "../images/DSC_0259.JPG";
+import p666 from "../images/DSC_0250.JPG";
+import p6666 from "../images/TCL_0249 copy.jpg";
 import p66666 from "../images/IMG_1199.jpg";
 import p666666 from "../images/IMG_1182.jpg";
 import p6666666 from "../images/IMG_1196.jpg";
+import p66666666 from "../images/TCL_0257.JPG";
 import p7 from "../images/esdbinedited2.jpg";
 import p77 from "../images/ESDppbin1edited.jpg";
 import p8 from "../images/EPsheetedited.jpg";
@@ -179,7 +181,9 @@ const ProductDetails = () => {
                                                               : imageVariable === "p444"
                                                                 ? p444
                                                                 : imageVariable === "p4444"
-                                                                  ? p4444
+                                                                  ? p4444 :
+                                                                  imageVariable === "p44444" ?
+                                                                  p44444
                                                                   : imageVariable === "p5"
                                                                     ? p5
                                                                     : imageVariable === "p55"
@@ -198,6 +202,8 @@ const ProductDetails = () => {
                                                                                   ? p666666
                                                                                   : imageVariable === "p6666666"
                                                                                     ? p6666666
+                                                                                    :imageVariable === "p66666666"?
+                                                                                    p66666666
                                                                                     : imageVariable === "p7"
                                                                                       ? p7
                                                                                       : imageVariable === "p77"
@@ -294,7 +300,9 @@ const ProductDetails = () => {
                                                                     : e === "p444"
                                                                       ? p444
                                                                       : e === "p4444"
-                                                                        ? p4444
+                                                                        ? p4444 :
+                                                                        e === "p44444" ?
+                                                                        p44444
                                                                         : e === "p5"
                                                                           ? p5
                                                                           : e === "p55"
@@ -312,7 +320,9 @@ const ProductDetails = () => {
                                                                                       : e === "p666666"
                                                                                         ? p666666
                                                                                         : e === "p6666666"
-                                                                                          ? p6666666
+                                                                                          ? p6666666:
+                                                                                          e === "p66666666"?
+                                                                                          p66666666
                                                                                           : e === "p7"
                                                                                             ? p7
                                                                                             : e === "p77"
@@ -564,7 +574,9 @@ const ProductDetails = () => {
                                                                 : imageVariable === "p444"
                                                                   ? p444
                                                                   : imageVariable === "p4444"
-                                                                    ? p4444
+                                                                    ? p4444:
+                                                                    imageVariable === "p44444"?
+                                                                    p44444
                                                                     : imageVariable === "p5"
                                                                       ? p5
                                                                       : imageVariable === "p55"
@@ -582,7 +594,9 @@ const ProductDetails = () => {
                                                                                   : imageVariable === "p666666"
                                                                                     ? p666666
                                                                                     : imageVariable === "p6666666"
-                                                                                      ? p6666666
+                                                                                      ? p6666666 :
+                                                                                      imageVariable === "p66666666"?
+                                                                                      p66666666
                                                                                       : imageVariable === "p7"
                                                                                         ? p7
                                                                                         : imageVariable === "p77"
@@ -679,7 +693,9 @@ const ProductDetails = () => {
                                                                       : e === "p444"
                                                                         ? p444
                                                                         : e === "p4444"
-                                                                          ? p4444
+                                                                          ? p4444:
+                                                                          e === "p44444"?
+                                                                          p44444
                                                                           : e === "p5"
                                                                             ? p5
                                                                             : e === "p55"
@@ -697,7 +713,9 @@ const ProductDetails = () => {
                                                                                         : e === "p666666"
                                                                                           ? p666666
                                                                                           : e === "p6666666"
-                                                                                            ? p6666666
+                                                                                            ? p6666666 :
+                                                                                            e === "p66666666"?
+                                                                                            p66666666
                                                                                             : e === "p7"
                                                                                               ? p7
                                                                                               : e === "p77"

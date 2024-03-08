@@ -37,7 +37,7 @@ function footer() {
 <path d="M21 3L11 10L1 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </div>
-            <a className='cont' href='mailto:saisuperpack@email.com?subject=Drop%20In%20Your%20requestsSubject&body=' style={{textAlign:'left',color : "white"}}>Contact Us</a>
+            <a className='cont' href='mailto:contact@saisuperpack.in?subject=Drop%20In%20Your%20requestsSubject&body=' style={{textAlign:'left',color : "white"}}>Contact Us</a>
         </div>
        </div>
     </div>

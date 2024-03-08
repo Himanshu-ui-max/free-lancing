@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './FeaturedProducts.css'
 import Paperangleboardedited3 from '../images/Paperangleboardedited3.jpg'
-import EPsheetedited3 from '../images/EPsheetedited3.jpg'
-import paperangleboardedited1 from '../images/paperangleboardedited1.jpg'
+import EPsheetedited3 from '../images/DSC06873.jpg'
+import paperangleboardedited1 from '../images/DSC06824.jpg'
 import esdbinedited2 from '../images/esdbinedited2.jpg'
 import ESDppbin1edited from '../images/ESDppbin1edited.jpg'
 import ppcorrugatedbox2edited from '../images/ppcorrugatedbox2edited.jpg'
-import EPfitmentedited from '../images/EPfitmentedited.jpg'
+import EPfitmentedited from '../images/IMG_1196.jpg'
 import Paperangleboardedited2 from '../images/Paperangleboardedited2.jpg'
 import { Link } from 'react-router-dom'
 const FeaturedProducts = () => {
@@ -48,20 +48,20 @@ const FeaturedProducts = () => {
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited3} className="d-block " alt="123" />
                       <h3>Edge Protector</h3>
-                      <p className='productPara'>Prevent Transit Damages</p></div>
+                      <p className='productPara'>Provides corner reinforcement</p></div>
                   </Link>
                   {/* <div className="ProductName"><h5>EPE Foam</h5></div> */}
-                  <Link to="/productDetails/PlasticDivision/epefoamsheets">
+                  <Link to="/productDetails/ledDivision/ppboxwithepelining">
                     <div className="SpecificProduct">
                       <img src={EPsheetedited3} className="d-block" alt="..." />
-                      <h3>EP Sheets</h3>
-                      <p className='productPara'>Enabled flexibility</p></div>
+                      <h3>LED TV BOX</h3>
+                      <p className='productPara'>PP Box with EPE Lining</p></div>
                   </Link>
-                  <Link to="/productDetails/PaperDivision/paperedgeprotector">
+                  <Link to="/productDetails/ledDivision/paperangletray">
                     <div className="SpecificProduct">
                       <img src={paperangleboardedited1} className="d-block " alt="..." />
-                      <h3>Paper Edge Protector</h3>
-                      <p className='productPara'>Export palletising</p></div>
+                      <h3>Paper Angle Tray</h3>
+                      <p className='productPara'>LED TV Tray</p></div>
                   </Link>
                 </div>
               </div>
@@ -70,14 +70,14 @@ const FeaturedProducts = () => {
                   <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
                     <div className="SpecificProduct">
                       <img src={esdbinedited2} className="d-block " alt="456" />
-                      <h3>ESD PP Resuable box</h3>
-                      <p className='productPara'>Waterproof & sustainable </p></div>
+                      <h3>ESD PP box/bin</h3>
+                      <p className='productPara'>Static Free and Reusable</p></div>
                   </Link>
-                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
+                  <Link to="/productDetails/PaperDivision/papercorepipe">
                     <div className="SpecificProduct">
                       <img src={ESDppbin1edited} className="d-block " alt="456" />
-                      <h3>ESD PP Bins</h3>
-                      <p className='productPara'>Load capacity upto 15KG</p></div>
+                      <h3>Paper Core Pipe</h3>
+                      <p className='productPara'>Heavy Duty and Eco-friendly</p></div>
                   </Link>
                   <Link to="/productDetails/PlasticDivision/ppbinbox">
                     <div className="SpecificProduct">
@@ -136,23 +136,23 @@ const FeaturedProducts = () => {
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited3} className="d-block " alt="123" />
                       <h3>Edge Protector</h3>
-                      <p className='productPara'>Prevent Transit Damages</p></div>
+                      <p className='productPara'>Provides corner reinforcement</p></div>
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/PlasticDivision/epefoamsheets">
+                <Link to="/productDetails/ledDivision/ppboxwithepelining">
                     <div className="SpecificProduct">
                       <img src={EPsheetedited3} className="d-block" alt="..." />
-                      <h3>EP Sheets</h3>
-                      <p className='productPara'>Enabled flexibility</p></div>
+                      <h3>LED TV BOX</h3>
+                      <p className='productPara'>PP Box with EPE Lining</p></div>
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/PaperDivision/paperedgeprotector">
+                <Link to="/productDetails/ledDivision/paperangletray">
                     <div className="SpecificProduct">
                       <img src={paperangleboardedited1} className="d-block " alt="..." />
-                      <h3>Paper Edge Protector</h3>
-                      <p className='productPara'>Export palletising</p></div>
+                      <h3>Paper Angle Tray</h3>
+                      <p className='productPara'>LED TV Tray</p></div>
                   </Link>
                 </div>
                 <div className="carousel-item">
@@ -164,11 +164,11 @@ const FeaturedProducts = () => {
                   </Link>
                 </div>
                 <div className="carousel-item">
-                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
+                <Link to="/productDetails/PaperDivision/papercorepipe">
                     <div className="SpecificProduct">
                       <img src={ESDppbin1edited} className="d-block " alt="456" />
-                      <h3>ESD PP Bins</h3>
-                      <p className='productPara'>Load capacity upto 15KG</p></div>
+                      <h3>Paper Core Pipe</h3>
+                      <p className='productPara'>Heavy Duty and Eco-friendly</p></div>
                   </Link>
                 </div>
                 <div className="carousel-item">
