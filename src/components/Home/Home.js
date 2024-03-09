@@ -6,6 +6,7 @@ import AboutUsPage from './../AboutUsPage/AboutUsPage'
 import PartnersPage from './../PartnersPage/PartnersPage'
 import Testimonials from '../Testimonials/Testimonials'
 import Certificate from '../CertificatePage/Certificate'
+import OurAccolade from '../OurAccolade/OurAccolade'
 
 const Home = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Home = () => {
     {/* <OurMission/> */}
     <PartnersPage/>
     {/* <Sample/> */}
+    <OurAccolade/>
     <Testimonials/>
     <Certificate/>
   
