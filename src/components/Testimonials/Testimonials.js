@@ -42,23 +42,23 @@ const Testimonials = () => {
               <div className="carousel-item active" data-bs-interval="10000">
                 <div className="productImg" id="ProductImg">
                   <div className="SpecificProduct">
-                    <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
-                        <p class="card-text" style={{fontFamily:"Poppins"}}>
+                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
+                        <p className="card-text" style={{fontFamily:"Poppins"}}>
                         <i>“Sai Super Pack’s commitment to sustainability and zero-wastage, coupled with their state-of-the-art infrastructure, has transformed our packaging approach. Their customized material handling crates minimize transit damage, and the expert team ensures each product meets our specific needs. A reliable partner for efficient and eco-friendly practices.”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                   </div>
                   <div className="SpecificProduct">
-                  <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                  <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins"}}>
                         <i>“Impressed with Sai Super Pack’s nationwide reach and 'You Ask, We Deliver' approach. Custom solutions, from recyclable PP bins to edge boards, have minimized our transit damage. The team's dedication makes them our preferred choice for packaging. Highly recommended!”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                   </div>
@@ -67,25 +67,25 @@ const Testimonials = () => {
               <div className="carousel-item" data-bs-interval="2000">
                 <div className="productImg" id="ProductImg">
                   <div className="SpecificProduct">
-                  <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                  <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins"}}>
                         <i>“Sai Super Pack stands out with their quality commitment and client-oriented approach. Reusable PP bins reduce our environmental impact and offer cost-effective, durable solutions. A reliable partner for businesses seeking top-notch packaging.”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                   </div>
 
                   <div className="SpecificProduct">
-                  <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                  <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins"}}>
                         <i>“Choosing Sai Super Pack has been a game-changer. Custom solutions, including EP foams, ensure our products reach their destination intact. The team’s enthusiasm and expertise make the process seamless. A decade of dedicated work makes Sai Super Pack synonymous with quality and reliability.”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                   </div>
@@ -158,13 +158,13 @@ const Testimonials = () => {
                 <div className="carousel-item active" data-bs-interval="10000">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
-                    <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>“Choosing Sai Super Pack has been a game-changer. Custom solutions, including EP foams, ensure our products reach their destination intact. The team’s enthusiasm and expertise make the process seamless. A decade of dedicated work makes Sai Super Pack synonymous with quality and reliability.”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                     </div>
@@ -173,13 +173,13 @@ const Testimonials = () => {
                 <div className="carousel-item" data-bs-interval="2000">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
-                    <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>“Sai Super Pack’s commitment to sustainability and zero-wastage, coupled with their state-of-the-art infrastructure, has transformed our packaging approach. Their customized material handling crates minimize transit damage, and the expert team ensures each product meets our specific needs. A reliable partner for efficient and eco-friendly practices.”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                     </div>
@@ -188,13 +188,13 @@ const Testimonials = () => {
                 <div className="carousel-item" data-bs-interval="2000">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
-                    <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>“Impressed with Sai Super Pack’s nationwide reach and 'You Ask, We Deliver' approach. Custom solutions, from recyclable PP bins to edge boards, have minimized our transit damage. The team's dedication makes them our preferred choice for packaging. Highly recommended!”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                     </div>
@@ -203,13 +203,13 @@ const Testimonials = () => {
                 <div className="carousel-item">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
-                    <div class="card text-center" ><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div class="card-body">
+                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
+                      <div className="card-body">
                        
-                        <p class="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
+                        <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>“Sai Super Pack stands out with their quality commitment and client-oriented approach. Reusable PP bins reduce our environmental impact and offer cost-effective, durable solutions. A reliable partner for businesses seeking top-notch packaging.”</i>
                         </p>
-                        <span class="position">CEO, </span><span class="company">XYZ</span>
+                        <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
                     </div>
                     </div>
