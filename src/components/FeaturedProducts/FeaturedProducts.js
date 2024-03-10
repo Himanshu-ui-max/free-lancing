@@ -10,7 +10,8 @@ import EPfitmentedited from '../images/IMG_1196.jpg'
 import Paperangleboardedited2 from '../images/Paperangleboardedited2.jpg'
 import { Link } from 'react-router-dom'
 const FeaturedProducts = () => {
-  const refrence = useRef('');
+  const copyRef= useRef('');
+  const [refrence, setRefrence] = useState(copyRef);
   const [width, setWidth] = useState(window.innerWidth);
   const detectWidth = () => {
     setWidth(window.innerWidth);
@@ -28,6 +29,7 @@ const FeaturedProducts = () => {
     return () => {
       window.removeEventListener('resize', detectWidth)
     }
+    // eslint-disable-next-line
   }, [width]);
   return (
     <>
@@ -44,20 +46,20 @@ const FeaturedProducts = () => {
             <div className="carousel-inner ">
               <div className="carousel-item active">
                 <div className="productImg" id="ProductImg">
-                  <Link to="/productDetails/PaperDivision/edgeprotector">
+                  <Link to="/productDetails/PaperDivision/edgeprotector" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited3} className="d-block " alt="123" />
                       <h3>Edge Protector</h3>
                       <p className='productPara'>Provides corner reinforcement</p></div>
                   </Link>
                   {/* <div className="ProductName"><h5>EPE Foam</h5></div> */}
-                  <Link to="/productDetails/ledDivision/ppboxwithepelining">
+                  <Link to="/productDetails/ledDivision/ppboxwithepelining" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={EPsheetedited3} className="d-block" alt="..." />
                       <h3>LED TV BOX</h3>
                       <p className='productPara'>PP Box with EPE Lining</p></div>
                   </Link>
-                  <Link to="/productDetails/ledDivision/paperangletray">
+                  <Link to="/productDetails/ledDivision/paperangletray" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={paperangleboardedited1} className="d-block " alt="..." />
                       <h3>Paper Angle Tray</h3>
@@ -67,19 +69,19 @@ const FeaturedProducts = () => {
               </div>
               <div className="carousel-item" >
                 <div className="productImg" id="ProductImg">
-                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox">
+                  <Link to="/productDetails/PlasticDivision/esdppreusablebinbox" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={esdbinedited2} className="d-block " alt="456" />
                       <h3>ESD PP box/bin</h3>
                       <p className='productPara'>Static Free and Reusable</p></div>
                   </Link>
-                  <Link to="/productDetails/PaperDivision/papercorepipe">
+                  <Link to="/productDetails/PaperDivision/papercorepipe" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={ESDppbin1edited} className="d-block " alt="456" />
                       <h3>Paper Core Pipe</h3>
                       <p className='productPara'>Heavy Duty and Eco-friendly</p></div>
                   </Link>
-                  <Link to="/productDetails/PlasticDivision/ppbinbox">
+                  <Link to="/productDetails/PlasticDivision/ppbinbox" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={ppcorrugatedbox2edited} className="d-block " alt="456" />
                       <h3>PP Bin/Box</h3>
@@ -89,13 +91,13 @@ const FeaturedProducts = () => {
               </div>
               <div className="carousel-item">
                 <div className="productImg" id="ProductImg">
-                  <Link to="/productDetails/PlasticDivision/epefitments">
+                  <Link to="/productDetails/PlasticDivision/epefitments" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={EPfitmentedited} className="d-block" alt="789" />
                       <h3>EPE Fitments</h3>
                       <p className='productPara'>Customisable</p></div>
                   </Link>
-                  <Link to="/productDetails/PaperDivision/paperangleboard">
+                  <Link to="/productDetails/PaperDivision/paperangleboard" onMouseEnter={()=>{setRefrence(null)}} onMouseLeave={()=>{setRefrence(copyRef)}}>
                     <div className="SpecificProduct">
                       <img src={Paperangleboardedited2} className="d-block" alt="789" />
                       <h3>Paper Angle Board</h3>
