@@ -42,23 +42,23 @@ const Testimonials = () => {
               <div className="carousel-item active" data-bs-interval="10000">
                 <div className="productImg" id="ProductImg">
                   <div className="SpecificProduct">
-                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div className="card-body">
+                    <div className="card text-center">
+                      <div className="card-body" style={{display : "flex",alignItems : "center",justifyContent : "center", flexDirection : "column"}}>
                         <p className="card-text" style={{fontFamily:"Poppins"}}>
                         <i>The team at Sai Super Pack has been our key vendor for PP Boxes & bins, and their dedicated work ethic has always ensured our continuous timely supply.</i>
                         </p>
-                        <span className="position">CEO, </span><span className="company">XYZ</span>
+                        <span className="position">CEO, XYZ </span>
                       </div>
                     </div>
                   </div>
                   <div className="SpecificProduct">
-                  <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div className="card-body">
+                  <div className="card text-center" >
+                      <div className="card-body"  style={{display : "flex",alignItems : "center",justifyContent : "center", flexDirection : "column"}}>
                        
                         <p className="card-text" style={{fontFamily:"Poppins"}}>
                         <i>Being one of our key vendors, their team is able to maintain impeccable stock of our running items and are able to deliver within 24 hours of allocation at 3 different locations.</i>
                         </p>
-                        <span className="position">CEO, </span><span className="company">XYZ</span>
+                        <span className="position">CEO, XYZ</span>
                       </div>
                     </div>
                   </div>
@@ -138,18 +138,6 @@ const Testimonials = () => {
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
                 ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleDark #IndicatioN"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleDark #IndicatioN"
-                  data-bs-slide-to="3"
-                  aria-label="Slide 4"
-                ></button>
               </div>
               <div className="ProductHeading">
                 <h1>Our Testimonials</h1>
@@ -158,13 +146,13 @@ const Testimonials = () => {
                 <div className="carousel-item active" data-bs-interval="10000">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
-                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div className="card-body">
+                    <div className="card text-center" >
+                      <div className="card-body"  style={{display : "flex",alignItems : "center",justifyContent : "center", flexDirection : "column"}}>
                        
                         <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>Being one of our key vendors, their team is able to maintain impeccable stock of our running items and are able to deliver within 24 hours of allocation at 3 different locations.</i>
                         </p>
-                        <span className="position">CEO, </span><span className="company">XYZ</span>
+                        <span className="position">CEO, XYZ</span>
                       </div>
                     </div>
                     </div>
@@ -173,13 +161,13 @@ const Testimonials = () => {
                 <div className="carousel-item" data-bs-interval="2000">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
-                    <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
-                      <div className="card-body">
+                    <div className="card text-center" >
+                      <div className="card-body"  style={{display : "flex",alignItems : "center",justifyContent : "center", flexDirection : "column"}}>
                        
                         <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>The team at Sai Super Pack has been our key vendor for PP Boxes & bins, and their dedicated work ethic has always ensured our continuous timely supply.</i>
                         </p>
-                        <span className="position">CEO, </span><span className="company">XYZ</span>
+                        <span className="position">CEO, XYZ</span>
                       </div>
                     </div>
                     </div>
