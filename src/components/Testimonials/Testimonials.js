@@ -19,7 +19,7 @@ const Testimonials = () => {
             id="carouselExampleDark"
             className="carousel carousel-dark slide Fproducts"
           >
-            <div className="carousel-indicators">
+            {/* <div className="carousel-indicators">
               <button
                 type="button"
                 data-bs-target="#carouselExampleDark #IndicatioN"
@@ -34,7 +34,7 @@ const Testimonials = () => {
                 data-bs-slide-to="1"
                 aria-label="Slide 2"
               ></button>
-            </div>
+            </div> */}
             <div className="ProductHeading">
               <h1>Our Testimonials</h1>
             </div>
@@ -45,7 +45,7 @@ const Testimonials = () => {
                     <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
                       <div className="card-body">
                         <p className="card-text" style={{fontFamily:"Poppins"}}>
-                        <i>“Sai Super Pack’s commitment to sustainability and zero-wastage, coupled with their state-of-the-art infrastructure, has transformed our packaging approach. Their customized material handling crates minimize transit damage, and the expert team ensures each product meets our specific needs. A reliable partner for efficient and eco-friendly practices.”</i>
+                        <i>The team at Sai Super Pack has been our key vendor for PP Boxes & bins, and their dedicated work ethic has always ensured our continuous timely supply.</i>
                         </p>
                         <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
@@ -56,7 +56,7 @@ const Testimonials = () => {
                       <div className="card-body">
                        
                         <p className="card-text" style={{fontFamily:"Poppins"}}>
-                        <i>“Impressed with Sai Super Pack’s nationwide reach and 'You Ask, We Deliver' approach. Custom solutions, from recyclable PP bins to edge boards, have minimized our transit damage. The team's dedication makes them our preferred choice for packaging. Highly recommended!”</i>
+                        <i>Being one of our key vendors, their team is able to maintain impeccable stock of our running items and are able to deliver within 24 hours of allocation at 3 different locations.</i>
                         </p>
                         <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-              <div className="carousel-item" data-bs-interval="2000">
+              {/* <div className="carousel-item" data-bs-interval="2000">
                 <div className="productImg" id="ProductImg">
                   <div className="SpecificProduct">
                   <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
@@ -90,9 +90,9 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <button
+            {/* <button
               className="carousel-control-prev But"
               type="button"
               data-bs-target="#carouselExampleDark"
@@ -115,7 +115,7 @@ const Testimonials = () => {
                 aria-hidden="true"
               ></span>
               <span className="visually-hidden">Next</span>
-            </button>
+            </button> */}
           </div>
         ) : (
           <div>
@@ -162,7 +162,7 @@ const Testimonials = () => {
                       <div className="card-body">
                        
                         <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
-                        <i>“Choosing Sai Super Pack has been a game-changer. Custom solutions, including EP foams, ensure our products reach their destination intact. The team’s enthusiasm and expertise make the process seamless. A decade of dedicated work makes Sai Super Pack synonymous with quality and reliability.”</i>
+                        <i>Being one of our key vendors, their team is able to maintain impeccable stock of our running items and are able to deliver within 24 hours of allocation at 3 different locations.</i>
                         </p>
                         <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
@@ -177,7 +177,7 @@ const Testimonials = () => {
                       <div className="card-body">
                        
                         <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
-                        <i>“Sai Super Pack’s commitment to sustainability and zero-wastage, coupled with their state-of-the-art infrastructure, has transformed our packaging approach. Their customized material handling crates minimize transit damage, and the expert team ensures each product meets our specific needs. A reliable partner for efficient and eco-friendly practices.”</i>
+                        <i>The team at Sai Super Pack has been our key vendor for PP Boxes & bins, and their dedicated work ethic has always ensured our continuous timely supply.</i>
                         </p>
                         <span className="position">CEO, </span><span className="company">XYZ</span>
                       </div>
@@ -185,7 +185,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                <div className="carousel-item" data-bs-interval="2000">
+                {/* <div className="carousel-item" data-bs-interval="2000">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
                     <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
@@ -199,8 +199,8 @@ const Testimonials = () => {
                     </div>
                     </div>
                   </div>
-                </div>
-                <div className="carousel-item">
+                </div> */}
+                {/* <div className="carousel-item">
                   <div className="productImg" id="ProductImg">
                     <div className="SpecificProduct">
                     <div className="card text-center" ><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
@@ -214,7 +214,7 @@ const Testimonials = () => {
                     </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <button
                 className="carousel-control-prev But"

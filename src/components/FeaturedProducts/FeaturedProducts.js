@@ -4,7 +4,7 @@ import Paperangleboardedited3 from '../images/Paperangleboardedited3.jpg'
 import EPsheetedited3 from '../images/DSC06873.jpg'
 import paperangleboardedited1 from '../images/DSC06824.jpg'
 import esdbinedited2 from '../images/esdbinedited2.jpg'
-import ESDppbin1edited from '../images/ESDppbin1edited.jpg'
+import ESDppbin1edited from '../images/core pipe 5.jpeg'
 import ppcorrugatedbox2edited from '../images/ppcorrugatedbox2edited.jpg'
 import EPfitmentedited from '../images/IMG_1196.jpg'
 import Paperangleboardedited2 from '../images/Paperangleboardedited2.jpg'
@@ -24,7 +24,7 @@ const FeaturedProducts = () => {
 
         }
       }
-    }, 2500);
+    }, 5000);
     window.addEventListener('resize', detectWidth);
     return () => {
       window.removeEventListener('resize', detectWidth)
