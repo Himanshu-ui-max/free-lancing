@@ -83,7 +83,7 @@ const ProductDetails = () => {
     console.log(division);
     if (division === "PaperDivision") {
       setTabLi([
-        "Paper Angle board", "Edge Protector", "Paper Edge Protector", "Paper Core Pipe", "LCD Specialized"
+        "Paper Angle board", "Edge Protector", "Paper Core Pipe", "LED Specialized"
       ])
     }
     if (division === "PlasticDivision") {
