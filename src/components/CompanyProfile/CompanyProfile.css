@@ -345,7 +345,7 @@ p13{
     font-size: 0.95rem !important;
 }
 .CompanyLoc{
-    height: 133vh;
+    height: 250vh;
     width: 100vw;
     display: flex;
     flex-direction: column
