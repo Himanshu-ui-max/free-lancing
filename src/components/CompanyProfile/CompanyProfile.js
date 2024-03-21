@@ -98,7 +98,7 @@ const CompanyProfile = () => {
                 <div class="grid-item">
                                     <img src='https://cdn-icons-png.flaticon.com/256/3178/3178158.png' alt='abc' style={{ height: "41px", width: "41px" }}></img></div>
                 <div id='Num' class="grid-item">
-                  <p3>Email : </p3><span>contact@saisuperpack.in</span></div></div>
+                  <p3>Email : </p3><span>sales.sspsanand@gmail.com</span></div></div>
               <div id="ADDlogo">
                 <div class="grid-item">
                   <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
