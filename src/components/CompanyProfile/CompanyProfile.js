@@ -96,7 +96,7 @@ const CompanyProfile = () => {
                   <p3>Mobile : </p3><span>+91 9810726463</span></div></div>
 <div id="PHN">
                 <div class="grid-item">
-                                    <img src='https://cdn-icons-png.flaticon.com/256/3178/3178158.png' alt='abc' style={{ height: "41px", width: "41px" }}></img></div></div>
+                                    <img src='https://cdn-icons-png.flaticon.com/256/3178/3178158.png' alt='abc' style={{ height: "41px", width: "41px" }}></img></div>
                 <div id='Num' class="grid-item">
                   <p3>Email : </p3><span>contact@saisuperpack.in</span></div></div>
               <div id="ADDlogo">
