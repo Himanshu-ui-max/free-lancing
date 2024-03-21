@@ -152,7 +152,7 @@ const Testimonials = () => {
                         <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>Being one of our key vendors, their team is able to maintain impeccable stock of our running items and are able to deliver within 24 hours of allocation at 3 different locations.</i>
                         </p>
-                        <span className="position">CEO, XYZ</span>
+                        <span className="position">Automobile Tier 1 vendor of Suzuki, Honda & many more.</span>
                       </div>
                     </div>
                     </div>
@@ -167,7 +167,7 @@ const Testimonials = () => {
                         <p className="card-text" style={{fontFamily:"Poppins", paddingTop : "26px"}}>
                         <i>The team at Sai Super Pack has been our key vendor for PP Boxes & bins, and their dedicated work ethic has always ensured our continuous timely supply.</i>
                         </p>
-                        <span className="position">CEO, XYZ</span>
+                        <span className="position">Key Mobile Phone Manufacturer of Tier 1 Companies like Samsung, Vivo, Oppo & many more.</span>
                       </div>
                     </div>
                     </div>
