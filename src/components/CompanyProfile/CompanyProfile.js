@@ -118,7 +118,7 @@ const CompanyProfile = () => {
             </div>
             <div className="AddMap">
               {/* <img src="https://www.stiplindia.com/wp-content/uploads/2023/11/paper-machines-1-1024x589.jpg" alt="Paris"style={{width:"70%",height:"100%", borderRadius:"1rem"}}/> */}
-              <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.67619473248!2d72.33239879999999!3d22.9989317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9882f7dd2245%3A0x2e24d2510aea0776!2sX8XM%2B57X%2C%20Ahmedabad%2C%20Gujarat%20382110!5e0!3m2!1sen!2sin!4v1710969405606!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{ borderRadius: "1rem" }}></iframe>
+              <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.67619473248!2d72.33239879999999!3d22.9989317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9882f7dd2245%3A0x2e24d2510aea0776!2sX8XM%2B57X%2C%20Ahmedabad%2C%20Gujarat%20382110!5e0!3m2!1sen!2sin!4v1710969405606!5m2!1sen!2sin"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{height : "100%",width : "100%", borderRadius: "1rem" }}></iframe>
 
             </div>
           </div>
