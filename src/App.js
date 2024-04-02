@@ -1,14 +1,14 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home/Home';
-import ProductDetails from './components/ProductDetails/ProductDetails';
-import CompanyProfile from './components/CompanyProfile/CompanyProfile';
-import Footer from "./components/Footer/Footer"
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Navbar from './components/Navbar/Navbar';
+// import Home from './components/Home/Home';
+// import ProductDetails from './components/ProductDetails/ProductDetails';
+// import CompanyProfile from './components/CompanyProfile/CompanyProfile';
+// import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <>
-    <Router>
+    {/* <Router>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
@@ -16,7 +16,7 @@ function App() {
         <Route path='/productDetails/:division/:name' element={<ProductDetails key={'id'}/>}></Route>
       </Routes>
       <Footer/>
-    </Router>
+    </Router> */}
     </>
   );
 }
