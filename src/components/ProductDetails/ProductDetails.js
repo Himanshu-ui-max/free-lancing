@@ -45,7 +45,7 @@ import a3 from "../images/3.png";
 import a4 from "../images/4.png"
 import p12 from "../images/Core pipe 1 2.jpg"
 import p121 from "../images/core pipe 9.jpg"
-import p1211 from "../images/core pipe 5.jpeg"
+import p1211 from "../images/core pipe 5.jpg"
 import p13 from "../images/DSC06823.jpg"
 import p131 from "../images/DSC06824.jpg"
 import p1311 from "../images/DSC06825.jpg"
